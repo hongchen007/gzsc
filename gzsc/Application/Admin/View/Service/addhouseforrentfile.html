@@ -1,0 +1,44 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-添加房屋出租图片</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+   <div class="clearfix" style="margin-left:10px;"> 
+    <div class="btn-group"> 
+     <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 添加房屋出租图片 </button> 
+    </div>  
+   </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Service/doaddhouseforrentfile')}" novalidate="novalidate"> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">房屋出租图片</label> 
+      <div class="col-lg-10"> 
+       <input id="file_pic" name="file_pic[]" type="file" multiple="multiple" /> 
+       <input id="house_for_rend_id" name="house_for_rend_id" type="hidden" value="{$id}" /> 
+      </div> 
+     </div>
+     
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="添加">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+
+
+    </form> 
+   </div> 
+  </div>
+
+
+  </block>  &gt;
+ </body>
+</html>

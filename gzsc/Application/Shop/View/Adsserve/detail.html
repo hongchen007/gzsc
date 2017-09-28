@@ -1,0 +1,397 @@
+<html>
+ <head> 
+ </head>
+
+ <body>
+  <block name="title">
+   <title>后台-服务详情</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt;-服务详情 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Service/secondhandcardoedit')}" novalidate="novalidate"> 
+    
+    
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >图文</label> 
+      <div class="col-lg-10"> 
+        <foreach name="files" item="val">
+          <img src="__PUBLIC__/Uploads/{$val.file}" style="height:200px;">
+        </foreach>
+      </div> 
+     </div> 
+     
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">联系人</label> 
+      <div class="col-lg-10"> 
+       {$info.name}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">手机号码</label> 
+      <div class="col-lg-10"> 
+       {$info.tel} 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">截止日期</label> 
+      <div class="col-lg-10"> 
+        {$info.valid_time}
+      </div> 
+     </div> 
+
+<!--================================== 房屋出租 =================================-->
+
+    <if condition="$info.cate_id eq 2">
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">原区域</label> 
+      <div class="col-lg-10"> 
+       {$info.area}
+      </div> 
+     </div> 
+
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">户型</label> 
+      <div class="col-lg-10"> 
+       {$info.house_type}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">押金</label> 
+      <div class="col-lg-10"> 
+       {$info.cash} 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">付款方式</label> 
+      <div class="col-lg-10"> 
+       {$info.pay_method} 
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+          {$info.des}
+        </div>
+    </div>
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">电话隐私保护</label> 
+      <div class="col-lg-10"> 
+       <if condition="$info['state'] eq 1 ">保护</if>
+       <if condition="$info['state'] eq 2 ">不保护</if> 
+      </div> 
+     </div>
+
+    </if> 
+
+<!--================================== 货车出租 =================================-->
+
+    <if condition="$info.cate_id eq 3">
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">品牌</label> 
+      <div class="col-lg-10"> 
+       {$info.brand}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">车牌</label> 
+      <div class="col-lg-10"> 
+       {$info.car_num} 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">出厂年限</label> 
+      <div class="col-lg-10"> 
+       {$info.date_for_production} 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">截止日期</label> 
+      <div class="col-lg-10"> 
+        {$info.valid_time}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">价格</label> 
+      <div class="col-lg-10"> 
+       {$info.price}
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+            {$info.des}
+        </div>
+    </div>
+
+    </if> 
+
+<!--================================== 招聘信息 =================================-->
+
+    <if condition="$info.cate_id eq 4">
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">公司名称</label> 
+      <div class="col-lg-10"> 
+       {$info.company_name}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">公司简介</label> 
+      <div class="col-lg-10"> 
+       {$info.company_des}
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">公司地址</label>
+        <div class="col-sm-10">
+            {$info.address}
+        </div>
+    </div>
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">招聘职位</label> 
+      <div class="col-lg-10"> 
+       {$info.seat}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">职位要求</label> 
+      <div class="col-lg-10"> 
+       {$info.job_req}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">薪酬（/月）</label> 
+      <div class="col-lg-10"> 
+       {$info.payment} 
+      </div> 
+     </div> 
+
+    </if> 
+
+<!--================================== 维修服务 =================================-->
+
+    <if condition="$info.cate_id eq 5">
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">详细地址</label> 
+      <div class="col-lg-10"> 
+       {$info.address}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">付款方式</label> 
+      <div class="col-lg-10"> 
+       {$info.pay_method}
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+          {$info.des}
+        </div>
+    </div>
+
+    </if> 
+
+<!--================================== 家政服务 =================================-->
+
+    <if condition="$info.cate_id eq 6">
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">详细地址</label> 
+      <div class="col-lg-10"> 
+       {$info.address}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">付款方式</label> 
+      <div class="col-lg-10"> 
+       {$info.pay_method}
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+          {$info.des}
+        </div>
+    </div>
+
+    </if> 
+
+<!--================================== 家具装修 =================================-->
+
+    <if condition="$info.cate_id eq 7">
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">详细地址</label> 
+      <div class="col-lg-10"> 
+       {$info.address}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">付款方式</label> 
+      <div class="col-lg-10"> 
+       {$info.pay_method}
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+          {$info.des}
+        </div>
+    </div>
+
+    </if> 
+
+<!--================================== 二手车 =================================-->
+
+    <if condition="$info.cate_id eq 8">
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >行驶证照片</label> 
+      <div class="col-lg-10"> 
+        <img src="__PUBLIC__/Uploads/{$info.driving_lience_pic}" style="height:200px;">
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >行驶证照片</label> 
+      <div class="col-lg-10"> 
+        <img src="__PUBLIC__/Uploads/{$info.lience_num_pic}" style="height:200px;">
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >登记照照片</label> 
+      <div class="col-lg-10"> 
+        <img src="__PUBLIC__/Uploads/{$info.register_pic}" style="height:200px;">
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >购买发票照片</label> 
+      <div class="col-lg-10"> 
+        <img src="__PUBLIC__/Uploads/{$info.bill_pic}" style="height:200px;">
+      </div> 
+     </div>    
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">品牌</label> 
+      <div class="col-lg-10"> 
+       {$info.brank} 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">颜色</label> 
+      <div class="col-lg-10"> 
+       {$info.color} 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">首次上牌时间</label> 
+      <div class="col-lg-10"> 
+       {$info.first_time}
+      </div> 
+     </div>  
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">截止日期</label> 
+      <div class="col-lg-10"> 
+        {$info.valid_time}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">价格</label> 
+      <div class="col-lg-10"> 
+       {$info.price}
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+          {$info.des}
+        </div>
+    </div>
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">原看车区域</label> 
+      <div class="col-lg-10"> 
+       {$info.area}
+      </div> 
+     </div> 
+
+    </if> 
+
+<!--================================== 医疗 =================================-->
+
+    <if condition="$info.cate_id eq 9">
+
+      <div class="form-group "> 
+        <label for="QQ" class="control-label col-lg-2">详细地址</label> 
+        <div class="col-lg-10"> 
+         {$info.address}
+        </div> 
+       </div> 
+
+      <div class="form-group "> 
+        <label for="QQ" class="control-label col-lg-2">付款方式</label> 
+        <div class="col-lg-10"> 
+         {$info.pay_method}
+        </div> 
+       </div> 
+
+      <div class="form-group">
+          <label class="col-sm-2 control-label">标题描述</label>
+          <div class="col-sm-10">
+            {$info.des}
+          </div>
+      </div>
+
+    </if> 
+
+    </form> 
+   </div> 
+  </div>
+
+  </block>  &gt;
+ </body>
+</html>

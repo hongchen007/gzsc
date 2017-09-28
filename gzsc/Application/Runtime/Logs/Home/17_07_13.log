@@ -1,0 +1,2121 @@
+[ 2017-07-13T08:16:36+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=&p=1&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T08:20:08+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=%E6%A0%BC%E5%8A%9B&p=1&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15 AND `good_name` LIKE '%格力%'  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T08:20:21+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=%E6%A0%BC%E5%8A%9B&p=1&len=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15 AND `good_name` LIKE '%格力%'  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T08:30:46+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=&p=1&len=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T08:30:49+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=&p=1&len=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T08:31:04+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&p=1&len=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T08:31:20+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&p=1&len=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T08:31:35+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=&p=1&len=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T08:31:46+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 136 行.
+
+[ 2017-07-13T08:32:05+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=&p=2&len=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T08:32:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=&p=2&len=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T08:32:56+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/cateinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 105 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 136 行.
+
+[ 2017-07-13T08:59:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T09:00:05+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T09:00:25+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T09:00:42+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+
+[ 2017-07-13T09:06:06+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_store_name` = 'shangdianer' LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T09:06:22+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_store_name` = 'shangdianer' LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T09:09:51+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianer' LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T09:13:43+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianer' LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T09:14:31+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianer' LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T09:15:04+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/catehot?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 189 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 189 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 234 行.
+
+[ 2017-07-13T09:15:18+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianer' LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T09:16:36+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/shopinfo?id=15&good_name=%E6%A0%BC%E5%8A%9B&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15 AND `good_name` LIKE '%格力%'  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianyi' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_store_name` = 'shangdianer' LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T09:33:12+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/searchinfo?id=15&good_name=%E6%A0%BC%E5%8A%9B&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T09:34:07+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/searchinfo?id=15&good_name=%E6%A0%BC%E5%8A%9B&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15 AND `good_name` LIKE '%格力%'  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 333 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 378 行.
+
+[ 2017-07-13T09:34:16+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/searchinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 333 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 333 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 378 行.
+
+[ 2017-07-13T09:34:53+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/searchinfo?id=15&good_name=&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `cate_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 33 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 14  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 333 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 333 行.
+SQL: SELECT `num` FROM `order` WHERE `order_time` BETWEEN '2017-07-01 00:00:00' AND '2017-07-31 23:59:59' AND `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 40 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 85 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `rele` WHERE `good_id` = 17  [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `id` = 91 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 378 行.
+
+[ 2017-07-13T11:52:40+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:detail
+
+[ 2017-07-13T11:52:54+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T11:57:14+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT `user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T11:59:23+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T11:59:29+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T12:02:27+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.011000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T14:05:03+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.010000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T14:07:02+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:07:23+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 22 行.
+SQL: SELECT * FROM `good_attr` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:13:45+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T14:14:59+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:19:12+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T14:20:03+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:21:47+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file_pic C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 27 行.
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: file_pic C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 27 行.
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: file_pic C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 27 行.
+
+[ 2017-07-13T14:22:21+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:29:39+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:37:43+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T14:42:16+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:48:53+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T14:53:27+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:54:34+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T14:57:42+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T14:58:33+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T15:00:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.009000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T15:01:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T15:02:05+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T15:04:33+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T16:21:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id&store_id
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.006000s ]
+
+[ 2017-07-13T16:21:37+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.006000s ]
+
+[ 2017-07-13T16:22:14+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.005000s ]
+
+[ 2017-07-13T16:29:39+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 50 行.
+NOTIC: [8] Undefined variable: good_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: store_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: user C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 54 行.
+
+[ 2017-07-13T16:29:59+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 50 行.
+NOTIC: [8] Undefined variable: good_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: store_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 52 行.
+
+[ 2017-07-13T16:30:24+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.008000s ]
+
+[ 2017-07-13T16:30:36+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: user C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 54 行.
+
+[ 2017-07-13T16:30:49+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.005000s ]
+
+[ 2017-07-13T16:31:41+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `collect` WHERE `user_id` = 1 AND `good_id` = 2 AND `store_id` = 3 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `collect` (`user_id`,`good_id`,`store_id`) VALUES (1,2,3) [ RunTime:0.001000s ]
+
+[ 2017-07-13T16:33:17+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `collect` WHERE `user_id` = 1 AND `good_id` = 2 AND `store_id` = 3 LIMIT 1   [ RunTime:0.000000s ]
+ERR: Think\Model:delect方法不存在！
+
+[ 2017-07-13T16:33:42+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `collect` WHERE `user_id` = 1 AND `good_id` = 2 AND `store_id` = 3 LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `collect` WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2017-07-13T16:40:52+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T16:41:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collect` [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `collect` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `collect` (`user_id`,`good_id`,`add_time`) VALUES (1,2,'2017-07-13 16:41:19') [ RunTime:0.000000s ]
+
+[ 2017-07-13T16:59:00+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: collect C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 52 行.
+
+[ 2017-07-13T16:59:11+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `collectgood` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: collect C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 55 行.
+
+[ 2017-07-13T16:59:26+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2&store_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `collectgood` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `collectgood` WHERE ( id=2 ) [ RunTime:0.001000s ]
+
+[ 2017-07-13T17:01:54+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-13T17:02:39+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.012000s ]
+SQL: SELECT `id` FROM `collectgood` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `collectgood` (`user_id`,`good_id`,`add_time`) VALUES (1,2,'2017-07-13 17:02:39') [ RunTime:0.001000s ]
+
+[ 2017-07-13T17:03:01+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `collectgood` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `collectgood` WHERE ( id=3 ) [ RunTime:0.001000s ]
+
+[ 2017-07-13T17:03:30+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `collectgood` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `collectgood` (`user_id`,`good_id`,`add_time`) VALUES (1,2,'2017-07-13 17:03:30') [ RunTime:0.001000s ]
+
+[ 2017-07-13T17:03:44+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `collectgood` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `collectgood` WHERE ( id=4 ) [ RunTime:0.000000s ]
+
+[ 2017-07-13T17:03:57+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `collectgood` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `collectgood` (`user_id`,`good_id`,`add_time`) VALUES (1,2,'2017-07-13 17:03:57') [ RunTime:0.001000s ]
+
+[ 2017-07-13T17:04:12+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/goodcollect?user_id=1&good_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectgood` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `collectgood` WHERE `user_id` = 1 AND `good_id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `collectgood` WHERE ( id=5 ) [ RunTime:0.000000s ]
+
+[ 2017-07-13T17:04:34+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/storecollect?user_id=1&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectstore` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `collectstore` WHERE `user_id` = 1 AND `store_id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `collectstore` (`user_id`,`store_id`,`add_time`) VALUES (1,2,'2017-07-13 17:04:34') [ RunTime:0.001000s ]
+
+[ 2017-07-13T17:05:17+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/storecollect?user_id=1&store_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `collectstore` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `collectstore` WHERE `user_id` = 1 AND `store_id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `collectstore` WHERE ( id=1 ) [ RunTime:0.001000s ]
+
+[ 2017-07-13T17:37:41+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T21:42:20+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/DETAIL?id=14&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:DETAIL
+
+[ 2017-07-13T21:42:29+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/detail?id=14&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:detail
+
+[ 2017-07-13T21:42:37+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Good/detail?id=14&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Good
+
+[ 2017-07-13T21:42:46+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T21:42:52+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T21:54:31+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-13T21:54:48+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T21:57:07+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time  [ RunTime:0.001000s ]
+
+[ 2017-07-13T21:57:21+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc  [ RunTime:0.000000s ]
+
+[ 2017-07-13T21:58:27+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc,evaluate_star  [ RunTime:0.001000s ]
+
+[ 2017-07-13T21:58:50+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T22:14:01+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T22:14:57+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T22:19:32+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 47 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T22:20:51+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 47 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T22:22:45+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 47 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T22:23:54+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 47 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T22:24:10+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 47 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T22:35:29+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: good_info C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 18 行.
+
+[ 2017-07-13T22:35:38+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T22:38:34+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T22:38:42+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 48 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T22:41:54+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 49 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-13T22:42:33+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 49 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-13T23:01:26+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 84 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 87 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `id` = 88 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 49 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.001000s ]
+

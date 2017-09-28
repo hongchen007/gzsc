@@ -1,0 +1,148 @@
+<html>
+ <head> 
+   <style>
+        #fourpic{
+            margin:0 auto;
+            text-align: center;
+        }
+        #fourpic img{
+          width:200px;
+        }
+   </style>
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-商铺基本信息</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+   <div class="panel-body"> 
+    <div class="adv-table editable-table "> 
+
+     <div class="clearfix"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 商铺基本信息 </button> 
+      </div> 
+<!--       <div class="btn-group pull-right"> 
+       <a href="{:U('Store/add')}"><button id="editable-sample_new" class="btn btn-primary"> Add New <i class="fa fa-plus"></i> </button></a> 
+       <ul class="dropdown-menu pull-right"> 
+        <li><a href="#">Print</a></li> 
+        <li><a href="#">Save as PDF</a></li> 
+        <li><a href="#">Export to Excel</a></li> 
+       </ul> 
+      </div>  -->
+     </div> 
+     
+     <div class="space15"></div> 
+     <div id="editable-sample_wrapper" class="dataTables_wrapper form-inline" role="grid">
+      
+<!--      <div class="panel-body">
+        <form class="form-inline" role="form" action="{:U('Pics/index')}" method="get" />
+            
+            <div class="form-group">
+                <input class="form-control" id="exampleInputEmail2" value="{$Think.get.pic_http}" name="pic_http" placeholder="搜索图片链接地址" type="text">
+            </div>
+
+            <div class="form-group">状态：
+              <select class="form-control m-bot15" name="pic_state" >
+                  <option value="">--请选择--</option>
+                  <option value="1">正常</option>
+                  <option value="2">禁用</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">搜索</button>
+        </form>
+    </div> -->
+<!-- 
+      <div class="text-center price-head">
+          <h1 class="color-terques">{$info['user_store_name']}</h1>
+          <p>
+            <if condition="$info.user_store_star == 5">五星级</if>
+            <if condition="$info.user_store_star == 4">四星级</if>
+            <if condition="$info.user_store_star == 3">三星级</if>
+            <if condition="$info.user_store_star == 2">二星级</if>
+            <if condition="$info.user_store_star == 1">一星级</if>
+          </p>
+      </div>
+
+        <div id="fourpic" style="margin:0 auto;text-align:center; ">
+        <if condition="$Think.session.info.user_store_pic eq null"> 
+          请完善信息！
+        <else/>
+          <img src="__PUBLIC__/Uploads/{$info['user_store_pic']}" style="width:200px;" alt="">
+          <img src="__PUBLIC__/Uploads/{$info['user_store_pic1']}" style="width:200px;" alt="">
+          <img src="__PUBLIC__/Uploads/{$info['user_store_pic2']}" style="width:200px;" alt="">
+          <img src="__PUBLIC__/Uploads/{$info['user_store_pic3']}" style="width:200px;" alt="">
+          <img src="__PUBLIC__/Uploads/{$info['user_store_pic4']}" style="width:200px;" alt="">
+          </if> 
+        </div>
+        <div style="margin-left:300px;">
+          手机号：{$info['user_phone']}
+        </div> -->
+     
+      <table class="table table-striped table-hover table-bordered dataTable" id="editable-sample" aria-describedby="editable-sample_info"> 
+       <thead>
+        <tr role="row">
+         <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 9%;" aria-label="First Name">商铺头像</th>
+         <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 9%;" aria-label="First Name">主图片</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">图片1</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">图片2</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">图片3</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">图片4</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">商铺名称</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">商铺地址</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">商铺星级</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">商铺等级</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">电话</th>
+         <!-- <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 9%;" aria-label="Last Name: activate to sort column ascending">操作</th> -->
+        </tr> 
+       </thead> 
+       <tbody role="alert" aria-live="polite" aria-relevant="all"> 
+        <tr class="odd">
+
+        <if condition="empty($info['user_store_headerpic']) eq true">
+          <td class=" ">请点击修改完善信息</td> 
+        <else />
+          <td class=" "><img src="__PUBLIC__/Uploads/{$info['user_store_headerpic']}" style="width:100px;"></td> 
+        </if>
+
+        <if condition="empty($info['user_store_pic']) eq true">
+          <td class=" ">请点击修改完善信息</td>
+          <td class=" ">请点击修改完善信息</td>
+          <td class=" ">请点击修改完善信息</td> 
+          <td class=" ">请点击修改完善信息</td>
+          <td class=" ">请点击修改完善信息</td>
+        <else />
+          <td class=" "><img src="__PUBLIC__/Uploads/{$info['user_store_pic']}" style="width:100px;"></td> 
+          <td class=" "><img src="__PUBLIC__/Uploads/{$info['user_store_pic1']}" style="width:100px;"></td> 
+          <td class=" "><img src="__PUBLIC__/Uploads/{$info['user_store_pic2']}" style="width:100px;"></td> 
+          <td class=" "><img src="__PUBLIC__/Uploads/{$info['user_store_pic3']}" style="width:100px;"></td> 
+          <td class=" "><img src="__PUBLIC__/Uploads/{$info['user_store_pic4']}" style="width:100px;"></td> 
+        </if>
+
+         <td class=" ">{$info['user_store_name']}</td> 
+          <if condition="empty($info['user_store_address']) eq true">
+            <td class=" ">请点击修改完善信息</td> 
+          <else />
+            <td class=" ">{$info['user_store_address']}</td> 
+          </if>
+         <td class=" ">
+          <if condition="$info.user_store_evaluate == 5">五星</if>
+          <if condition="$info.user_store_evaluate == 4">四星</if>
+          <if condition="$info.user_store_evaluate == 3">三星</if>
+          <if condition="$info.user_store_evaluate == 2">二星</if>
+          <if condition="$info.user_store_evaluate == 1">一星</if>
+         </td> 
+         <td class=" ">{$info['user_store_star']}星级</td>
+         <td class=" ">{$info['user_phone']}</td> 
+         <!-- <td class=" "><a href="__MODULE__/User/shopinfoedit/id/{$info.id}">修改</a></td>  -->
+         </td> 
+        </tr> 
+       </tbody>
+      </table>
+     </div> 
+    </div> 
+   </div> 
+  </block>  &gt;
+ </body>
+</html>

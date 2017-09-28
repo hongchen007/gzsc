@@ -1,0 +1,98 @@
+[ 2017-06-14T08:59:53+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+
+[ 2017-06-14T09:00:30+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+ERR: 表达式错误:2,3
+
+[ 2017-06-14T09:01:10+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT `user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_name`,`user_store_address`,`user_phone` FROM `user` WHERE `user_grade` IN ('2','3')  [ RunTime:0.001000s ]
+
+[ 2017-06-14T09:02:11+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT `user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_name`,`user_store_address`,`user_phone` FROM `user` WHERE `user_grade` IN ('2','3')  [ RunTime:0.001000s ]
+
+[ 2017-06-14T09:02:34+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SELECT `user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_name`,`user_store_address`,`user_phone` FROM `user` WHERE `user_grade` IN ('2','3')  [ RunTime:0.001000s ]
+
+[ 2017-06-14T09:02:50+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT `user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_name`,`user_store_address`,`user_phone` FROM `user` WHERE `user_grade` IN ('2','3')  [ RunTime:0.001000s ]
+
+[ 2017-06-14T09:03:04+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+SQL: SELECT `user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_name`,`user_store_address`,`user_phone` FROM `user` WHERE `user_grade` IN ('2','3')  [ RunTime:0.001000s ]
+
+[ 2017-06-14T09:07:07+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013000s ]
+SQL: SELECT `user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_name`,`user_store_address`,`user_phone` FROM `user` WHERE `user_grade` IN ('2','3')  [ RunTime:0.000000s ]
+
+[ 2017-06-14T09:09:14+08:00 ] 127.0.0.1 /yuejilala/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\yuejilala\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT `user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_name`,`user_store_address`,`user_phone`,`user_store_star` FROM `user` WHERE `user_grade` IN ('2','3')  [ RunTime:0.001000s ]
+

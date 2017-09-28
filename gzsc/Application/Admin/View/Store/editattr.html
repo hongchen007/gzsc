@@ -1,0 +1,84 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-修改商品属性</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 修改{$good_name['good_name']}商品属性 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Store/doeditattr')}" novalidate="novalidate"> 
+    
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">商品描述</label> 
+      <div class="col-lg-10"> 
+       <textarea class="form-control" name="good_attr_des"  cols="20" rows="5">{$good_attr_info['good_attr_des']}</textarea> 
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">商品价格</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="good_price" name="good_attr_price" type="text" value="{$good_attr_info.good_attr_price}" /> 
+       <input class="form-control" id="id" name="id" type="hidden" value="{$good_attr_info.id}" /> 
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">商品颜色</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="good_color" name="good_attr_color" type="text" value="{$good_attr_info.good_attr_color}" /> 
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">商品大小</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="good_size" name="good_attr_size" type="text" value="{$good_attr_info.good_attr_size}" /> 
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">库存量</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="good_num" name="good_attr_num" type="text" value="{$good_attr_info.good_attr_num}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">修改商品状态</label> 
+      <div class="col-lg-10"> 
+        <select class="form-control m-bot15" name="good_attr_state">
+           <option value="3" <if condition="$good_attr_info.good_attr_state eq 3">selected</if>>在售</option> 
+           <option value="1" <if condition="$good_attr_info.good_attr_state eq 1">selected</if>>下架</option> 
+           <option value="2" <if condition="$good_attr_info.good_attr_state eq 2">selected</if>>新商品</option> 
+        </select>
+      </div> 
+     </div>
+
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="修改">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+
+
+    </form> 
+   </div> 
+  </div>
+
+
+  </block>  &gt;
+ </body>
+</html>

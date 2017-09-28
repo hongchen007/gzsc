@@ -1,0 +1,2160 @@
+//=================================================上传图片路径=================================================
+	图片上传路径：http://192.168.31.125/gzsc/Public/Uploads/upimg.php
+	图片路径：    "http://192.168.31.125" + "图片路径";
+	地址：	http://hongchen.chuan.bxso2o.com
+
+
+//=================================================登录注册部分===================================================
+	登录：
+		请求地址：http://192.168.31.125/gzsc/index.php/Home/Login/dologin?username=[用户名或手机号码]&pwd=[用户密码]
+		请求方式：get
+		返回数据：
+				  1 用户名不存在
+				  2 密码错误
+				  3 你的账号被禁锢，-.
+				  请联系管理员
+				{
+				  "id": "27",	//用户id
+				  "uid": null,	//socked_id
+				  "user_name": "lyl",	//用户名 
+				  "user_id": "111111111111111111",	//用户的生份证号
+				  "user_pwd": "e10adc3949ba59abbe56e057f20f883e",	//用户的登录密码
+				  "user_phone": "15538165120",
+				  "user_pic": "2017-06-13/593fab69ad329.jpg",	//用户的头像
+				  "user_money": null,	//用户的余额
+				  "user_grade": "5",	//用户的类型（0超级管理员 1管理员正常 11管理员禁用 2会员商户 3禁用的商户 4未激活商户 5会员 6禁用的用户）
+				  "user_sex": null,		//用的性别
+				  "user_store_x": "",	//商户x坐标
+				  "user_store_y": "",	//商户y坐标
+				  "user_store_address": "",	//用户的收获地址id
+				  "user_store_phone": "",	//商户的电话
+				  "user_store_headerpic": null,	//商户的头像
+				  "user_store_pic": "2017-06-09/593a741cd9878.jpg",	
+				  "user_store_pic1": "",
+				  "user_store_pic2": "",
+				  "user_store_pic3": "",
+				  "user_store_pic4": "",
+				  "user_store_star": null,	//商户的商铺等级
+				  "user_store_lience": "",	//营业执照
+				  "user_store_name": "",	//商铺名
+				  "user_store_registered": null,	//注册资金
+				  "user_store_cash": "",		//保证金
+				  "user_store_evaluate": null,	//商户评价 5五星 4四星 3三星 2二星 1一星 
+				  "user_add_time": "2017-06-09 18:10:36"	//
+				}
+
+	忘记密码：
+		请求地址：http://192.168.31.125/gzsc/index.php/Home/Login/forgetpwd?user_name=['昵称']&user_id=['生份证号']&user_pwd=['第一次输入的密码']&user_pwd1=['第二次输入的密码']
+		请求方式：get
+		返回数据：
+				  1 用户名不存在
+				  2 身份证号不能为空
+				  3 第一次的密码不能为空
+				  4 两次密码不一样
+				  5 身份证号不对
+				  6 找回密码失败，请重新再试2
+				  7 找回密码成功
+
+	重置密码：
+		请求地址：http://192.168.31.125/gzsc/index.php/Home/Login/resetpwd?user_pwd=['原密码']&newpwd1=['第一次新密码']&newpwd2=['第二次密码']&user_id=['用户id']
+		请求方式：get
+		返回数据：
+				  1 旧密码不正确
+				  2 新密码不能为空
+				  3 两次密码不一样
+				  4 重置密码失败
+				  5 重置密码成功
+
+	获取验证码：
+		请求地址：服务地址+/gzsc/index.php/Home/Login/code?tel=['电话号码']
+		请求方式：get
+		返回数据：
+				{
+				  "msg": "该手机号已经被注册！",	//信息
+				  "state": "2"						//状态码
+				}
+
+	注册：
+		请求地址：服务地址+/gzsc/index.php/Home/Login/register?user_name=['昵称']&user_id=['生份证号']&user_pwd=['密码']&code=['验证码']&tel=['电话']&user_grade=['身份']
+		请求数据：我是商家 grade：4;  我是买家 grade:5;
+		请求方式：get
+		返回数据类型：
+				{
+				  "msg": "该昵称已经存在", 	//信息
+				  "state": -9 				//状态码
+				}
+
+//=================================================电商部分========================================================
+
+	电商首页：
+		请求的地址：http://127.0.0.1/gzsc/index.php/Home/Dianshang/indexaa?lng=['精度']&lat=['纬度']&p=['第几页']&len=['一页几条数据']
+		请求的参数:
+					如果定位失败：lng=0.0;lat=0.0
+					p:	第几页，可以为空，默认为第一页
+					len:	每页的长度，可以为空，默认为每页10条数据
+		返回数据：
+				{
+				  "headerpicss": [												//头部轮播图
+				    {
+				      "pic": "2017-08-11/598da0cddf318.jpg",					//图片
+				      "pic_http": "/gzsc/index.php/Home/Goods/detail?id=14",	//图片链接
+				      "pic_descr": "yfcycuhkvjkh"								//图片描述
+				    }
+				  ],
+				  "middlepicss": [												//中部轮播图
+				    {												
+				      "pic": "2017-08-11/598da3b3a3610.jpg",					//图片
+				      "pic_http": "/gzsc/index.php/Home/Goods/detail?id=15",	//图片链接地址
+				      "pic_descr": "raWFC"										//图片描述
+				    }
+				  ],
+				  "shop": [														//附近商家
+				    {
+				      "id": "17",												//商家id
+				      "user_store_x": "113.947961",								//精度
+				      "user_store_y": "35.306758",								//纬度
+				      "user_store_name": "商店三",								//商店三
+				      "user_store_evaluate": "3",								//商店的星级 （几就是几星，eg  5 表示五星）
+				      "user_store_pic": "2017-06-09/593a563158228.jpg",			//大图
+				      "user_store_pic1": null,									//小图1（左上）
+				      "user_store_pic2": null,									//小图2（右上）
+				      "user_store_pic3": null,									//小图3（左下）
+				      "user_store_pic4": null,									//小图4（右下）
+				      "user_store_phone": null,									//商铺电话
+				      "distance": 1238.07 										//距离单位m									
+				    },
+				    {
+				      "id": "18",
+				      "user_store_x": "113.947961",
+				      "user_store_y": "35.306758",
+				      "user_store_name": "商店四",
+				      "user_store_evaluate": "2",
+				      "user_store_pic": "2017-06-09/593a68b1bd358.jpg",
+				      "user_store_pic1": null,
+				      "user_store_pic2": null,
+				      "user_store_pic3": null,
+				      "user_store_pic4": null,
+				      "user_store_phone": null,
+				      "distance": 1238.07
+				    }
+				  ]
+				}
+
+	电商类目：
+		请求地址：http://192.168.31.125/gzsc/index.php/Home/Dianshang/cate
+		返回数据：
+
+			[
+			  {
+			    "name": "家电",			      					//二级分类名称（最左边的一列）
+			    "date": [
+			      {
+			        "id": "12",									//类别的id
+			        "cate_name": "厨房电器",					//类别的名称
+			        "cate_pic": "2017-07-29/597c4c0e8b678.jpg"	//图片地址
+			      },
+			      {
+			        "id": "13",
+			        "cate_name": "电视",
+			        "cate_pic": "2017-07-29/597c4c2294700.jpg"
+			      },
+			      {
+			        "id": "14",
+			        "cate_name": "冰箱",
+			        "cate_pic": "2017-08-03/5982d4b7ba090.jpg"
+			      },
+			      {
+			        "id": "15",
+			        "cate_name": "空调",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "16",
+			        "cate_name": "手机数码",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "17",
+			        "cate_name": "综合市场",
+			        "cate_pic": null
+			      }
+			    ]
+			  },
+			  {
+			    "name": "车",
+			    "date": [
+			      {
+			        "id": "19",
+			        "cate_name": "4S店",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "20",
+			        "cate_name": "汽车用品",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "21",
+			        "cate_name": "车品",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "22",
+			        "cate_name": "综合市场",
+			        "cate_pic": null
+			      }
+			    ]
+			  },
+			  {
+			    "name": "家居城",
+			    "date": [
+			      {
+			        "id": "24",
+			        "cate_name": "建材卫浴",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "25",
+			        "cate_name": "家具城",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "26",
+			        "cate_name": "五金店",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "27",
+			        "cate_name": "综合市场",
+			        "cate_pic": null
+			      }
+			    ]
+			  },
+			  {
+			    "name": "超市",
+			    "date": [
+			      {
+			        "id": "29",
+			        "cate_name": "男装",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "30",
+			        "cate_name": "女装",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "31",
+			        "cate_name": "鞋",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "32",
+			        "cate_name": "皮箱包",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "33",
+			        "cate_name": "童装",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "34",
+			        "cate_name": "综合超市",
+			        "cate_pic": null
+			      }
+			    ]
+			  },
+			  {
+			    "name": "饮品",
+			    "date": [
+			      {
+			        "id": "36",
+			        "cate_name": "奶粉",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "37",
+			        "cate_name": "饮料",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "38",
+			        "cate_name": "茶酒",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "39",
+			        "cate_name": "综合市场",
+			        "cate_pic": null
+			      }
+			    ]
+			  },
+			  {
+			    "name": "纹饰",
+			    "date": [
+			      {
+			        "id": "41",
+			        "cate_name": "书店",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "42",
+			        "cate_name": "电影",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "43",
+			        "cate_name": "首饰",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "44",
+			        "cate_name": "钟表",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "45",
+			        "cate_name": "眼镜",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "46",
+			        "cate_name": "化妆品",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "47",
+			        "cate_name": "综合市场",
+			        "cate_pic": null
+			      }
+			    ]
+			  },
+			  {
+			    "name": "玩具城",
+			    "date": [
+			      {
+			        "id": "50",
+			        "cate_name": "动漫游戏机",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "51",
+			        "cate_name": "玩具",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "52",
+			        "cate_name": "综合市场",
+			        "cate_pic": null
+			      }
+			    ]
+			  },
+			  {
+			    "name": "农产品",
+			    "date": [
+			      {
+			        "id": "54",
+			        "cate_name": "水果",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "55",
+			        "cate_name": "蔬菜",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "73",
+			        "cate_name": "肉类",
+			        "cate_pic": "2017-07-29/597c48c428870.jpg"
+			      },
+			      {
+			        "id": "57",
+			        "cate_name": "鱼类",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "58",
+			        "cate_name": "牲畜",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "59",
+			        "cate_name": "综合市场",
+			        "cate_pic": "2017-07-29/597c48db9c7e8.jpg"
+			      }
+			    ]
+			  },
+			  {
+			    "name": "酒店美食",
+			    "date": [
+			      {
+			        "id": "61",
+			        "cate_name": "酒店宾馆",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "62",
+			        "cate_name": "KTV酒吧",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "63",
+			        "cate_name": "美食",
+			        "cate_pic": null
+			      },
+			      {
+			        "id": "64",
+			        "cate_name": "综合",
+			        "cate_pic": null
+			      }
+			    ]
+			  }
+			]
+
+	电商类目分类页面：(综合)
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Dianshang/cateinfo?id=['电商分类id']&good_name=['搜索的商品名称']&p=['第几页']&len=['一页几条数据']
+		请求的方式：get
+		请求的参数：id:	必须填; （测试id为  15）
+					good_name:	搜索的条件可以为空,可以为空;	
+					P:	第几页，可以为空,不填为第一页;
+					len: 	每页显示的数据条数,可以为空,不填默认每页十条数据
+		返回数据:
+				[
+				    {
+				        "id": "14",								//商品的id
+				        "user_id": "6",							//商户的id
+				        "cate_id": "15",						//分类的id
+				        "user_store_name": "shangdianyi",		//商户名称
+				        "good_name": "格力空调1",				//商品的名称
+				        "good_add_time": "2017-07-12 11:04:58",	//商品添加额时间
+				        "good_state": "3",						//商品的状态 1下架 2新产品 3正常
+				        "good_num": 0,							//商品月销售量
+				        "good_attr_price": "123",				//商品价格
+				        "good_attr_des": "省电1",				//商品的描述
+				        "file_pic": "2017-07-12/596593739e980.jpg"		//商品图片
+				    },
+				    {
+				        "id": "15",
+				        "user_id": "6",
+				        "cate_id": "15",
+				        "user_store_name": "shangdianyi",
+				        "good_name": "美的空调1",
+				        "good_add_time": "2017-07-12 11:18:50",
+				        "good_state": "3",
+				        "good_num": 0,
+				        "good_attr_price": "12",
+				        "good_attr_des": "美1",
+				        "file_pic": "2017-07-12/5965956bb58b0.jpg"
+				    },
+				    {
+				        "id": "17",
+				        "user_id": "16",
+				        "cate_id": "15",
+				        "user_store_name": "shangdianer",
+				        "good_name": "格力空调2",
+				        "good_add_time": "2017-07-12 18:02:07",
+				        "good_state": "3",
+				        "good_num": 0,
+				        "good_attr_price": "45",
+				        "good_attr_des": "省电22",
+				        "file_pic": "2017-07-12/5965f40658ac0.jpg"
+				    }
+				]
+
+	电商类目分类页面：(热门) 销售量从大道小排序
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Dianshang/catehot?id=['电商分类id']&good_name=['搜索的商品名称']&p=['第几页']&len=['一页几条数据']
+		请求的方式：get
+		请求的参数：id:	必须填; （测试id为  15）
+					good_name:	搜索的条件可以为空,可以为空;	
+					P:	第几页，可以为空,不填为第一页;
+					len: 	每页显示的数据条数,可以为空,不填默认每页十条数据
+		返回数据:
+				[
+				    {
+				        "id": "14",								//商品的id
+				        "user_id": "6",							//商户的id
+				        "cate_id": "15",						//分类的id
+				        "user_store_name": "shangdianyi",		//商户名称
+				        "good_name": "格力空调1",				//商品的名称
+				        "good_add_time": "2017-07-12 11:04:58",	//商品添加额时间
+				        "good_state": "0",						//商品的状态 1下架 2新产品 3正常
+				        "good_num": 5,								//月销售量
+				        "good_attr_price": "123",				//商品价格
+				        "good_attr_des": "省电1",				//商品的描述
+				        "file_pic": "2017-07-12/596593739e980.jpg"		//商品图片
+				    },
+				    {
+				        "id": "15",
+				        "user_id": "6",
+				        "cate_id": "15",
+				        "user_store_name": "shangdianyi",
+				        "good_name": "美的空调1",
+				        "good_add_time": "2017-07-12 11:18:50",
+				        "good_state": "3",
+				        "num": 1,
+				        "good_attr_price": "12",
+				        "good_attr_des": "美1",
+				        "file_pic": "2017-07-12/5965956bb58b0.jpg"
+				    },
+				    {
+				        "id": "17",
+				        "user_id": "16",
+				        "cate_id": "15",
+				        "user_store_name": "shangdianer",
+				        "good_name": "格力空调2",
+				        "good_add_time": "2017-07-12 18:02:07",
+				        "good_state": "3",
+				        "num": 0,
+				        "good_attr_price": "45",
+				        "good_attr_des": "省电22",
+				        "file_pic": "2017-07-12/5965f40658ac0.jpg"
+				    }
+				]
+
+	电商类目分类页面：(店铺) 
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/searchstore?user_store_name=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+			array(4) {
+			  [0] => array(9) {
+			    ["id"] => string(2) "27"				//商店的id
+			    ["user_store_name"] => string(0) ""		//商店的名称
+			    ["user_store_evaluate"] => NULL 		//商店的评价星级
+			    ["user_store_pic"] => string(70) "2017-06-09/593a741cd9878.jpg"	//大图
+			    ["user_store_pic1"] => string(42) ""								//小图（左上）
+			    ["user_store_pic2"] => string(42) ""								//小图（右上）
+			    ["user_store_pic3"] => string(42) ""								//小图（左下）
+			    ["user_store_pic4"] => string(42) ""								//小图（右下）
+			    ["user_store_phone"] => string(0) ""													//商店的电话
+			  }
+			  [1] => array(9) {
+			    ["id"] => string(1) "7"
+			    ["user_store_name"] => string(3) "EFD"
+			    ["user_store_evaluate"] => NULL
+			    ["user_store_pic"] => string(42) ""
+			    ["user_store_pic1"] => string(42) ""
+			    ["user_store_pic2"] => string(42) ""
+			    ["user_store_pic3"] => string(42) ""
+			    ["user_store_pic4"] => string(42) ""
+			    ["user_store_phone"] => NULL
+			  }
+			  [2] => array(9) {
+			    ["id"] => string(1) "6"
+			    ["user_store_name"] => string(11) "shangdianyi"
+			    ["user_store_evaluate"] => string(1) "5"
+			    ["user_store_pic"] => string(70) "2017-06-13/593fab69a9c79.jpg"
+			    ["user_store_pic1"] => string(70) "2017-06-13/593fab69ad329.jpg"
+			    ["user_store_pic2"] => string(70) "2017-06-13/593fab69aea99.jpg"
+			    ["user_store_pic3"] => string(70) "2017-06-13/593fab69afe21.jpg"
+			    ["user_store_pic4"] => string(70) "2017-06-13/593fab69b1591.jpg"
+			    ["user_store_phone"] => NULL
+			  }
+			  [3] => array(9) {
+			    ["id"] => string(1) "9"
+			    ["user_store_name"] => NULL
+			    ["user_store_evaluate"] => string(1) "5"
+			    ["user_store_pic"] => string(70) "2017-06-13/593fab69ad329.jpg"
+			    ["user_store_pic1"] => string(42) ""
+			    ["user_store_pic2"] => string(42) ""
+			    ["user_store_pic3"] => string(42) ""
+			    ["user_store_pic4"] => string(42) ""
+			    ["user_store_phone"] => NULL
+			  }
+			}
+
+	电商类目分类页面：(筛选) 价格从小到大排序
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Dianshang/cateinfo?id=['电商分类id']&good_name=['搜索的商品名称']&p=['第几页']&len=['一页几条数据']
+		请求的方式：get
+		请求的参数：id:	必须填; （测试id为  15）
+					good_name:	搜索的条件可以为空,可以为空;	
+					P:	第几页，可以为空,不填为第一页;
+					len: 	每页显示的数据条数,可以为空,不填默认每页十条数据
+		返回数据:
+				[
+				    {
+				        "id": "14",								//商品的id
+				        "user_id": "6",							//商户的id
+				        "cate_id": "15",						//分类的id
+				        "user_store_name": "shangdianyi",		//商户名称
+				        "good_name": "格力空调1",				//商品的名称
+				        "good_add_time": "2017-07-12 11:04:58",	//商品添加额时间
+				        "good_state": "0",						//商品的状态 1下架 2新产品 3正常
+				        "num": 5,								//月销售量
+				        "good_attr_price": "12",				//商品价格
+				        "good_attr_des": "省电1",				//商品的描述
+				        "file_pic": "2017-07-12/596593739e980.jpg"		//商品图片
+				    },
+				    {
+				        "id": "17",
+				        "user_id": "16",
+				        "cate_id": "15",
+				        "user_store_name": "shangdianer",
+				        "good_name": "格力空调2",
+				        "good_add_time": "2017-07-12 18:02:07",
+				        "good_state": "3",
+				        "num": 0,
+				        "good_attr_price": "45",
+				        "good_attr_des": "省电22",
+				        "file_pic": "2017-07-12/5965f40658ac0.jpg"
+				    },
+				    {
+				        "id": "15",
+				        "user_id": "6",
+				        "cate_id": "15",
+				        "user_store_name": "shangdianyi",
+				        "good_name": "美的空调1",
+				        "good_add_time": "2017-07-12 11:18:50",
+				        "good_state": "3",
+				        "num": 1,
+				        "good_attr_price": "123",
+				        "good_attr_des": "美1",
+				        "file_pic": "2017-07-12/5965956bb58b0.jpg"
+				    }
+				]
+
+//=================================================收藏与取消收藏===================================================
+
+	商品的收藏与取消收藏
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/goodcollect?user_id=['用户的id']&good_attr_id=['商品的属性id']
+		请求的方式：get
+		返回数据:
+				1：取消收藏
+				2：收藏成功
+
+	商品是否已经收藏:
+		请求的地址：http://127.0.0.1/gzsc/index.php/Home/Goods/orcollect?user_id=['用户id']&good_attr_id=['商品的属性id']
+		请求的方式：get
+		返回数据:
+				{
+				  "msg": "已近收藏",
+				  "state": "1"
+				}
+
+	商户的收藏与取消收藏
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/storecollect?user_id=['用户的id']&store_id=['商户id']
+		请求的方式：get
+		返回数据:
+				1：取消收藏
+				2：收藏成功
+
+	商户是否已经收藏:
+		请求的地址：http://127.0.0.1/gzsc/index.php/Home/Goods/orstore?user_id=['用户id']&store_id=['商户id']
+		请求的方式：get
+		返回数据:
+				{
+				  "msg": "已近收藏",
+				  "state": "1"
+				}
+
+
+//=================================================商品部分========================================================= 
+
+	商品详情页：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/detail?id=['商品的id']
+		请求的方式：get
+		返回数据:
+				{
+				  "pic": [											
+				    {
+				      "file_pic": "2017-07-27/597954cacf788.jpg" 	//轮播图
+				    },
+				    {
+				      "file_pic": "2017-07-12/5965dc6dca328.jpg"
+				    },
+				    {
+				      "file_pic": "2017-07-12/5965dc6dcc650.jpg"
+				    },
+				    {
+				      "file_pic": "2017-08-12/598e7dd7ec2e8.jpg"
+				    }
+				  ],
+				  "attr": [
+				    {
+				      "color": "red",
+				      "date": [
+				        {				          
+					      "id": "39",					//商品的属性id
+					      "good_id": "14",				//商品的id
+					      "good_attr_color": "white",	//商品的颜色
+					      "good_attr_size": "12",		//商品的大小
+					      "good_attr_num": "123",		//商品的库存量
+					      "good_attr_des": "省电1",		//商品的描述
+					      "good_attr_price": "123.00",	//商品的价格
+					      "good_attr_price1": "120.00",	//商品的优惠价
+					      "good_attr_state": "3",		//商品的状态（1：下架	2：新品上架		3：正常显示）
+				        },
+				        {
+				          "id": "39",
+				          "good_id": "14",
+				          "good_attr_color": "red",
+				          "good_attr_size": "13",
+				          "good_attr_num": "123",
+				          "good_attr_des": "省电1",
+				          "good_attr_price": "123.00",
+				          "good_attr_price1": "120.00",
+				          "good_attr_state": "2"
+				        }
+				      ]
+				    },
+				    {
+				      "color": "blue",
+				      "date": [
+				        {
+				          "id": "54",
+				          "good_id": "14",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "12",
+				          "good_attr_num": "12313",
+				          "good_attr_des": "uytd",
+				          "good_attr_price": "623.00",
+				          "good_attr_price1": "21121.00",
+				          "good_attr_state": "3"
+				        }
+				      ]
+				    }
+				  ],
+				  "eva": {
+					    "id": "3",										//评论的id
+					    "user_id": "11",								//评论者的id
+					    "good_attr_id": "39",							//商品属性id
+					    "good_id": "14",								//商品id
+					    "content": "qqq",								//评论的内容
+					    "evaluate_star": "1",							//评分（5代表五星 4代表四星.....）
+					    "add_time": "2017-07-15 21:55:07",				//评论的时间
+					    "user_pic": "2017-06-13/593fab69ad329.jpg",		//评论者的头像
+					    "user_name": "userthree",						//评论者的名称
+					    "good_attr_color": "white",						//评论的商品颜色
+					    "good_attr_size": "12",							//评论的商品大小
+					    "evaluate_num": "3" 							//品论的条数
+				  },
+				  "store": {
+				    "user_store_name": "shangdianyi",					//商店名称
+				    "user_store_pic": "2017-06-13/593fab69a9c79.jpg",	//商店的头像
+				    "user_store_phone": "15643351287",					//商店电话
+				    "user_store_evaluate": "5",							//商户的贫家星级（5代表五星  4代表四星 .....）
+				    "user_store_address": "郑州市"						//商店的地址
+				  }
+				}
+
+	商品详情页：（下面的   加入购物车按钮）
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/addshoppingcar?good_id=['商品的id']&good_attr_id=['商品属性id']&user_id=['用户id']&store_id=['商品所属商店的id']&good_num=['商品的数量']
+		请求的方式：get
+		请求的参数：good_id:	必须填; （测试good_id 14）
+					good_attr_id:	商品属性的id;	必须填;
+					user_id:	用户的id;		必须填;
+					store_id: 	商品所属商店的名称；必须填;	
+					good_num: 	收藏的商品数量（如果不填默认为一个）	可以不填
+		返回数据:
+				加入成功：
+						{
+						  "code": 1,
+						  "sucmsg": 16 		//购物车id
+						}
+				已经加入：
+						{
+						  "code": 0,
+						  "errmsg": "已经加入过购物车"
+						}
+				加入失败：
+						{
+						  "code": 0,
+						  "errmsg": "加入购物车失败"
+						}
+
+	购物车页面：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/shoppingcar?user_id=['用户的id']
+		请求的方式：get
+		请求的参数：user_id:	必须填; （测试user_id 9）
+		返回数据:
+				[
+				  {
+				    "store_name": "shangdianyi",	//商店名称
+				    "store_id": "6",				//商店id
+				    "date": [
+				      {
+				        "store_pic": "2017-07-12/5965dc6dca328.jpg", 	//商品图片
+				        "good_name": "格力空调1",		//商品名称
+				        "good_attr_color": "blue",		//商品的颜色
+				        "good_attr_size": "56",			//商品的大小
+				        "good_attr_price": "125",		//商品价格
+				        "good_num": "2",				//商品的数量
+						"good_id": "14",				//商品id
+						"good_attr_id": "42",			//商品属性id
+						"good_attr_des": "iuhi",		//商品属性id
+						"id": "21"		  				//购物车id
+				      },
+				      {
+				        "store_pic": "2017-07-12/596593739e980.jpg",
+				        "good_name": "格力空调1",
+				        "good_attr_color": "white",
+				        "good_attr_size": "12",
+				        "good_attr_price": "123",
+				        "good_num": "2",
+				        "good_id": "14",			
+						"good_attr_id": "42"		
+				      }
+				    ]
+				  },
+				  {
+				    "store_name": "shangdianer",
+				    "store_id": "16",
+				    "date": [
+				      {
+				        "store_pic": "2017-07-12/5965f40658ac0.jpg",
+				        "good_name": "格力空调2",
+				        "good_attr_color": "white",
+				        "good_attr_size": "456",
+				        "good_attr_price": "45",
+				        "good_num": "2",
+				        "good_id": "14",			
+						"good_attr_id": "42"	
+				      }
+				    ]
+				  }
+				]
+
+//================================================订单页面==========================================================
+
+	确认订单： (收获地址)
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/address?user_id=['用户的id']
+		请求的方式：get
+		返回的数据：
+			成功：
+				{
+				  "sucmsg": [
+				    {
+				      "id": "1",   						//收获地址id
+				      "user_id": "9",					//用户id
+				      "address": "郑州市",				//收获地址
+				      "officer": "亚龙",				//收货人
+				      "address_phone": "15638861244",	//收货人地址
+				      "default": "1"					//是否默认（1默认  2不是默认）
+				    }
+				  ],
+				  "code": 200
+				}
+			失败：
+				{
+				  "errmsg": "请先填写地址",
+				  "code": 400
+				}
+
+	删除购物车商品：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/delshopping?json=['json数据']
+		请求的方式：get
+		请求数据： 
+				{
+					"data":[
+						{"id":"26"}, 	
+						{"id":"27"}
+					]
+				}
+		返回的数据：
+			成功：
+				{
+				  "errmsg": "删除成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "删除失败",
+				  "code": 0
+				}
+
+	确认订单：(由购物车过来) (点击提交订单)
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/submitorder?json=['json数据']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{
+					"id":"1",				//地址id
+				    "user_id": "9",			//用户id （注意：在商店名称上面只能有地址id和用户id）
+				    "shangdianyi": [		//商店名称
+				      {
+				        "user_store_id": "6",			//商店id
+				        "store_name": "shangdianyi",	//商店名
+				        "good_attr_des": "省电1",		//商品描述
+				        "good_attr_price": "123",		//商品的价格
+				        "good_attr_color": "white",		//商品颜色
+				        "good_attr_size": "12",			//商品的大小
+				        "good_attr_id": "39",			//商品描述id
+				        "good_num": "1",				//商品数量
+				        "good_id": "14",				//商品id
+				        "id": "11"						//购物车id
+				      },
+				      {
+				        "user_store_id": "6",
+				        "store_name": "shangdianyi",
+				        "good_attr_des": "省电2",
+				        "good_attr_price": "125",
+				        "good_attr_color": "blue",
+				        "good_attr_size": "56",
+				        "good_attr_id": "42",
+				        "good_num": "1",
+				        "good_id": "14",
+				        "id": "12"
+				      }
+				    ],
+				    "shangdianer": [
+				      {
+				        "user_store_id": "16",
+				        "store_name": "shangdianer",
+				        "good_attr_des": "省电22",
+				        "good_attr_price": "45",
+				        "good_attr_color": "white",
+				        "good_attr_size": "456",
+				        "good_attr_id": "44",
+				        "good_num": "2",
+				        "good_id": "17",
+				        "id": "14"
+				      }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "code": 1,
+				  "sucmsg": {										//成功
+				    "shangdianyi": [								//商店名
+				      {
+				        "good_id": "14",							//商品id
+				        "good_attr_id": "39",						//商品属性id
+				        "good_num": "2",							//商品数量
+				        "orderdetail_time": "2017-07-24 17:25:39",	//下单时间
+				        "order_id": "116"							//订单id
+				      },
+				      {
+				        "good_id": "14",
+				        "good_attr_id": "42",
+				        "good_num": "2",
+				        "orderdetail_time": "2017-07-24 17:25:39",
+				        "order_id": "116"
+				      }
+				    ]
+				  }
+				}
+			失败：
+				{
+				  "errmsg": "订单失败",
+				  "code": 0
+				}		
+
+	确认订单：(直接购买) (点击提交订单)
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/submitorder1?json=['json数据']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				      {
+				        "store_id": "6",
+				        "store_name": "shangdianyi",
+				        "good_attr_des": "省电2",
+				        "good_attr_price": "125",
+				        "good_attr_color": "blue",
+				        "good_attr_size": "56",
+				        "good_attr_id": "42",
+				        "good_num": "1",
+				        "good_id": "14",
+				        "user_id": "1",
+				        "address_id": "45"
+				      }
+		返回的参数：
+			成功：
+				{
+				  "code": 1,
+				  "sucmsg": {
+				    "order_id": "431",
+				    "good_id": "14",
+				    "good_attr_id": "42",
+				    "good_attr_price": "125",
+				    "good_num": "2",
+				    "orderdetail_time": "2017-09-25 11:10:50"
+				  }
+				}
+			失败：
+				{
+				  "errmsg": "订单失败",
+				  "code": 0
+				}
+
+	统一下单：
+		请求的地址：域名+/gzsc/index.php/Home/Goods/tongyi?json=['json数据']
+		请求的方式：get
+		请求的参数：json格式形式如下
+					{
+						"body": "商品描述", 	//商品描述
+						"total_fee": "100" 		//订单金额 只能为整数 单位为分
+					}
+		返回的参数：
+				D06E987CAFDDFD687326F03E34D92E9BArray
+				(
+				    [appid] => wxe761b7eec1eb651a
+				    [mch_id] => 1488092332
+				    [nonce_str] => t1wUaghQ44ldCWljVsUpHShLvBDwaj5z
+				    [body] => 鍟嗗搧鎻忚堪
+				    [out_trade_no] => 1506530831398271
+				    [total_fee] => 100
+				    [spbill_create_ip] => 127.0.0.1
+				    [notify_url] => http://www.baidu.com/
+				    [trade_type] => APP
+				    [sign] => D06E987CAFDDFD687326F03E34D92E9B
+				)
+				<xml><return_code><![CDATA[SUCCESS]]></return_code>
+				<return_msg><![CDATA[OK]]></return_msg>
+				<appid><![CDATA[wxe761b7eec1eb651a]]></appid>
+				<mch_id><![CDATA[1488092332]]></mch_id>
+				<nonce_str><![CDATA[aw0vr9pypG2mG0JD]]></nonce_str>
+				<sign><![CDATA[DA9AD0269F2CBD09EC28F5A9315B7C58]]></sign>
+				<result_code><![CDATA[SUCCESS]]></result_code>
+				<prepay_id><![CDATA[wx20170928004417b03c2db18a0335520702]]></prepay_id>
+				<trade_type><![CDATA[APP]]></trade_type>
+				</xml>Array
+				(
+				    [appid] => wxe761b7eec1eb651a
+				    [partnerid] => 1488092332
+				    [prepayid] => wx20170928004417b03c2db18a0335520702
+				    [package] => Sign=WXPay
+				    [noncestr] => 11oLqOVwaCsVIbvKG9Jf0LHTjrWrF1a7
+				    [timestamp] => 1506530832
+				    [sign] => 73D74E98F4B16AE33B74077DB6679736
+				)
+
+	支付支付完成把订单号传过来：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/payorder?json=['json数据']
+		请求的方式：get
+		请求的参数：json格式形式如下
+					[
+						1, 	//订单id
+						2,
+						3,
+						.....
+					]
+		返回数据：
+				失败：
+					{
+					  "code": 0,
+					  "sucmsg": "支付失败"
+					}
+				成功：
+					{
+					  "code": 1,
+					  "sucmsg": "支付成功"
+					}
+
+	订单详情：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/orderdetail?json=['json数据']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{                             
+				    "shangdianyi": [			//商店名
+				      {						
+				        "good_id": "14",    	//商品id  
+				        "good_attr_id": "39",	//商品属性id
+				        "good_num": "2",        //商品数量
+				        "orderdetail_time": "2017-07-24 17:25:39",	//订单时间
+				        "order_id": "116"		//订单号
+				      },
+				      {
+				        "good_id": "14",
+				        "good_attr_id": "42",
+				        "good_num": "2",
+				        "orderdetail_time": "2017-07-24 17:25:39",
+				        "order_id": "116"
+				      }
+				    ]
+				}
+		返回数据：
+				{
+				  "shangdianyi": [					//商店名
+				    {
+				      "giood_name": "格力空调1",	//商品名称
+				      "good_attr_des": "省电1",		//商品描述
+				      "price": "123",				//商品价格
+				      "good_num": "2",				//订单数量
+				      "good_pic": "2017-07-12/596593739e980.jpg"	//商品的图片
+				    },
+				    {
+				      "giood_name": "格力空调1",
+				      "good_attr_des": "省电2",
+				      "price": "125",
+				      "good_num": "2",
+				      "good_pic": "2017-07-12/5965dc6dca328.jpg"
+				    }
+				  ],
+				  "user_store_name": "shangdianyi",		//商店名称
+				  "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				  "user_store_evaluate": "5",			//商户星级
+				  "user_store_phone": "15643351287",	//商铺电话
+				  "user_store_address": "郑州市"		//
+				}
+
+	我的订单：(全部)
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/myorder?user_id=['用户id']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		返回数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "name": "117",										//订单id
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",		//商品图片
+				          "good_name": "格力空调1",		//商品名称
+				          "good_attr_des": "123",		//商品描述
+				          "good_attr_price": "123",		//商品价格
+				          "good_attr_color": "white",	//商品颜色
+				          "good_attr_size": "12",		//商品大小
+				          "good_num": "2",				//商品数量
+				          "order_grade": "1"			//订单状态（1未支付 2未发货 3已发货 4已签收 5以评价）
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "1"
+				        }
+				      ]
+				    },
+				    {
+				      "name": "116",
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "123",
+				          "good_attr_price": "123",
+				          "good_attr_color": "white",
+				          "good_attr_size": "12",
+				          "good_num": "2",
+				          "order_grade": "1"
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "1"
+				        }
+				      ]
+				    }
+				  ]
+				}
+
+
+				{
+				  "code": "400",
+				  "errmsg": "请求失败"
+				} 
+
+	我的订单：(未支付)
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/myorder1?user_id=['用户id']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		返回数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "name": "117",										//订单id
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",		//商品图片
+				          "good_name": "格力空调1",		//商品名称
+				          "good_attr_des": "123",		//商品描述
+				          "good_attr_price": "123",		//商品价格
+				          "good_attr_color": "white",	//商品颜色
+				          "good_attr_size": "12",		//商品大小
+				          "good_num": "2",				//商品数量
+				          "order_grade": "1"			//订单状态（1未支付 2未发货 3已发货 4已签收 5以评价）
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "1"
+				        }
+				      ]
+				    },
+				    {
+				      "name": "116",
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "123",
+				          "good_attr_price": "123",
+				          "good_attr_color": "white",
+				          "good_attr_size": "12",
+				          "good_num": "2",
+				          "order_grade": "1"
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "1"
+				        }
+				      ]
+				    }
+				  ]
+				}
+
+
+				{
+				  "code": "400",
+				  "errmsg": "请求失败"
+				} 
+
+	我的订单：(未发货)
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/myorder2?user_id=['用户id']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		返回数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "name": "117",															//订单id
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",		//商品图片
+				          "good_name": "格力空调1",		//商品名称
+				          "good_attr_des": "123",		//商品描述
+				          "good_attr_price": "123",		//商品价格	
+				          "good_attr_color": "white",	//商品颜色
+				          "good_attr_size": "12",		//商品大小
+				          "good_num": "2",				//商品数量
+				          "order_grade": "2"			//订单状态（1未支付 2未发货 3已发货 4已签收 5以评价）
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "2"
+				        }
+				      ]
+				    },
+				    {
+				      "name": "116",
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "123",
+				          "good_attr_price": "123",
+				          "good_attr_color": "white",
+				          "good_attr_size": "12",
+				          "good_num": "2",
+				          "order_grade": "2"
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "2"
+				        }
+				      ]
+				    }
+				  ]
+				}
+
+
+				{
+				  "code": "400",
+				  "errmsg": "请求失败"
+				}
+
+	我的订单：(已发货)
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/myorder3?user_id=['用户id']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		返回数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "name": "117",															//订单id
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",		//商品图片
+				          "good_name": "格力空调1",		//商品名称
+				          "good_attr_des": "123",		//商品描述
+				          "good_attr_price": "123",		//商品价格	
+				          "good_attr_color": "white",	//商品颜色
+				          "good_attr_size": "12",		//商品大小
+				          "good_num": "2",				//商品数量
+				          "order_grade": "3"			//订单状态（1未支付 2未发货 3已发货 4已签收 5以评价）
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "3"
+				        }
+				      ]
+				    },
+				    {
+				      "name": "116",
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "123",
+				          "good_attr_price": "123",
+				          "good_attr_color": "white",
+				          "good_attr_size": "12",
+				          "good_num": "2",
+				          "order_grade": "3"
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "3"
+				        }
+				      ]
+				    }
+				  ]
+				}
+
+
+				{
+				  "code": "400",
+				  "errmsg": "请求失败"
+				}
+
+	我的订单：(已签收)
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/myorder4?user_id=['用户id']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		返回数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "name": "117",															//订单id
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",		//商品图片
+				          "good_name": "格力空调1",		//商品名称
+				          "good_attr_des": "123",		//商品描述
+				          "good_attr_price": "123",		//商品价格	
+				          "good_attr_color": "white",	//商品颜色
+				          "good_attr_size": "12",		//商品大小
+				          "good_num": "2",				//商品数量
+				          "order_grade": "5"			//订单状态（1未支付 2未发货 3已发货 4已签收 5以评价）
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "5"
+				        }
+				      ]
+				    },
+				    {
+				      "name": "116",
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "123",
+				          "good_attr_price": "123",
+				          "good_attr_color": "white",
+				          "good_attr_size": "12",
+				          "good_num": "2",
+				          "order_grade": "5"
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "5"
+				        }
+				      ]
+				    }
+				  ]
+				}
+
+
+				{
+				  "code": "400",
+				  "errmsg": "请求失败"
+				}
+
+	我的订单：(已评价)
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/myorder5?user_id=['用户id']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		返回数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "name": "117",															//订单id
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",		//商品图片
+				          "good_name": "格力空调1",		//商品名称
+				          "good_attr_des": "123",		//商品描述
+				          "good_attr_price": "123",		//商品价格	
+				          "good_attr_color": "white",	//商品颜色
+				          "good_attr_size": "12",		//商品大小
+				          "good_num": "2",				//商品数量
+				          "order_grade": "5"			//订单状态（1未支付 2未发货 3已发货 4已签收 5以评价）
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "5"
+				        }
+				      ]
+				    },
+				    {
+				      "name": "116",
+				      "date": [
+				        {
+				          "good_pic": "2017-07-12/596593739e980.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "123",
+				          "good_attr_price": "123",
+				          "good_attr_color": "white",
+				          "good_attr_size": "12",
+				          "good_num": "2",
+				          "order_grade": "5"
+				        },
+				        {
+				          "good_pic": "2017-07-12/5965dc6dca328.jpg",
+				          "good_name": "格力空调1",
+				          "good_attr_des": "534",
+				          "good_attr_price": "125",
+				          "good_attr_color": "blue",
+				          "good_attr_size": "56",
+				          "good_num": "2",
+				          "order_grade": "5"
+				        }
+				      ]
+				    }
+				  ]
+				}
+
+
+				{
+				  "code": "400",
+				  "errmsg": "请求失败"
+				}
+
+	我的订单(确认收货)：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Goods/takegoods?id=['订单id']
+		请求的方式：get
+		返回数据：
+				失败：
+					{
+					  "code": 0,
+					  "sucmsg": "操作失败"
+					}
+				成功：
+					{
+					  "code": 1,
+					  "sucmsg": "订单成功"
+					}
+
+//==================================================店铺信息=========================================================
+
+	店铺首页页面(商点信息)：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/store1?store_id=['商店id']
+		请求的方式：get
+		请求参数：store_id:	必须填; store_id 6）
+		返回数据:
+				{
+				  "code": "200",
+				  "sucmsg": {
+				    "user_store_name": "shangdianyi", 							//商店名
+				    "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",		//商品图片
+				    "user_store_address": "新乡市牧野区红星城市发展广场",		//商店 的地址
+				    "user_store_phone": "15643351287",							//商铺电话
+				    "user_store_evaluate": "5"									//商铺评价
+				  }
+				}
+
+	店铺首页页面(商品)：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/store?store_id=['商店id']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求参数：store_id:	必须填; store_id 6）
+		返回数据:
+				{
+				  "code": "200",
+				  "sucmsg": [
+				    {
+				      "id": "14",									//商品id
+				      "user_id": "6",								//商户id
+				      "cate_id": "15",								//商品的分类id
+				      "user_store_name": "shangdianyi",				//商店名
+				      "good_name": "格力空调1",						//商品名称
+				      "good_add_time": "2017-07-12 11:04:58",		//添加时间
+				      "good_state": "3",							//商品的状态
+				      "file_pic": "2017-07-27/597954cacf788.jpg",	//商品图片
+				      "num": 40 									//商品的月销售量
+				    },
+				    {
+				      "id": "15",
+				      "user_id": "6",
+				      "cate_id": "15",
+				      "user_store_name": "shangdianyi",
+				      "good_name": "美的空调1",
+				      "good_add_time": "2017-07-12 11:18:50",
+				      "good_state": "3",
+				      "file_pic": "2017-07-12/5965956bb58b0.jpg",
+				      "num": 0
+				    },
+				    {
+				      "id": "18",
+				      "user_id": "6",
+				      "cate_id": "15",
+				      "user_store_name": "shangdianyi",
+				      "good_name": "海尔一11",
+				      "good_add_time": "2017-07-12 23:05:15",
+				      "good_state": "1",
+				      "file_pic": "2017-07-12/59663b1b7a9b8.jpg",
+				      "num": 0
+				    },
+				    {
+				      "id": "23",
+				      "user_id": "6",
+				      "cate_id": "73",
+				      "user_store_name": "shangdianyi",
+				      "good_name": "猪肉",
+				      "good_add_time": "2017-08-12 09:45:56",
+				      "good_state": "3",
+				      "file_pic": "2017-08-12/598e5e16b6f58.jpg",
+				      "num": 0
+				    }
+				  ]
+				}
+
+	店铺信息页面：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/storedetail?store_id=['商铺的id'];
+		请求的方式：get
+		请求参数：store_id:	必须填; store_id 6）
+		返回数据:
+				{
+				  "code": "200",						//成功
+				  "sucmsg": {							//成功信息
+				    "user_store_headerpic": null,		//商店的头像
+				    "user_store_name": "shangdianyi",	//店铺名
+				    "user_store_lience": "156",			//营业执照
+				    "user_store_registered": "213",		//注册资金
+				    "user_store_cash": "123123"			//保证金
+				  }
+				}
+
+	店铺全部商品(综合) ：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/allgoods?store_id=['商店的id']?p=['页数']&len=['每页的长度']
+		请求的方式：get
+		请求参数：store_id:	必须填; store_id 6）
+		返回数据:
+				[
+				  {
+				    "id": "39",						//商品属性的id
+				    "good_id": "14",				//商品的id
+				    "good_attr_color": "white",		//商品的颜色
+				    "good_attr_size": "12",			//商品大小
+				    "good_attr_num": "123",			//商品的库存量
+				    "good_attr_des": "省电1",		//shangpin de miaoshu 
+				    "good_attr_price": "123",		//商品的价格
+				    "good_attr_price1": null,		//商品的原价
+				    "good_attr_state": "3",			//商品的状态
+				    "good_attr_pic": "2017-07-12/596593739e980.jpg", 	//商品图片
+				    "good_name": "格力空调1"
+				  },
+				  {
+				    "id": "42",
+				    "good_id": "14",
+				    "good_attr_color": "blue",
+				    "good_attr_size": "56",
+				    "good_attr_num": "534",
+				    "good_attr_des": "省电2",
+				    "good_attr_price": "125",
+				    "good_attr_price1": null,
+				    "good_attr_state": "3",
+				    "good_attr_pic": "2017-07-12/5965dc6dca328.jpg",
+				    "good_name": "格力空调1"
+				  },
+				  {
+				    "id": "40",
+				    "good_id": "15",
+				    "good_attr_color": "white",
+				    "good_attr_size": "1212",
+				    "good_attr_num": "12",
+				    "good_attr_des": "美1",
+				    "good_attr_price": "12",
+				    "good_attr_price1": null,
+				    "good_attr_state": "3",
+				    "good_attr_pic": "2017-07-12/5965956bb58b0.jpg",
+				    "good_name": "美的空调1"
+				  },
+				  {
+				    "id": "43",
+				    "good_id": "15",
+				    "good_attr_color": "white",
+				    "good_attr_size": "51",
+				    "good_attr_num": "8654",
+				    "good_attr_des": "美2",
+				    "good_attr_price": "125",
+				    "good_attr_price1": null,
+				    "good_attr_state": "3",
+				    "good_attr_pic": "2017-07-12/5965e1726f608.jpg",
+				    "good_name": "美的空调1"
+				  },
+				  {
+				    "id": "45",
+				    "good_id": "18",
+				    "good_attr_color": "blue",
+				    "good_attr_size": "456",
+				    "good_attr_num": "12",
+				    "good_attr_des": "海尔一1，大海",
+				    "good_attr_price": "456",
+				    "good_attr_price1": null,
+				    "good_attr_state": "3",
+				    "good_attr_pic": "2017-07-12/59663b1b7a9b8.jpg",
+				    "good_name": "海尔一11"
+				  }
+				]
+
+	店铺全部商品(销量) ：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/allgoods1?store_id=['商店的id']?p=['页数']&len=['每页的长度']
+		请求的方式：get
+		请求参数：store_id:	必须填; store_id 6）
+		返回数据:
+			[
+			  {
+			    "id": "14",									//商品id
+			    "user_id": "6",								//商店id
+			    "cate_id": "15",							//分类id
+			    "user_store_name": "shangdianyi",			//商店名
+			    "good_name": "格力空调1",					//商品名称
+			    "good_add_time": "2017-07-12 11:04:58",		//商品添加时间
+			    "good_state": "2",							//商品的状态   1下架 2新品上架    3正常
+			    "good_attr_discount": "",					//商品的折扣
+			    "good_num": 20,								//商品月销售量
+			    "good_attr_price": null,					//商品价格
+			    "good_attr_des": null,						//商品的描述
+			    "file_pic": "2017-07-27/597954cacf788.jpg"	//商品的图片
+			  },
+			  {
+			    "id": "15",
+			    "user_id": "6",
+			    "cate_id": "15",
+			    "user_store_name": "shangdianyi",
+			    "good_name": "美的空调1",
+			    "good_add_time": "2017-07-12 11:18:50",
+			    "good_state": "2",
+			    "good_attr_discount": "9.7",
+			    "good_num": 0,
+			    "good_attr_price": null,
+			    "good_attr_des": null,
+			    "file_pic": "2017-07-12/5965956bb58b0.jpg"
+			  },
+			  {
+			    "id": "18",
+			    "user_id": "6",
+			    "cate_id": "15",
+			    "user_store_name": "shangdianyi",
+			    "good_name": "海尔一11",
+			    "good_add_time": "2017-07-12 23:05:15",
+			    "good_state": "3",
+			    "good_attr_discount": "9",
+			    "good_num": 0,
+			    "good_attr_price": "410.40",
+			    "good_attr_des": "海尔一1，大海",
+			    "file_pic": "2017-07-12/59663b1b7a9b8.jpg"
+			  }
+			]
+
+	店铺全部商品(价格)(从小到大) ：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/allgoods2?store_id=['商店的id']?p=['页数']&len=['每页的长度']
+		请求的方式：get
+		请求参数：store_id:	必须填; store_id 6）
+		返回数据:
+			{
+			  "code": "200",
+			  "allinfo": [
+			    {
+			      "id": "15",								//商品id
+			      "user_id": "6",							//商店id
+			      "cate_id": "15",							//分类id
+			      "user_store_name": "shangdianyi",			//商店名
+			      "good_name": "美的空调1",					//商品名称
+			      "good_add_time": "2017-07-12 11:18:50",	//商品添加时间
+			      "good_state": "2",						//商品的状态   1下架 2新品上架    3正常
+			      "good_attr_discount": "9.7",				//折扣
+			      "good_num": 0,							//商品月销售量
+			      "good_attr_price": "12.00",				//商品价格
+			      "good_attr_des": "美1",					//商品描述
+			      "good_attr_id": "40",						//商品属性id
+			      "file_pic": "2017-07-12/5965956bb58b0.jpg"	//商品图片
+			    },
+			    {
+			      "id": "14",
+			      "user_id": "6",
+			      "cate_id": "15",
+			      "user_store_name": "shangdianyi",
+			      "good_name": "格力空调1",
+			      "good_add_time": "2017-07-12 11:04:58",
+			      "good_state": "2",
+			      "good_attr_discount": "",
+			      "good_num": 20,
+			      "good_attr_price": "56.00",
+			      "good_attr_des": "省电3",
+			      "good_attr_id": "55",
+			      "file_pic": "2017-08-15/59929653c0a08.jpg"
+			    },
+			    {
+			      "id": "18",
+			      "user_id": "6",
+			      "cate_id": "15",
+			      "user_store_name": "shangdianyi",
+			      "good_name": "海尔一11",
+			      "good_add_time": "2017-07-12 23:05:15",
+			      "good_state": "3",
+			      "good_attr_discount": "9",
+			      "good_num": 0,
+			      "good_attr_price": "456.00",
+			      "good_attr_des": "海尔一1，大海",
+			      "good_attr_id": "45",
+			      "file_pic": "2017-07-12/59663b1b7a9b8.jpg"
+			    }
+			  ]
+			}
+
+	店铺新产品 ：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/newgoods?store_id=['商户的id']?p=['页数']&len=['每页的长度']
+		请求的方式：get
+		请求参数：store_id:	必须填; store_id 6）
+		返回数据:
+				{
+				  "code": "200",
+				  "allinfo": [
+				    {
+				      "id": "42",					//商品属性的id
+				      "good_id": "14",				//商品的id
+				      "good_attr_color": "red",		//商品的颜色
+				      "good_attr_size": "14",		//商品大小
+				      "good_attr_num": "534",		//商品的库存量
+				      "good_attr_des": "省电2",		//shangpin de miaoshu 
+				      "good_attr_price": "125.00",	//商品的价格
+				      "good_attr_price1": null,		//商品的原价
+				      "good_attr_state": "2",		//商品的状态（1下架   2新品上架   3正常）
+				      "good_attr_pic": "2017-07-12/5965dc6dca328.jpg",	//商品图片
+				      "good_name": "格力空调1"		//商品名称
+				    },
+				    {
+				      "id": "39",
+				      "good_id": "14",
+				      "good_attr_color": "red",
+				      "good_attr_size": "13",
+				      "good_attr_num": "123",
+				      "good_attr_des": "省电1",
+				      "good_attr_price": "123.00",
+				      "good_attr_price1": null,
+				      "good_attr_state": "2",
+				      "good_attr_pic": "2017-07-27/597954cacf788.jpg",
+				      "good_name": "格力空调1"
+				    },
+				    {
+				      "id": "55",
+				      "good_id": "14",
+				      "good_attr_color": "red",
+				      "good_attr_size": "45",
+				      "good_attr_num": "100",
+				      "good_attr_des": "省电3",
+				      "good_attr_price": "56.00",
+				      "good_attr_price1": null,
+				      "good_attr_state": "2",
+				      "good_attr_pic": "2017-08-15/59929653c0a08.jpg",
+				      "good_name": "格力空调1"
+				    }
+				  ]
+				}
+
+	店铺活动 ：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/activity?store_id=['商户的id']?p=['页数']&len=['每页的长度']
+		请求的方式：get
+		请求参数：store_id:	必须填; store_id 6）
+		返回数据:
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "id": "15",								//商品id
+				      "good_attr_discount": "9.4",				//打几折
+				      "pic": "2017-07-12/5965956bb58b0.jpg"  	//图片
+				    },
+				    {
+				      "id": "18",
+				      "good_attr_discount": "9",
+				      "pic": "2017-07-12/59663b1b7a9b8.jpg"
+				    }
+				  ]
+				}
+
+	店铺搜索页面 ：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Store/searchstore?user_store_name=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+			array(4) {
+			  [0] => array(9) {
+			    ["id"] => string(2) "27"				//商店的id
+			    ["user_store_name"] => string(0) ""		//商店的名称
+			    ["user_store_evaluate"] => NULL 		//商店的评价星级
+			    ["user_store_pic"] => string(70) "2017-06-09/593a741cd9878.jpg"	//大图
+			    ["user_store_pic1"] => string(42) ""								//小图（左上）
+			    ["user_store_pic2"] => string(42) ""								//小图（右上）
+			    ["user_store_pic3"] => string(42) ""								//小图（左下）
+			    ["user_store_pic4"] => string(42) ""								//小图（右下）
+			    ["user_store_phone"] => string(0) ""													//商店的电话
+			  }
+			  [1] => array(9) {
+			    ["id"] => string(1) "7"
+			    ["user_store_name"] => string(3) "EFD"
+			    ["user_store_evaluate"] => NULL
+			    ["user_store_pic"] => string(42) ""
+			    ["user_store_pic1"] => string(42) ""
+			    ["user_store_pic2"] => string(42) ""
+			    ["user_store_pic3"] => string(42) ""
+			    ["user_store_pic4"] => string(42) ""
+			    ["user_store_phone"] => NULL
+			  }
+			  [2] => array(9) {
+			    ["id"] => string(1) "6"
+			    ["user_store_name"] => string(11) "shangdianyi"
+			    ["user_store_evaluate"] => string(1) "5"
+			    ["user_store_pic"] => string(70) "2017-06-13/593fab69a9c79.jpg"
+			    ["user_store_pic1"] => string(70) "2017-06-13/593fab69ad329.jpg"
+			    ["user_store_pic2"] => string(70) "2017-06-13/593fab69aea99.jpg"
+			    ["user_store_pic3"] => string(70) "2017-06-13/593fab69afe21.jpg"
+			    ["user_store_pic4"] => string(70) "2017-06-13/593fab69b1591.jpg"
+			    ["user_store_phone"] => NULL
+			  }
+			  [3] => array(9) {
+			    ["id"] => string(1) "9"
+			    ["user_store_name"] => NULL
+			    ["user_store_evaluate"] => string(1) "5"
+			    ["user_store_pic"] => string(70) "2017-06-13/593fab69ad329.jpg"
+			    ["user_store_pic1"] => string(42) ""
+			    ["user_store_pic2"] => string(42) ""
+			    ["user_store_pic3"] => string(42) ""
+			    ["user_store_pic4"] => string(42) ""
+			    ["user_store_phone"] => NULL
+			  }
+			}
+
+//==================================================个人中心==========================================================
+
+	收货地址的添加：
+		请求的地址：192.168.31.125/gzsc/index.php/Home/Personalcenter/addressadd?user_id=['用户id']&address=['收获地址']&officer=['收货人']&address_phone=['收货人电话']
+		请求的方式：get
+		返回数据:
+				成功：
+					{
+					  "code": 1,	
+					  "sucmsg": 9 	//收货地址id
+					}
+				是失败：
+					{
+					  "code": 0,	
+					  "sucmsg": '添加失败' 	//收货地址id
+					}
+
+	收货地址的删除：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Personalcenter/deladdress?id=['收获地址id']&user_id=['用户id']
+		请求的方式：get
+		返回数据:
+				成功：
+					{
+					  "code": 1,
+					  "sucmsg": "删除成功"
+					}
+				是失败：
+					{
+					  "code": 0,
+					  "sucmsg": "删除失败"
+					}
+
+	收货地址的修改：
+		请求的地址：192.168.31.125/gzsc/index.php/Home/Personalcenter/editaddress?id=['收获地址id']&address=['收获地址']&officer=['收货人']&address_phone=['收货人电话']&user_id=['用户id']
+		请求的方式：get
+		请求参数：都必须填
+		返回数据:
+				成功：
+					{
+					  "code": 1,
+					  "sucmsg": "修改成功"
+					}
+				是失败：
+					{
+					  "code": 0,
+					  "sucmsg": "修改失败"
+					}
+
+	收货地址为默认收货地址：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Personalcenter/defaddress?id=['收货地址id']&user_id=['用户id']
+		请求的方式：get
+		请求参数：都必须填
+		返回数据:
+				成功：
+					{
+					  "code": 1,
+					  "sucmsg": "设置成功"
+					}
+				是失败：
+					{
+					  "code": 0,
+					  "sucmsg": "设置失败"
+					}
+
+	收货地址的浏览：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Personalcenter/address?user_id=['收获地址id']
+		请求的方式：get
+		返回数据:
+				成功时返回的数据：
+					{
+					  "sucmsg": [
+					    {
+					      "id": "1",						//收获地址id
+					      "user_id": "9",					//用户id
+					      "address": "郑州市",				//收获地址
+					      "officer": "亚龙",				//收货人
+					      "address_phone": "15638851245",	//收货人电话
+					      "default": "2"					//是否为默认（1默认   2不是默认）
+					    },
+					    {
+					      "id": "8",
+					      "user_id": "9",
+					      "address": "濮阳",
+					      "officer": "坤坤",
+					      "address_phone": "15686194589",
+					      "default": "2"
+					    },
+					    {
+					      "id": "6",
+					      "user_id": "9",
+					      "address": "新乡市",
+					      "officer": "坤坤",
+					      "address_phone": "15636651244",
+					      "default": "1"
+					    },
+					    {
+					      "id": "7",
+					      "user_id": "9",
+					      "address": "新乡市",
+					      "officer": "坤坤",
+					      "address_phone": "15636651244",
+					      "default": "2"
+					    }
+					  ],
+					  "code": 1
+					}
+
+
+				失败时返回的数据：
+					{
+					  "errmsg": "没有收获地址",
+					  "code": 0
+					}
+
+//===================================================品论================================================================
+	
+	评论：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/evaluate?json=['json数据']
+		请求的方式：get
+		请求json数据：
+					{
+					    "user_id": "9", 			//用户id
+					    "store_id": "6",			//商家id
+					    "good_attr_id":"39",		//商品描述id
+					    "good_id":"14",				//商品id
+					    "evaluate_star":"5",		//品论星级
+					    "content": "你好",			//品论内容
+					    "url": [				
+					        {
+					            "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg" 	//图片地址
+					        },
+					        {
+					            "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+					        },
+					        {
+					            "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+					        },
+					        {
+					            "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+					        }
+					    ]
+					}		
+		返回数据:
+				成功：
+					{
+					  "errmsg": "品论成功",
+					  "code": 1
+					}
+				是失败：
+					{
+					  "code": 0,
+					  "sucmsg": "品论失败"
+					}
+
+	商品评价：
+		请求的地址：http://127.0.0.1/gzsc/index.php/Home/Goods/allevaluate?good_id=['商品id']&store_id=['商店id']&p=['页数']&len=['每页的长度']
+		请求的方式：get
+		返回数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "id": "26",												            //品论id
+				      "user_name": "userthree",												//品论人
+				      "user_pic": "2017-06-13/593fab69ad329.jpg",		//品论人头像
+				      "good_attr_color": "white",											//商品的颜色
+				      "good_attr_size": "12",												//商品大小
+				      "add_time": "2017-07-26 00:40:47",									//评论时间 
+				      "evaluatelen": 0,														//评论回复数量
+				      "giveup": "0",														//点赞数量
+				      "pic": [
+				        {
+				          "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg"
+				        },
+				        {
+				          "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+				        },
+				        {
+				          "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+				        },
+				        {
+				          "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+				        }
+				      ]
+				    },
+				    {
+				      "id": "27",
+				      "user_name": "userfour",
+				      "user_pic": "",
+				      "good_attr_color": "white",
+				      "good_attr_size": "12",
+				      "add_time": "2017-07-26 00:53:47",
+				      "evaluatelen": 0,
+				      "giveup": "0",
+				      "pic": [
+				        {
+				          "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg"
+				        },
+				        {
+				          "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+				        },
+				        {
+				          "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+				        },
+				        {
+				          "url": "http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg"
+				        }
+				      ]
+				    }
+				  ]
+				}
+
+	商品评价详情页：
+		请求的地址：http://127.0.0.1/gzsc/index.php/Home/Goods/relyevaluate?id=['品论id']&p=['页数']&len=['每页的长度']
+		请求的方式：get
+		返回数据：
+				{
+				    "code": "200",
+				    "relyinfo": [
+				    {
+				        "add_time": "2017-07-26 00:39:21",	//回复时间
+				        "content": "你好6",					//回复内容
+				        "user_name": "usertwo",				//回复人
+				        "user_id": "29",					//回复人id
+        			    "user_id1": "24",					//被回复人id
+				        "user_name1": "userone"				//被回复人
+				    },
+				    {
+				        "add_time": "2017-07-26 10:59:36",
+				        "content": "你好7",
+				        "user_name": "userone",
+				        "user_id": "29",
+        			    "user_id1": "24",				        
+				        "user_name1": "usertwo"
+				    },
+				    {
+				        "add_time": "2017-07-26 10:59:36",
+				        "content": "你好8",
+				        "user_name": "userthree",
+				        "user_id": "29",
+        			    "user_id1": "24",				        
+				        "user_name1": "userone"
+				    }
+				  ]
+				}
+
+	回复评价回复：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Goods/relyback?json=['json数据'];
+		请求的方式：get
+		请求json数据：
+					{
+					    "pid": "9", 	 		    //回复的评论id
+					    "user_id": "9", 			//用户id
+					    "shop_id": "6",				//商家id
+					    "good_attr_id":"39",		//商品描述id
+					    "good_id":"14",				//商品id
+					    "content": "你好"    		//品论内容
+					}		
+		返回数据:
+				成功：
+					{
+					  "errmsg": "品论成功",
+					  "code": 1
+					}
+				是失败：
+					{
+					  "code": 0,
+					  "sucmsg": "品论失败"
+					}

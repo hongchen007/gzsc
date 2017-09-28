@@ -1,0 +1,1425 @@
+[ 2017-07-22T00:07:21+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:20:41' AND '2017-07-22 00:07:21' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:20:41' AND '2017-07-22 00:07:21' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+
+[ 2017-07-22T00:07:38+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.035000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.011000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:20:58' AND '2017-07-22 00:07:38' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:20:58' AND '2017-07-22 00:07:38' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+
+[ 2017-07-22T00:08:20+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.008000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:21:40' AND '2017-07-22 00:08:20' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:21:40' AND '2017-07-22 00:08:20' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+
+[ 2017-07-22T00:08:21+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:21:41' AND '2017-07-22 00:08:21' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:21:41' AND '2017-07-22 00:08:21' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+
+[ 2017-07-22T00:11:28+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:24:48' AND '2017-07-22 00:11:28' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:24:48' AND '2017-07-22 00:11:28' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 359 行.
+
+[ 2017-07-22T00:12:16+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:25:36' AND '2017-07-22 00:12:16' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:25:36' AND '2017-07-22 00:12:16' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 359 行.
+NOTIC: [8] Undefined variable: sumcar1 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 360 行.
+
+[ 2017-07-22T00:14:02+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.011000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:27:22' AND '2017-07-22 00:14:02' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:27:22' AND '2017-07-22 00:14:02' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+
+[ 2017-07-22T00:14:59+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.008000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:28:19' AND '2017-07-22 00:14:59' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:28:19' AND '2017-07-22 00:14:59' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 359 行.
+NOTIC: [8] Undefined variable: sumcar1 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 360 行.
+
+[ 2017-07-22T00:19:52+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.023000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:33:12' AND '2017-07-22 00:19:52' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:33:12' AND '2017-07-22 00:19:52' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 359 行.
+NOTIC: [8] Undefined variable: sumcar1 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 360 行.
+
+[ 2017-07-22T00:19:55+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.008000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:33:15' AND '2017-07-22 00:19:55' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:33:15' AND '2017-07-22 00:19:55' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 359 行.
+NOTIC: [8] Undefined variable: sumcar1 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 360 行.
+
+[ 2017-07-22T00:20:18+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.012000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:33:38' AND '2017-07-22 00:20:18' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:33:38' AND '2017-07-22 00:20:18' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 359 行.
+NOTIC: [8] Undefined variable: sumcar1 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 369 行.
+
+[ 2017-07-22T00:20:44+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:34:04' AND '2017-07-22 00:20:44' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:34:04' AND '2017-07-22 00:20:44' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 359 行.
+
+[ 2017-07-22T00:20:55+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:34:15' AND '2017-07-22 00:20:55' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:34:15' AND '2017-07-22 00:20:55' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 337 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 359 行.
+
+[ 2017-07-22T00:29:02+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+
+[ 2017-07-22T00:31:55+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.026000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.011000s ]
+
+[ 2017-07-22T00:34:32+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+
+[ 2017-07-22T00:35:01+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+
+[ 2017-07-22T00:35:27+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.011000s ]
+
+[ 2017-07-22T00:35:43+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: sumdetail C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 327 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:49:03' AND '2017-07-22 00:35:43' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 339 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:49:03' AND '2017-07-22 00:35:43' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 339 行.
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 378 行.
+
+[ 2017-07-22T00:37:05+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-22T00:37:14+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: sumdetail C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 328 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:50:34' AND '2017-07-22 00:37:14' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 340 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:50:34' AND '2017-07-22 00:37:14' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 340 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-22T00:42:56+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: sumdetail C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 329 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:56:16' AND '2017-07-22 00:42:56' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 341 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,6,'15006553769937337','2017-07-22 00:42:56',1,498) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumorderadd C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 357 行.
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006553769937337' AND `order_time` = '2017-07-22 00:42:56' AND `order_grade` = 1 AND `order_total` = 498 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 21:56:16' AND '2017-07-22 00:42:56' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 341 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,16,'15006553768601888','2017-07-22 00:42:56',1,45) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006553768601888' AND `order_time` = '2017-07-22 00:42:56' AND `order_grade` = 1 AND `order_total` = 45 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 365 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 365 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 00:42:56',95) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumdetailadd C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 373 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,3,'2017-07-22 00:42:56',95) [ RunTime:0.001000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,1,'2017-07-22 00:42:56',96) [ RunTime:0.000000s ]
+
+[ 2017-07-22T00:50:26+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: sumdetail C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 329 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 22:03:46' AND '2017-07-22 00:50:26' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 341 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,6,'15006558265676812','2017-07-22 00:50:26',1,498) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006558265676812' AND `order_time` = '2017-07-22 00:50:26' AND `order_grade` = 1 AND `order_total` = 498 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 22:03:46' AND '2017-07-22 00:50:26' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 341 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,16,'15006558267815755','2017-07-22 00:50:26',1,45) [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006558267815755' AND `order_time` = '2017-07-22 00:50:26' AND `order_grade` = 1 AND `order_total` = 45 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 365 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 365 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 00:50:26',97) [ RunTime:0.001000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,3,'2017-07-22 00:50:26',97) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,1,'2017-07-22 00:50:26',98) [ RunTime:0.001000s ]
+
+[ 2017-07-22T01:29:00+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: sumdetail C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 304 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 22:42:20' AND '2017-07-22 01:29:00' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 274 行.
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 316 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,6,'15006581409155002','2017-07-22 01:29:00',1,498) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006581409155002' AND `order_time` = '2017-07-22 01:29:00' AND `order_grade` = 1 AND `order_total` = 498 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 22:42:20' AND '2017-07-22 01:29:00' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 316 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,16,'15006581408327365','2017-07-22 01:29:00',1,45) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006581408327365' AND `order_time` = '2017-07-22 01:29:00' AND `order_grade` = 1 AND `order_total` = 45 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 346 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 346 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 01:29:00',99) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,3,'2017-07-22 01:29:00',99) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,1,'2017-07-22 01:29:00',100) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 368 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 39 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: delid C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 375 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 42 AND `good_num` = 3 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 17 AND `good_attr_id` = 44 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 16 [ RunTime:0.000000s ]
+
+[ 2017-07-22T01:30:36+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: sumdetail C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 304 行.
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 22:43:56' AND '2017-07-22 01:30:36' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 316 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,6,'15006582365198296','2017-07-22 01:30:36',1,498) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006582365198296' AND `order_time` = '2017-07-22 01:30:36' AND `order_grade` = 1 AND `order_total` = 498 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-21 22:43:56' AND '2017-07-22 01:30:36' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 316 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,16,'15006582369546440','2017-07-22 01:30:36',1,45) [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006582369546440' AND `order_time` = '2017-07-22 01:30:36' AND `order_grade` = 1 AND `order_total` = 45 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 346 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 346 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 01:30:36',101) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,3,'2017-07-22 01:30:36',101) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,1,'2017-07-22 01:30:36',102) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 368 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 39 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: delid C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 375 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 42 AND `good_num` = 3 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 17 AND `good_attr_id` = 44 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 16 [ RunTime:0.000000s ]
+
+[ 2017-07-22T08:05:54+08:00 ] 192.168.31.125 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:09:49+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.020000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+
+[ 2017-07-22T08:10:17+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.026000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 302 行.
+NOTIC: [8] Undefined variable: date C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 344 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 344 行.
+NOTIC: [8] Undefined variable: date C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 352 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 352 行.
+NOTIC: [8] Undefined variable: addorder C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 363 行.
+NOTIC: [8] Undefined variable: adddetail C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 364 行.
+
+[ 2017-07-22T08:10:46+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%223%22,%22good_id%22:%20%2214%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2217%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.007000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 05:24:06' AND '2017-07-22 08:10:46' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 274 行.
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 316 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,6,'15006822468564995','2017-07-22 08:10:46',1,498) [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006822468564995' AND `order_time` = '2017-07-22 08:10:46' AND `order_grade` = 1 AND `order_total` = 498 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 05:24:06' AND '2017-07-22 08:10:46' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 316 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,16,'15006822462766655','2017-07-22 08:10:46',1,45) [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006822462766655' AND `order_time` = '2017-07-22 08:10:46' AND `order_grade` = 1 AND `order_total` = 45 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 346 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 346 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 08:10:46',103) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,3,'2017-07-22 08:10:46',103) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,1,'2017-07-22 08:10:46',104) [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:23:46+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/addshoppingcar?good_id=14&good_attr_id=39&user_id=9&store_id=6&good_num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `good_id` = 14 AND `user_id` = 9 AND `good_attr_id` = 39 AND `store_id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `shoppingcar` (`good_id`,`user_id`,`good_attr_id`,`store_id`,`add_time`,`good_num`) VALUES (14,9,39,6,'2017-07-22 08:23:46',1) [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:27:24+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/addshoppingcar?good_id=14&good_attr_id=39&user_id=9&store_id=6&good_num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `good_id` = 14 AND `user_id` = 9 AND `good_attr_id` = 39 AND `store_id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:28:57+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/addshoppingcar?good_id=14&good_attr_id=42&user_id=9&store_id=6&good_num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `good_id` = 14 AND `user_id` = 9 AND `good_attr_id` = 42 AND `store_id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `shoppingcar` (`good_id`,`user_id`,`good_attr_id`,`store_id`,`add_time`,`good_num`) VALUES (14,9,42,6,'2017-07-22 08:28:57',1) [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:29:24+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/addshoppingcar?good_id=14&good_attr_id=42&user_id=9&store_id=6&good_num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `good_id` = 14 AND `user_id` = 9 AND `good_attr_id` = 42 AND `store_id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:33:30+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/addshoppingcar?good_id=17&good_attr_id=44&user_id=16&store_id=6&good_num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `good_id` = 17 AND `user_id` = 16 AND `good_attr_id` = 44 AND `store_id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `shoppingcar` (`good_id`,`user_id`,`good_attr_id`,`store_id`,`add_time`,`good_num`) VALUES (17,16,44,6,'2017-07-22 08:33:30',1) [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:36:39+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/addshoppingcar?good_id=17&good_attr_id=44&user_id=16&store_id=6&good_num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `good_id` = 17 AND `user_id` = 16 AND `good_attr_id` = 44 AND `store_id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:37:11+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/shoppingcar?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`user_store_name` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT `id`,`user_store_name` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 229 行.
+
+[ 2017-07-22T08:40:09+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/addshoppingcar?good_id=17&good_attr_id=44&user_id=9&store_id=16&good_num=2\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `good_id` = 17 AND `user_id` = 9 AND `good_attr_id` = 44 AND `store_id` = 16 LIMIT 1   [ RunTime:0.002000s ]
+SQL: INSERT INTO `shoppingcar` (`good_id`,`user_id`,`good_attr_id`,`store_id`,`add_time`,`good_num`) VALUES (17,9,44,16,'2017-07-22 08:40:09',2) [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:40:41+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/addshoppingcar?good_id=17&good_attr_id=44&user_id=9&store_id=16&good_num=2\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `good_id` = 17 AND `user_id` = 9 AND `good_attr_id` = 44 AND `store_id` = 16 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-22T08:40:48+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/shoppingcar?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`user_store_name` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT `id`,`user_store_name` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 229 行.
+SQL: SELECT `id`,`user_store_name` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 229 行.
+
+[ 2017-07-22T08:42:51+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2211%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2212%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%222%22,%22good_id%22:%20%2217%22,%22id%22:%20%2214%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.004000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 05:56:11' AND '2017-07-22 08:42:51' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 280 行.
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,6,'15006841712052951','2017-07-22 08:42:51',1,248) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006841712052951' AND `order_time` = '2017-07-22 08:42:51' AND `order_grade` = 1 AND `order_total` = 248 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 05:56:11' AND '2017-07-22 08:42:51' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,16,'15006841717120496','2017-07-22 08:42:51',1,90) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006841717120496' AND `order_time` = '2017-07-22 08:42:51' AND `order_grade` = 1 AND `order_total` = 90 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 353 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 353 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 08:42:51',105) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,1,'2017-07-22 08:42:51',105) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,2,'2017-07-22 08:42:51',106) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 376 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 39 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: delid C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 383 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 42 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 17 AND `good_attr_id` = 44 AND `good_num` = 2 AND `user_id` = 9 AND `store_id` = 16 [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-22T08:47:47+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2211%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2212%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%222%22,%22good_id%22:%20%2217%22,%22id%22:%20%2214%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 06:01:07' AND '2017-07-22 08:47:47' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,6,'15006844676010742','2017-07-22 08:47:47',1,248) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006844676010742' AND `order_time` = '2017-07-22 08:47:47' AND `order_grade` = 1 AND `order_total` = 248 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 06:01:07' AND '2017-07-22 08:47:47' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,16,'15006844679908582','2017-07-22 08:47:47',1,90) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006844679908582' AND `order_time` = '2017-07-22 08:47:47' AND `order_grade` = 1 AND `order_total` = 90 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 353 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 353 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 08:47:47',107) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,1,'2017-07-22 08:47:47',107) [ RunTime:0.001000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,2,'2017-07-22 08:47:47',108) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 376 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 39 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: delid C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 383 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 42 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 17 AND `good_attr_id` = 44 AND `good_num` = 2 AND `user_id` = 9 AND `store_id` = 16 [ RunTime:0.000000s ]
+
+[ 2017-07-22T08:48:48+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2211%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2212%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%222%22,%22good_id%22:%20%2217%22,%22id%22:%20%2214%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.004000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 06:02:08' AND '2017-07-22 08:48:48' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,6,'15006845289078776','2017-07-22 08:48:48',1,248) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006845289078776' AND `order_time` = '2017-07-22 08:48:48' AND `order_grade` = 1 AND `order_total` = 248 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 06:02:08' AND '2017-07-22 08:48:48' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_time`,`order_grade`,`order_total`) VALUES (9,1,16,'15006845286824272','2017-07-22 08:48:48',1,90) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006845286824272' AND `order_time` = '2017-07-22 08:48:48' AND `order_grade` = 1 AND `order_total` = 90 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 353 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 353 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 08:48:48',109) [ RunTime:0.001000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,1,'2017-07-22 08:48:48',109) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,2,'2017-07-22 08:48:48',110) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 376 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 39 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: delid C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 383 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 42 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.001000s ]
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 17 AND `good_attr_id` = 44 AND `good_num` = 2 AND `user_id` = 9 AND `store_id` = 16 [ RunTime:0.000000s ]
+
+[ 2017-07-22T08:52:16+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2211%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2212%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%222%22,%22good_id%22:%20%2217%22,%22id%22:%20%2214%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.004000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 06:05:36' AND '2017-07-22 08:52:16' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 280 行.
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_addtime`,`order_grade`,`order_total`) VALUES (9,1,6,'15006847365388997','2017-07-22 08:52:16',1,248) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15006847365388997' AND `order_addtime` = '2017-07-22 08:52:16' AND `order_grade` = 1 AND `order_total` = 248 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_time` BETWEEN '2017-07-22 06:05:36' AND '2017-07-22 08:52:16' ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 280 行.
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_addtime`,`order_grade`,`order_total`) VALUES (9,1,16,'15006847367138400','2017-07-22 08:52:16',1,90) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15006847367138400' AND `order_addtime` = '2017-07-22 08:52:16' AND `order_grade` = 1 AND `order_total` = 90 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 353 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 353 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 08:52:16',111) [ RunTime:0.001000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,1,'2017-07-22 08:52:16',111) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,2,'2017-07-22 08:52:16',112) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 376 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 39 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: delid C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 383 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 42 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 17 AND `good_attr_id` = 44 AND `good_num` = 2 AND `user_id` = 9 AND `store_id` = 16 [ RunTime:0.001000s ]
+
+[ 2017-07-22T09:53:03+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/Personal?address=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Personal
+
+[ 2017-07-22T09:53:40+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personal/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Personal
+
+[ 2017-07-22T09:54:05+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-22T09:54:41+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-22T10:02:40+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-22T10:02:44+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.027000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-22T10:03:24+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-22T10:03:54+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+
+[ 2017-07-22T10:04:07+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+
+[ 2017-07-22T10:12:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/address?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+
+[ 2017-07-22T10:17:35+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/addressadd?address=%E6%96%B0%E4%B9%A1%E5%B8%82&officer=%E5%9D%A4%E5%9D%A4&address_phone=15636651244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.018000s ]
+SQL: SELECT `id` FROM `address` WHERE `user_id` = 0 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `address` (`user_id`,`address`,`officer`,`address_phone`,`default`) VALUES (0,'新乡�\�','坤坤','15636651244',1) [ RunTime:0.001000s ]
+
+[ 2017-07-22T10:18:11+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/addressadd?address=%E6%96%B0%E4%B9%A1%E5%B8%82&officer=%E5%9D%A4%E5%9D%A4&address_phone=15636651244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.003000s ]
+SQL: SELECT `id` FROM `address` WHERE `user_id` = 0 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `address` (`user_id`,`address`,`officer`,`address_phone`,`default`) VALUES (0,'新乡�\�','坤坤','15636651244',2) [ RunTime:0.000000s ]
+
+[ 2017-07-22T10:18:38+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/addressadd?address=%E6%96%B0%E4%B9%A1%E5%B8%82&officer=%E5%9D%A4%E5%9D%A4&address_phone=15636651244&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.013000s ]
+SQL: SELECT `id` FROM `address` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `address` (`user_id`,`address`,`officer`,`address_phone`,`default`) VALUES (9,'新乡�\�','坤坤','15636651244',2) [ RunTime:0.001000s ]
+
+[ 2017-07-22T10:20:26+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/addressadd?address=%E6%96%B0%E4%B9%A1%E5%B8%82&officer=%E5%9D%A4%E5%9D%A4&address_phone=15636651244&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.021000s ]
+SQL: SELECT `id` FROM `address` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `address` (`user_id`,`address`,`officer`,`address_phone`,`default`) VALUES (9,'新乡�\�','坤坤','15636651244',2) [ RunTime:0.000000s ]
+
+[ 2017-07-22T11:06:05+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/deladdress?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.004000s ]
+SQL: DELETE FROM `address` WHERE `id` = 4 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-22T11:07:27+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/deladdress?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.003000s ]
+SQL: DELETE FROM `address` WHERE `id` = 4 [ RunTime:0.000000s ]
+
+[ 2017-07-22T11:07:46+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/deladdress?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.006000s ]
+SQL: DELETE FROM `address` WHERE `id` = 5 [ RunTime:0.000000s ]
+
+[ 2017-07-22T11:09:33+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/deladdress?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.004000s ]
+SQL: DELETE FROM `address` WHERE `id` = 5 [ RunTime:0.000000s ]
+
+[ 2017-07-22T11:18:34+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/addressadd?address=%E6%BF%AE%E9%98%B3&officer=%E5%9D%A4%E5%9D%A4&address_phone=15688894589&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `address` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `address` (`user_id`,`address`,`officer`,`address_phone`,`default`) VALUES (9,'濮阳','坤坤','15688894589',2) [ RunTime:0.000000s ]
+
+[ 2017-07-22T11:19:42+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/editaddress?address=%E6%BF%AE%E9%98%B3&officer=%E5%9D%A4%E5%9D%A4&address_phone=15688894589&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.003000s ]
+
+[ 2017-07-22T11:21:42+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/editaddress?address=%E6%BF%AE%E9%98%B3&officer=%E5%9D%A4%E5%9D%A4&address_phone=15688894589&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+
+[ 2017-07-22T11:21:58+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/editaddress?address=%E6%BF%AE%E9%98%B3&officer=%E5%9D%A4%E5%9D%A4&address_phone=15688894589&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.007000s ]
+
+[ 2017-07-22T11:22:27+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/editaddress?address=%E6%BF%AE%E9%98%B3&officer=%E5%9D%A4%E5%9D%A4&address_phone=15688194589&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.011000s ]
+
+[ 2017-07-22T11:22:49+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/editaddress?address=%E6%BF%AE%E9%98%B3&officer=%E5%9D%A4%E5%9D%A4&address_phone=15688194589&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.004000s ]
+SQL: UPDATE `address` SET `address`='濮阳',`officer`='坤坤',`address_phone`='15688194589' WHERE `id` = 8 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-22T11:23:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/editaddress?address=%E6%BF%AE%E9%98%B3&officer=%E5%9D%A4%E5%9D%A4&address_phone=15686194589&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.005000s ]
+SQL: UPDATE `address` SET `address`='濮阳',`officer`='坤坤',`address_phone`='15686194589' WHERE `id` = 8 [ RunTime:0.000000s ]
+
+[ 2017-07-22T14:59:54+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/defaddress?id=8&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `address` WHERE `id` = 8 AND `user_id` = 9  [ RunTime:0.000000s ]
+ERR: 非法数据对象！:[defaullt=>1]
+
+[ 2017-07-22T15:01:05+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/defaddress?id=8&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant aaa - assumed 'aaa' C:\aaa\WWW\gzsc\Application\Home\Controller\PersonalcenterController.class.php 第 112 行.
+
+[ 2017-07-22T15:01:40+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/defaddress?id=8&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `address` WHERE `id` = 8 AND `user_id` = 9  [ RunTime:0.001000s ]
+
+[ 2017-07-22T15:03:32+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/defaddress?id=8&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.000000s ]
+
+[ 2017-07-22T15:03:41+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/defaddress?id=8&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.000000s ]
+SQL: UPDATE `address` SET `default`=2 WHERE `id` = 1 [ RunTime:0.000000s ]
+ERR: 非法数据对象！:[defaullt=>1]
+
+[ 2017-07-22T15:04:37+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/defaddress?id=8&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+SQL: UPDATE `address` SET `default`=2 WHERE `id` = 1 [ RunTime:0.001000s ]
+SQL: UPDATE `address` SET `default`=1 WHERE `id` = 8 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-22T15:05:07+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Personalcenter/defaddress?id=8&user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 9  [ RunTime:0.001000s ]
+SQL: UPDATE `address` SET `default`=2 WHERE `id` = 1 [ RunTime:0.001000s ]
+SQL: UPDATE `address` SET `default`=1 WHERE `id` = 8 [ RunTime:0.001000s ]
+
+[ 2017-07-22T15:23:05+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.023000s ]
+NOTIC: [8] Undefined variable: s C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 405 行.
+
+[ 2017-07-22T15:23:17+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+
+[ 2017-07-22T15:29:29+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+
+[ 2017-07-22T15:29:40+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant trur - assumed 'trur' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 405 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 405 行.
+
+[ 2017-07-22T15:29:48+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+
+[ 2017-07-22T15:30:17+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+
+[ 2017-07-22T15:36:39+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-22T15:37:01+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+
+[ 2017-07-22T15:50:32+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+
+[ 2017-07-22T15:55:39+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.014000s ]
+
+[ 2017-07-22T16:01:52+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: UPDATE `order` SET `order_grade`=2 WHERE `id` = 111 [ RunTime:0.000000s ]
+
+[ 2017-07-22T16:02:36+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+SQL: DELETE FROM `order` WHERE `id` = 111 [ RunTime:0.000000s ]
+
+[ 2017-07-22T16:06:29+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.017000s ]
+
+[ 2017-07-22T16:07:45+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: UPDATE `order` SET `order_grade`=2 WHERE `id` = 111 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: suminfo1 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 411 行.
+SQL: UPDATE `order` SET `order_grade`=2 WHERE `id` = 112 [ RunTime:0.000000s ]
+
+[ 2017-07-22T16:13:04+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.015000s ]
+SQL: UPDATE `order` SET `order_grade`=2 WHERE `id` = 111 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: suminfo1 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 412 行.
+SQL: UPDATE `order` SET `order_grade`=2 WHERE `id` = 112 [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-22T16:13:37+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/payorder?json=[111,112]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.013000s ]
+SQL: UPDATE `order` SET `order_grade`=2 WHERE `id` = 111 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: suminfo1 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 412 行.
+SQL: UPDATE `order` SET `order_grade`=2 WHERE `id` = 112 [ RunTime:0.000000s ]
+
+[ 2017-07-22T16:20:00+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2211%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2212%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%222%22,%22good_id%22:%20%2217%22,%22id%22:%20%2214%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.028000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.010000s ]
+NOTIC: [8] Array to string conversion C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Model.class.php 第 596 行.
+ERR: 错误的查询条件:[order_time=>Array]
+
+[ 2017-07-22T16:21:41+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Goods/submitorder?json={%22id%22:%221%22,%22user_id%22:%20%229%22,%22shangdianyi%22:%20[{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B51%22,%22good_attr_price%22:%20%22123%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%2212%22,%22good_attr_id%22:%20%2239%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2211%22},{%22user_store_id%22:%20%226%22,%22store_name%22:%20%22shangdianyi%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B52%22,%22good_attr_price%22:%20%22125%22,%22good_attr_color%22:%20%22blue%22,%22good_attr_size%22:%20%2256%22,%22good_attr_id%22:%20%2242%22,%22good_num%22:%20%221%22,%22good_id%22:%20%2214%22,%22id%22:%20%2212%22}],%22shangdianer%22:%20[{%22user_store_id%22:%20%2216%22,%22store_name%22:%20%22shangdianer%22,%22good_attr_des%22:%20%22%E7%9C%81%E7%94%B522%22,%22good_attr_price%22:%20%2245%22,%22good_attr_color%22:%20%22white%22,%22good_attr_size%22:%20%22456%22,%22good_attr_id%22:%20%2244%22,%22good_num%22:%20%222%22,%22good_id%22:%20%2217%22,%22id%22:%20%2214%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.009000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_addtime` BETWEEN '2017-07-22 13:35:01' AND '2017-07-22 16:21:41' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 280 行.
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_addtime`,`order_grade`,`order_total`) VALUES (9,1,6,'15007117016510687','2017-07-22 16:21:41',1,248) [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 6 AND `order_num` = '15007117016510687' AND `order_addtime` = '2017-07-22 16:21:41' AND `order_grade` = 1 AND `order_total` = 248 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `order_num` FROM `order` WHERE `order_addtime` BETWEEN '2017-07-22 13:35:01' AND '2017-07-22 16:21:41' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_total C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 322 行.
+SQL: INSERT INTO `order` (`user_id`,`address_id`,`store_id`,`order_num`,`order_addtime`,`order_grade`,`order_total`) VALUES (9,1,16,'15007117012874891','2017-07-22 16:21:41',1,90) [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `order` WHERE `user_id` = 9 AND `address_id` = 1 AND `store_id` = 16 AND `order_num` = '15007117012874891' AND `order_addtime` = '2017-07-22 16:21:41' AND `order_grade` = 1 AND `order_total` = 90 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 352 行.
+NOTIC: [2] Illegal string offset 'order_id' C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 352 行.
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,39,1,'2017-07-22 16:21:41',113) [ RunTime:0.001000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (14,42,1,'2017-07-22 16:21:41',113) [ RunTime:0.000000s ]
+SQL: INSERT INTO `orderdetail` (`good_id`,`good_attr_id`,`good_num`,`orderdetail_time`,`order_id`) VALUES (17,44,2,'2017-07-22 16:21:41',114) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: sumcar C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 374 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 39 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: delid C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 381 行.
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 14 AND `good_attr_id` = 42 AND `good_num` = 1 AND `user_id` = 9 AND `store_id` = 6 [ RunTime:0.000000s ]
+SQL: DELETE FROM `shoppingcar` WHERE `good_id` = 17 AND `good_attr_id` = 44 AND `good_num` = 2 AND `user_id` = 9 AND `store_id` = 16 [ RunTime:0.000000s ]
+
+[ 2017-07-22T17:11:24+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

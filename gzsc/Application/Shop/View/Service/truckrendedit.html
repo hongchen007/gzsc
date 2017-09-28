@@ -1,0 +1,90 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-修改货车出租</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 修改货车出租 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Service/truckrenddoedit')}" novalidate="novalidate">   
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">品牌</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="brand" name="brand" type="text" value="{$info.brand}" /> 
+       <input class="form-control " id="id" name="id" type="hidden" value="{$info.id}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">车牌</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="car_num" name="car_num" type="text" value="{$info.car_num}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">出厂年限</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="date_for_production" name="date_for_production" type="text" value="{$info.date_for_production}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">价格</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="price" name="price" type="text" value="{$info.price}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+            <textarea rows="6" class="form-control" name="des" >{$info.des}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">截止日期</label> 
+      <div class="col-lg-10"> 
+        {$info.valid_time}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">联系人</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="name" name="name" type="text" value="{$info.name}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">手机号码</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="tel" name="tel" type="text" value="{$info.tel}" /> 
+      </div> 
+     </div> 
+     
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="修改">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+    </form> 
+   </div> 
+  </div>
+
+  </block>  &gt;
+ </body>
+</html>

@@ -1,0 +1,402 @@
+[ 2017-09-28T00:07:04+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-28T00:07:49+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:08:23+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data C:\aaa\WWW\gzsc\ThinkPHP\Library\Org\Util\Wxpay.class.php 第 204 行.
+NOTIC: [2] ksort() expects parameter 1 to be array, null given C:\aaa\WWW\gzsc\ThinkPHP\Library\Org\Util\Wxpay.class.php 第 215 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:09:28+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:10:26+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-28T00:11:00+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:30:45+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%27body%27:%27%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%27,%27total_fee%27:%27100%27}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:31:18+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%27body%27:%27%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%27,%27total_fee%27:%27100%27}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:33:28+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T00:35:32+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:43:53+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:43:57+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:24+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:26+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:31+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:32+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:33+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:33+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:34+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-28T00:44:34+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:35+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:35+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:36+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:36+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:37+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T00:44:37+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T00:44:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T00:44:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:39+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:39+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-28T00:44:40+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:40+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:40+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:40+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:41+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:41+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:41+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:42+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:44:42+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:47:12+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-28T00:52:28+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T00:52:45+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22,%22notify_url%22:%20%22http://www.baidu.com/%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:53:57+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22,%22notify_url%22:%20%22http://www.baidu.com%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:54:15+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22,%22notify_url%22:%20%22http://www.baidu.com%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:55:00+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22,%22notify_url%22:%20%22http://www.baidu.com%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T00:55:08+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/tongyi?json={%22body%22:%20%22%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%22,%22total_fee%22:%20%22100%22,%22notify_url%22:%20%22http://www.baidu.com%22}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,121 @@
+//=================================================上传图片路径=================================================
+	图片上传路径：http://192.168.31.125/gzsc/Public/Uploads/upimg.php
+	图片路径：    "http://192.168.31.125" + "图片路径";
+	域名：	http://hongchen.chuan.bxso2o.com
+
+
+//=================================================个人中心===================================================
+	注册单个用户：
+		请求地址：域名+/gzsc/index.php/Home/Chat/register?id=['用户id']&username=['聊天用户名']&password=['密码']&nickname=['昵称']
+		请求方式：get
+		请求参数：
+				id:必填
+				username:必填
+				password:必填
+				nickname:可不填
+		返回数据：
+				{
+				  "action": "post",
+				  "application": "a1380990-8bc2-11e7-9328-e7530e25e393",
+				  "path": "/users",
+				  "uri": "https://a1.easemob.com/1169170828115245/demo/users",
+				  "entities": [
+				    {
+				      "uuid": "b3f51da0-9f38-11e7-a621-cb2a721077f9",
+				      "type": "user",
+				      "created": 1506045154426,
+				      "modified": 1506045154426,
+				      "username": "bbb",
+				      "activated": true,
+				      "nickname": "keyi"
+				    }
+				  ],
+				  "timestamp": 1506045154430,
+				  "duration": 0,
+				  "organization": "1169170828115245",
+				  "applicationName": "demo"
+				}
+
+	个人中心：
+		请求地址：域名+/gzsc/index.php/Home/Chatuser/per_cen?id=['用户id']
+		请求方式：get
+		请求参数：
+				id:必填
+		返回数据：
+				{
+				  "code": 1, 				//状态码
+				  "anno": "请求成功",		//对状态的解释
+				  "msg": {					//返回数据
+				    "id": "16",							//聊天中用户的id
+				    "user_id": "1",						//用户id
+				    "username": "bbb",					//用户名
+				    "nickname": "keyi",					//昵称
+				    "password": "123456",				//密码
+				    "addtime": "2017-09-22 10:47:03",	//添加时间
+				    "sex": null,						//性别（1 男 2女）
+				    "address": null,					//地址
+				    "self_intro": null,					//个人介绍
+				    "headpic": null,					//头像
+				    "random": "3684281"					//二维码
+				  }
+				}
+
+	修改头像：
+		请求地址：域名+/gzsc/index.php/Home/Chatuser/editheadpic?id=['聊天中用户id']&headpic=['头像的图片地址']
+		请求方式：get
+		请求参数：
+				id:必填，聊天中用户id
+				headpic:必填
+		返回数据：
+				{
+				  "code": 1,			//状态码
+				  "anno": "修改成功"	//解释
+				}
+
+	修改昵称：
+		请求地址：域名+/gzsc/index.php/Home/Chatuser/editnickname?id=['聊天中用户id']&nickname=['昵称']
+		请求方式：get
+		请求参数：
+				id:必填，聊天中用户id
+				nickname:必填
+		返回数据：
+				{
+				  "code": 1,			//状态码
+				  "anno": "修改成功"	//解释
+				}
+
+	修改性别：
+		请求地址：域名+/gzsc/index.php/Home/Chatuser/editsex?id=['聊天中用户id']&sex=['性别']
+		请求方式：get
+		请求参数：
+				id:必填，聊天中用户id
+				sex:必填 1代表男 2代表女
+		返回数据：
+				{
+				  "code": 1,			//状态码
+				  "anno": "修改成功"	//解释
+				}
+
+	修改地址：
+		请求地址：域名+/gzsc/index.php/Home/Chatuser/editaddress?id=['聊天中用户id']&address=['地址']
+		请求方式：get
+		请求参数：
+				id:必填，聊天中用户id
+				address:必填 
+		返回数据：
+				{
+				  "code": 1,			//状态码
+				  "anno": "修改成功"	//解释
+				}
+
+	修改个人介绍：
+		请求地址：域名+/gzsc/index.php/Home/Chatuser/editself_intro?id=['聊天中用户id']&self_intro=['个人介绍']
+		请求方式：get
+		请求参数：
+				id:必填，聊天中用户id
+				self_intro:必填 
+		返回数据：
+				{
+				  "code": 1,			//状态码
+				  "anno": "修改成功"	//解释
+				}

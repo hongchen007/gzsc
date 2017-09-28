@@ -1,0 +1,1219 @@
+[ 2017-07-31T00:05:11+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/homedecoration?json={%22user_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_cate%22:%222012%E5%B9%B412%E6%9C%8813%E6%97%A5%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `home_decoration` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `home_decorationfile` [ RunTime:0.011000s ]
+NOTIC: [8] Undefined index: pay_method C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 144 行.
+SQL: INSERT INTO `home_decoration` (`user_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,'大众','豫S1234A',null,'你好','亚龙','156388514569','2017-07-31 00:05:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 00:05:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:05:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:05:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:05:11') [ RunTime:0.001000s ]
+
+[ 2017-07-31T00:06:18+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/homedecoration?json={%22user_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E6%8A%BC%E4%B8%80%E4%BB%98%E4%B8%80%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `home_decoration` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `home_decorationfile` [ RunTime:0.011000s ]
+SQL: INSERT INTO `home_decoration` (`user_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,'大众','豫S1234A','押一付一','你好','亚龙','156388514569','2017-07-31 00:06:18') [ RunTime:0.002000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (4,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 00:06:18') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (4,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:06:18') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (4,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:06:18') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (4,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:06:18') [ RunTime:0.001000s ]
+
+[ 2017-07-31T00:09:01+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/housekeeping?json={%22user_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E6%8A%BC%E4%B8%80%E4%BB%98%E4%B8%80%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `housekeeping` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `housekeepingfile` [ RunTime:0.009000s ]
+SQL: INSERT INTO `housekeeping` (`user_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,'大众','豫S1234A','押一付一','你好','亚龙','156388514569','2017-07-31 00:09:01') [ RunTime:0.001000s ]
+ERR: 非法数据对象！:[home_decoration_id=>1]
+
+[ 2017-07-31T00:09:29+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/housekeeping?json={%22user_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E6%8A%BC%E4%B8%80%E4%BB%98%E4%B8%80%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `housekeeping` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `housekeepingfile` [ RunTime:0.003000s ]
+SQL: INSERT INTO `housekeeping` (`user_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,'大众','豫S1234A','押一付一','你好','亚龙','156388514569','2017-07-31 00:09:29') [ RunTime:0.000000s ]
+ERR: 非法数据对象！:[file=>http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg]
+
+[ 2017-07-31T00:10:07+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/housekeeping?json={%22user_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E6%8A%BC%E4%B8%80%E4%BB%98%E4%B8%80%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `housekeeping` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `housekeepingfile` [ RunTime:0.006000s ]
+SQL: INSERT INTO `housekeeping` (`user_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,'大众','豫S1234A','押一付一','你好','亚龙','156388514569','2017-07-31 00:10:07') [ RunTime:0.001000s ]
+ERR: 非法数据对象！:[file=>http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg]
+
+[ 2017-07-31T00:10:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/housekeeping?json={%22user_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E6%8A%BC%E4%B8%80%E4%BB%98%E4%B8%80%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `housekeeping` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `housekeepingfile` [ RunTime:0.007000s ]
+SQL: INSERT INTO `housekeeping` (`user_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,'大众','豫S1234A','押一付一','你好','亚龙','156388514569','2017-07-31 00:10:38') [ RunTime:0.001000s ]
+SQL: INSERT INTO `housekeepingfile` (`housekeeping_id`,`file`,`add_time`) VALUES (4,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 00:10:38') [ RunTime:0.001000s ]
+SQL: INSERT INTO `housekeepingfile` (`housekeeping_id`,`file`,`add_time`) VALUES (4,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:10:38') [ RunTime:0.001000s ]
+SQL: INSERT INTO `housekeepingfile` (`housekeeping_id`,`file`,`add_time`) VALUES (4,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:10:38') [ RunTime:0.000000s ]
+SQL: INSERT INTO `housekeepingfile` (`housekeeping_id`,`file`,`add_time`) VALUES (4,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 00:10:38') [ RunTime:0.001000s ]
+
+[ 2017-07-31T08:06:36+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-31T08:07:18+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-31T08:08:49+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-31T08:18:23+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-31T08:19:05+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/selectserve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.014000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '服务' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 1  [ RunTime:0.000000s ]
+
+[ 2017-07-31T08:19:45+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Goods/myorder?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.024000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.020000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.021000s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 1 ORDER BY order_addtime desc  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 508 行.
+NOTIC: [8] Undefined variable: shop C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 537 行.
+
+[ 2017-07-31T08:19:58+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Goods/myorder?user_id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 9 ORDER BY order_addtime desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 117  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 116  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 113  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 114  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 17 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 44 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 539 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 548 行.
+
+[ 2017-07-31T08:20:30+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/selectserve
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '服务' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 1  [ RunTime:0.000000s ]
+
+[ 2017-07-31T08:32:23+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/myorder?user_id=9&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 9 AND `order_grade` = 1 ORDER BY order_addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-07-31T08:32:37+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/myorder?user_id=9&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 9 AND `order_grade` = 1 ORDER BY order_addtime desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 117  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 116  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 549 行.
+
+[ 2017-07-31T08:34:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/myorder1?user_id=9&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 9 AND `order_grade` = 1 ORDER BY order_addtime desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 117  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 116  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 549 行.
+
+[ 2017-07-31T08:34:58+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/myorder2?user_id=9&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 9 AND `order_grade` = 2 ORDER BY order_addtime desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `order_id` = 114  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `id` = 17 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `file` WHERE `good_attr_id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 614 行.
+
+[ 2017-07-31T08:37:26+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/myorder3?user_id=9&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.023000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.029000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 9 AND `order_grade` = 3 ORDER BY order_addtime desc  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 639 行.
+NOTIC: [8] Undefined variable: shop C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 668 行.
+
+[ 2017-07-31T08:43:17+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/myorder3?user_id=9&p=&len=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `order` WHERE `user_id` = 9 AND `order_grade` = 3 ORDER BY order_addtime desc  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 639 行.
+NOTIC: [8] Undefined variable: shop C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 668 行.
+
+[ 2017-07-31T08:59:55+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22shop_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.024000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.020000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.016000s ]
+NOTIC: [8] Undefined index: store_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 855 行.
+SQL: INSERT INTO `evaluate` (`pid`,`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (0,14,39,null,9,'你好',5,'2017-07-31 08:59:55') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (37,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (37,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (37,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (37,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+
+[ 2017-07-31T09:01:42+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.020000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+SQL: INSERT INTO `evaluate` (`pid`,`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (0,14,39,6,9,'你好',5,'2017-07-31 09:01:42') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (38,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (38,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (38,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (38,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+
+[ 2017-07-31T09:02:11+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.015000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:02:11') [ RunTime:0.003000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (39,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (39,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (39,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (39,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+
+[ 2017-07-31T09:03:06+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.021000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:03:06') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (40,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (40,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (40,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (40,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+
+[ 2017-07-31T09:27:01+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.022000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.033000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:27:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (41,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (41,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (41,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (41,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+
+[ 2017-07-31T09:27:30+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.028000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.022000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.016000s ]
+NOTIC: [8] Undefined variable: addevaluate C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 865 行.
+NOTIC: [8] Undefined variable: info C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 880 行.
+
+[ 2017-07-31T09:27:37+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/indexaa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.044000s ]
+SQL: SELECT `id`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 73 行.
+
+[ 2017-07-31T09:27:37+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.047000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.027000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+
+[ 2017-07-31T09:27:42+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.010000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:27:42') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (42,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (42,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (42,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (42,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+
+[ 2017-07-31T09:27:46+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Login/dologin?username=lyl&pwd=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='lyl' OR user_phone='lyl' OR user_store_name='lyl' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='lyl' OR user_phone='lyl' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-31T09:27:47+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Goods/shoppingcar?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `shoppingcar` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `shoppingcar` WHERE `user_id` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`user_store_name` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`good_name` FROM `good` WHERE `id` = 17 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`good_attr_color`,`good_attr_size`,`good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 44 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`user_store_name` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`good_attr_color`,`good_attr_size`,`good_attr_price`,`good_attr_des` FROM `good_attr` WHERE `id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-31T09:27:48+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/indexaa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018000s ]
+SQL: SELECT `id`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 64 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 73 行.
+
+[ 2017-07-31T09:27:49+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.022000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.021000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+
+[ 2017-07-31T09:28:19+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.027000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.013000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:28:19') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (43,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (43,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (43,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (43,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+
+[ 2017-07-31T09:29:19+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.023000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.037000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:29:19') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (44,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (44,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (44,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (44,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+
+[ 2017-07-31T09:55:30+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.014000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:55:30') [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 865 行.
+
+[ 2017-07-31T09:56:02+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.020000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.008000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:56:02') [ RunTime:0.001000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_attr_id` = null  [ RunTime:0.000000s ]
+
+[ 2017-07-31T09:57:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.022000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.022000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.019000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:57:38') [ RunTime:0.001000s ]
+
+[ 2017-07-31T09:59:18+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.024000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.021000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.024000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.017000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 09:59:18') [ RunTime:0.001000s ]
+SQL: SELECT * FROM `evaluate` ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-31T10:00:01+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.008000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 10:00:01') [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_attr_id` = 39  [ RunTime:0.000000s ]
+
+[ 2017-07-31T10:02:53+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.027000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.020000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.020000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.022000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 10:02:53') [ RunTime:0.002000s ]
+SQL: SELECT * FROM `evaluate` ORDER BY id desc LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_attr_id` = 39  [ RunTime:0.003000s ]
+
+[ 2017-07-31T10:04:10+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.010000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 10:04:10') [ RunTime:0.001000s ]
+SQL: SELECT * FROM `evaluate` ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_attr_id` = 39  [ RunTime:0.000000s ]
+
+[ 2017-07-31T10:13:04+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.012000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 10:13:04') [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_attr_id` = 39  [ RunTime:0.000000s ]
+
+[ 2017-07-31T10:26:27+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.023000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.025000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.021000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.012000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 10:26:27') [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_attr_id` = 39  [ RunTime:0.000000s ]
+SQL: UPDATE `order` SET `order_grade`=5 WHERE `id` = 113 [ RunTime:0.000000s ]
+
+[ 2017-07-31T10:27:48+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.028000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.022000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.014000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 10:27:48') [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_attr_id` = 39  [ RunTime:0.001000s ]
+SQL: UPDATE `order` SET `order_grade`=5 WHERE `id` = 113 [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (54,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (54,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (54,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (54,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+
+[ 2017-07-31T10:30:59+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/evaluate?json={%22user_id%22:%20%229%22,%22store_id%22:%20%226%22,%22good_attr_id%22:%2239%22,%22good_id%22:%2214%22,%22evaluate_star%22:%225%22,%22content%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `evaluate_pics` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.007000s ]
+SQL: INSERT INTO `evaluate` (`good_id`,`good_attr_id`,`store_id`,`user_id`,`content`,`evaluate_star`,`add_time`) VALUES (14,39,6,9,'你好',5,'2017-07-31 10:30:59') [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_attr_id` = 39  [ RunTime:0.000000s ]
+SQL: UPDATE `order` SET `order_grade`=5 WHERE `id` = 113 [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (55,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (55,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (55,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `evaluate_pics` (`evaluate_id`,`evaluate_pic`) VALUES (55,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.000000s ]
+
+[ 2017-07-31T10:58:25+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%225%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.027000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.026000s ]
+SQL: INSERT INTO `second_hand_car` (`user_id`,`cate_id`,`brank`,`color`,`first_time`,`price`,`des`,`name`,`tel`,`area`,`add_time`,`driving_lience_pic`,`lience_num_pic`,`register_pic`,`bill_pic`) VALUES (6,8,'奥迪','white','5',12,'你好','亚龙','156388514569','河南','2017-07-31 10:58:25','http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg') [ RunTime:0.001000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (18,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 10:58:25') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (18,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 10:58:25') [ RunTime:0.001000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (18,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 10:58:25') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (18,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 10:58:25') [ RunTime:0.000000s ]
+
+[ 2017-07-31T11:01:19+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/houseforrent?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%222%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22house_type%22:%22%E4%B8%A4%E5%AE%A4%E4%B8%80%E5%8E%85%22,%22cash%22:%221000%22,%22pay_method%22:%20%22%E6%8A%BC%E4%B8%80%E4%BB%98%E4%B8%89%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22state%22:%20%221%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `house_for_rent` [ RunTime:0.030000s ]
+SQL: SHOW COLUMNS FROM `house_for_rentfile` [ RunTime:0.022000s ]
+SQL: INSERT INTO `house_for_rent` (`user_id`,`cate_id`,`area`,`house_type`,`cash`,`pay_method`,`des`,`name`,`tel`,`state`,`add_time`) VALUES (6,2,'河南','两室一�\�',1000,'押一付三','你好','亚龙','156388514569',1,'2017-07-31 11:01:19') [ RunTime:0.001000s ]
+SQL: INSERT INTO `house_for_rentfile` (`house_for_rend_id`,`file`,`add_time`) VALUES (6,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 11:01:19') [ RunTime:0.000000s ]
+SQL: INSERT INTO `house_for_rentfile` (`house_for_rend_id`,`file`,`add_time`) VALUES (6,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:01:19') [ RunTime:0.001000s ]
+SQL: INSERT INTO `house_for_rentfile` (`house_for_rend_id`,`file`,`add_time`) VALUES (6,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:01:19') [ RunTime:0.001000s ]
+SQL: INSERT INTO `house_for_rentfile` (`house_for_rend_id`,`file`,`add_time`) VALUES (6,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:01:19') [ RunTime:0.000000s ]
+
+[ 2017-07-31T11:05:43+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/truckrend?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%223%22,%22brand%22:%20%22%E5%A4%A7%E4%BC%97%22,%22car_num%22:%22%E8%B1%ABS1234A%22,%22date_for_production%22:%222012%E5%B9%B412%E6%9C%8813%E6%97%A5%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.028000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.013000s ]
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`) VALUES (6,3,'大众','豫S1234A','2012�\�12�\�13�\�',12,'你好','亚龙','156388514569','2017-07-31 11:05:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 11:05:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:05:43') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:05:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:05:43') [ RunTime:0.000000s ]
+
+[ 2017-07-31T11:08:32+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/homedecoration?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%227%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E5%AE%8C%E5%B7%A5%E4%BB%98%E6%AC%BE%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `home_decoration` [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `home_decorationfile` [ RunTime:0.015000s ]
+SQL: INSERT INTO `home_decoration` (`user_id`,`cate_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,7,'大众','豫S1234A','完工付款','你好','亚龙','156388514569','2017-07-31 11:08:32') [ RunTime:0.001000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (5,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 11:08:32') [ RunTime:0.001000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (5,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:08:32') [ RunTime:0.001000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (5,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:08:32') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (5,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:08:32') [ RunTime:0.000000s ]
+
+[ 2017-07-31T11:09:08+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/homedecoration?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%227%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E5%AE%8C%E5%B7%A5%E4%BB%98%E6%AC%BE%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `home_decoration` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `home_decorationfile` [ RunTime:0.014000s ]
+SQL: INSERT INTO `home_decoration` (`user_id`,`cate_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,7,'大众','豫S1234A','完工付款','你好','亚龙','156388514569','2017-07-31 11:09:08') [ RunTime:0.001000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (6,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 11:09:08') [ RunTime:0.001000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (6,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:09:08') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (6,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:09:08') [ RunTime:0.000000s ]
+SQL: INSERT INTO `home_decorationfile` (`home_decoration_id`,`file`,`add_time`) VALUES (6,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:09:08') [ RunTime:0.000000s ]
+
+[ 2017-07-31T11:12:24+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/housekeeping?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E5%AE%8C%E5%B7%A5%E4%BB%98%E6%AC%BE%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `housekeeping` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `housekeepingfile` [ RunTime:0.015000s ]
+SQL: INSERT INTO `housekeeping` (`user_id`,`cate_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,6,'大众','豫S1234A','完工付款','你好','亚龙','156388514569','2017-07-31 11:12:24') [ RunTime:0.001000s ]
+SQL: INSERT INTO `housekeepingfile` (`housekeeping_id`,`file`,`add_time`) VALUES (5,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 11:12:24') [ RunTime:0.001000s ]
+SQL: INSERT INTO `housekeepingfile` (`housekeeping_id`,`file`,`add_time`) VALUES (5,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:12:24') [ RunTime:0.001000s ]
+SQL: INSERT INTO `housekeepingfile` (`housekeeping_id`,`file`,`add_time`) VALUES (5,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:12:24') [ RunTime:0.000000s ]
+SQL: INSERT INTO `housekeepingfile` (`housekeeping_id`,`file`,`add_time`) VALUES (5,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 11:12:24') [ RunTime:0.001000s ]
+
+[ 2017-07-31T11:32:18+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/weixiuservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E5%AE%8C%E5%B7%A5%E4%BB%98%E6%AC%BE%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixiu_service` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `weixiu_servicefile` [ RunTime:0.016000s ]
+SQL: INSERT INTO `weixiu_service` (`user_id`,`cate_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,6,'大众','豫S1234A','完工付款','你好','亚龙','156388514569','2017-07-31 11:32:18') [ RunTime:0.001000s ]
+ERR: 非法数据对象！:[housekeeping_id=>1]
+
+[ 2017-07-31T14:23:56+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/weixiuservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E5%AE%8C%E5%B7%A5%E4%BB%98%E6%AC%BE%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixiu_service` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `weixiu_servicefile` [ RunTime:0.009000s ]
+SQL: INSERT INTO `weixiu_service` (`user_id`,`cate_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,6,'大众','豫S1234A','完工付款','你好','亚龙','156388514569','2017-07-31 14:23:56') [ RunTime:0.000000s ]
+SQL: INSERT INTO `weixiu_servicefile` (`weixiu_service_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 14:23:56') [ RunTime:0.001000s ]
+SQL: INSERT INTO `weixiu_servicefile` (`weixiu_service_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:23:56') [ RunTime:0.000000s ]
+SQL: INSERT INTO `weixiu_servicefile` (`weixiu_service_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:23:56') [ RunTime:0.000000s ]
+SQL: INSERT INTO `weixiu_servicefile` (`weixiu_service_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:23:56') [ RunTime:0.000000s ]
+
+[ 2017-07-31T14:31:51+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/weixiuservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%226%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E8%B1%ABS1234A%22,%22pay_method%22:%22%E5%AE%8C%E5%B7%A5%E4%BB%98%E6%AC%BE%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixiu_service` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `weixiu_servicefile` [ RunTime:0.007000s ]
+SQL: INSERT INTO `weixiu_service` (`user_id`,`cate_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,6,'大众','豫S1234A','完工付款','你好','亚龙','156388514569','2017-07-31 14:31:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `weixiu_servicefile` (`weixiu_service_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 14:31:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `weixiu_servicefile` (`weixiu_service_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:31:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `weixiu_servicefile` (`weixiu_service_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:31:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `weixiu_servicefile` (`weixiu_service_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:31:51') [ RunTime:0.000000s ]
+
+[ 2017-07-31T14:40:22+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/medialservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%229%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22pay_method%22:%220%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `medial_service` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `medial_servicefile` [ RunTime:0.009000s ]
+ERR: 非法数据对象！:[cate_id=>9]
+
+[ 2017-07-31T14:41:06+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/medialservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%229%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22pay_method%22:%220%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `medial_service` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `medial_servicefile` [ RunTime:0.009000s ]
+SQL: INSERT INTO `medial_service` (`user_id`,`cate_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,9,'大众','河南','0','你好','亚龙','156388514569','2017-07-31 14:41:06') [ RunTime:0.001000s ]
+ERR: 非法数据对象！:[file=>http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg]
+
+[ 2017-07-31T14:41:29+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/medialservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%229%22,%22serve_cate%22:%20%22%E5%A4%A7%E4%BC%97%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22pay_method%22:%220%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `medial_service` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `medial_servicefile` [ RunTime:0.008000s ]
+SQL: INSERT INTO `medial_service` (`user_id`,`cate_id`,`serve_cate`,`address`,`pay_method`,`des`,`name`,`tel`,`add_time`) VALUES (6,9,'大众','河南','0','你好','亚龙','156388514569','2017-07-31 14:41:29') [ RunTime:0.001000s ]
+SQL: INSERT INTO `medial_servicefile` (`medial_service_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 14:41:29') [ RunTime:0.000000s ]
+SQL: INSERT INTO `medial_servicefile` (`medial_service_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:41:29') [ RunTime:0.000000s ]
+SQL: INSERT INTO `medial_servicefile` (`medial_service_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:41:29') [ RunTime:0.000000s ]
+SQL: INSERT INTO `medial_servicefile` (`medial_service_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 14:41:29') [ RunTime:0.000000s ]
+
+[ 2017-07-31T15:03:41+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/medialservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%224%22,%22company_name%22:%20%22Alibab%22,%22company_des%22:%20%22%E5%BE%85%E9%81%87%E5%A5%BD%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22seat%22:%22%E7%A8%8B%E5%BA%8F%E5%91%98%22,%22job_req%22:%20%22%E6%8A%80%E6%9C%AF%E5%A5%BD%22,%22payment%22:%20%224000%22,%22name%22:%20%22%E5%B0%8F%E6%98%8E%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-31T15:04:53+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/inforservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%224%22,%22company_name%22:%20%22Alibab%22,%22company_des%22:%20%22%E5%BE%85%E9%81%87%E5%A5%BD%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22seat%22:%22%E7%A8%8B%E5%BA%8F%E5%91%98%22,%22job_req%22:%20%22%E6%8A%80%E6%9C%AF%E5%A5%BD%22,%22payment%22:%20%224000%22,%22name%22:%20%22%E5%B0%8F%E6%98%8E%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: serve_cate C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 307 行.
+NOTIC: [8] Undefined index: pay_method C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 309 行.
+NOTIC: [8] Undefined index: des C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 310 行.
+NOTIC: [8] Undefined variable: information_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 315 行.
+
+[ 2017-07-31T15:06:55+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/inforservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%224%22,%22company_name%22:%20%22Alibab%22,%22company_des%22:%20%22%E5%BE%85%E9%81%87%E5%A5%BD%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22seat%22:%22%E7%A8%8B%E5%BA%8F%E5%91%98%22,%22job_req%22:%20%22%E6%8A%80%E6%9C%AF%E5%A5%BD%22,%22payment%22:%20%224000%22,%22name%22:%20%22%E5%B0%8F%E6%98%8E%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.011000s ]
+NOTIC: [8] Undefined variable: information_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 316 行.
+
+[ 2017-07-31T15:07:32+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/inforservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%224%22,%22company_name%22:%20%22Alibab%22,%22company_des%22:%20%22%E5%BE%85%E9%81%87%E5%A5%BD%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22seat%22:%22%E7%A8%8B%E5%BA%8F%E5%91%98%22,%22job_req%22:%20%22%E6%8A%80%E6%9C%AF%E5%A5%BD%22,%22payment%22:%20%224000%22,%22name%22:%20%22%E5%B0%8F%E6%98%8E%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.008000s ]
+
+[ 2017-07-31T15:08:40+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/inforservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%224%22,%22company_name%22:%20%22Alibab%22,%22company_des%22:%20%22%E5%BE%85%E9%81%87%E5%A5%BD%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22seat%22:%22%E7%A8%8B%E5%BA%8F%E5%91%98%22,%22job_req%22:%20%22%E6%8A%80%E6%9C%AF%E5%A5%BD%22,%22payment%22:%20%224000%22,%22name%22:%20%22%E5%B0%8F%E6%98%8E%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.010000s ]
+SQL: INSERT INTO `information` (`user_id`,`company_name`,`company_des`,`address`,`seat`,`job_req`,`payment`,`name`,`tel`,`add_time`) VALUES (6,'Alibab','待遇�\�','河南','程序�\�','技术好',4000,'小明','156388514569','2017-07-31 15:08:40') [ RunTime:0.001000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (1,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 15:08:40') [ RunTime:0.000000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (1,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 15:08:40') [ RunTime:0.001000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (1,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 15:08:40') [ RunTime:0.000000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (1,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 15:08:40') [ RunTime:0.000000s ]
+
+[ 2017-07-31T15:58:52+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/inforservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%224%22,%22company_name%22:%20%22Alibab%22,%22company_des%22:%20%22%E5%BE%85%E9%81%87%E5%A5%BD%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22seat%22:%22%E7%A8%8B%E5%BA%8F%E5%91%98%22,%22job_req%22:%20%22%E6%8A%80%E6%9C%AF%E5%A5%BD%22,%22payment%22:%20%224000%22,%22name%22:%20%22%E5%B0%8F%E6%98%8E%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.009000s ]
+SQL: INSERT INTO `information` (`user_id`,`company_name`,`company_des`,`address`,`seat`,`job_req`,`payment`,`name`,`tel`,`add_time`,`state`) VALUES (6,'Alibab','待遇�\�','河南','程序�\�','技术好',4000,'小明','156388514569','2017-07-31 15:58:52',1) [ RunTime:0.001000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 15:58:52') [ RunTime:0.001000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 15:58:52') [ RunTime:0.001000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 15:58:52') [ RunTime:0.000000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (2,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 15:58:52') [ RunTime:0.001000s ]
+
+[ 2017-07-31T16:06:39+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Serve/inforservice?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%224%22,%22company_name%22:%20%22Alibab%22,%22company_des%22:%20%22%E5%BE%85%E9%81%87%E5%A5%BD%22,%22address%22:%22%E6%B2%B3%E5%8D%97%22,%22seat%22:%22%E7%A8%8B%E5%BA%8F%E5%91%98%22,%22job_req%22:%20%22%E6%8A%80%E6%9C%AF%E5%A5%BD%22,%22payment%22:%20%224000%22,%22name%22:%20%22%E5%B0%8F%E6%98%8E%22,%22tel%22:%20%22156388514569%22,%22url%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.009000s ]
+SQL: INSERT INTO `information` (`user_id`,`company_name`,`company_des`,`address`,`seat`,`job_req`,`payment`,`name`,`tel`,`add_time`,`states`) VALUES (6,'Alibab','待遇�\�','河南','程序�\�','技术好',4000,'小明','156388514569','2017-07-31 16:06:39',1) [ RunTime:0.001000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170504_141819.jpg','2017-07-31 16:06:39') [ RunTime:0.001000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 16:06:39') [ RunTime:0.001000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 16:06:39') [ RunTime:0.000000s ]
+SQL: INSERT INTO `informationfile` (`information_id`,`file`,`add_time`) VALUES (3,'http://192.168.31.125/gzsc/Public/upload/img/IMG_20170624_152936.jpg','2017-07-31 16:06:39') [ RunTime:0.000000s ]
+
+[ 2017-07-31T21:58:24+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-31T22:03:37+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%225%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg%22},]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.012000s ]
+SQL: INSERT INTO `second_hand_car` (`user_id`,`cate_id`,`brank`,`color`,`first_time`,`price`,`des`,`name`,`tel`,`area`,`add_time`,`driving_lience_pic`,`lience_num_pic`,`register_pic`,`bill_pic`) VALUES (null,null,null,null,null,null,null,null,null,null,'2017-07-31 22:03:37',null,null,null,null) [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 45 行.
+NOTIC: [8] Undefined variable: info2 C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 52 行.
+
+[ 2017-07-31T22:05:22+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%225%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg%22},]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.004000s ]
+
+[ 2017-07-31T22:05:41+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%225%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg%22},]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: data C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 25 行.
+
+[ 2017-07-31T22:06:27+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%225%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg%22},]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.021000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: data C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 25 行.
+
+[ 2017-07-31T22:07:39+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%225%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.025000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: data C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 25 行.
+
+[ 2017-07-31T22:08:09+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%225%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.007000s ]
+SQL: INSERT INTO `second_hand_car` (`user_id`,`cate_id`,`brank`,`color`,`first_time`,`price`,`des`,`name`,`tel`,`area`,`add_time`,`driving_lience_pic`,`lience_num_pic`,`register_pic`,`bill_pic`) VALUES (6,8,'奥迪','white','5',12,'你好','亚龙','156388514569','河南','2017-07-31 22:08:09','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (23,'http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg','2017-07-31 22:08:09') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (23,'http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg','2017-07-31 22:08:09') [ RunTime:0.000000s ]
+
+[ 2017-07-31T22:10:27+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%222017-12-10%2010:11:44%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.011000s ]
+SQL: INSERT INTO `second_hand_car` (`user_id`,`cate_id`,`brank`,`color`,`first_time`,`price`,`des`,`name`,`tel`,`area`,`add_time`,`driving_lience_pic`,`lience_num_pic`,`register_pic`,`bill_pic`) VALUES (6,8,'奥迪','white','2017-12-10 10:11:44',12,'你好','亚龙','156388514569','河南','2017-07-31 22:10:27','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (24,'http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg','2017-07-31 22:10:27') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (24,'http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg','2017-07-31 22:10:27') [ RunTime:0.001000s ]
+
+[ 2017-07-31T22:12:26+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Serve/addhandcar?json={%22user_id%22:%20%226%22,%22cate_id%22:%20%228%22,%22brank%22:%20%22%E5%A5%A5%E8%BF%AA%22,%22color%22:%22white%22,%22first_time%22:%222017-12-10%22,%22price%22:%20%2212%22,%22des%22:%20%22%E4%BD%A0%E5%A5%BD%22,%22name%22:%20%22%E4%BA%9A%E9%BE%99%22,%22tel%22:%20%22156388514569%22,%22area%22:%20%22%E6%B2%B3%E5%8D%97%22,%22url1%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg%22}],%22url2%22:%20[{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg%22},{%22url%22:%20%22http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg%22}]}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.009000s ]
+SQL: INSERT INTO `second_hand_car` (`user_id`,`cate_id`,`brank`,`color`,`first_time`,`price`,`des`,`name`,`tel`,`area`,`add_time`,`driving_lience_pic`,`lience_num_pic`,`register_pic`,`bill_pic`) VALUES (6,8,'奥迪','white','2017-12-10',12,'你好','亚龙','156388514569','河南','2017-07-31 22:12:26','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/1ee6b92981598517e6061358cb158a33.jpg','http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (25,'http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg','2017-07-31 22:12:26') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (25,'http://192.168.31.125/gzsc/Public/Uploads/2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg','2017-07-31 22:12:26') [ RunTime:0.001000s ]
+
+[ 2017-07-31T22:43:06+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

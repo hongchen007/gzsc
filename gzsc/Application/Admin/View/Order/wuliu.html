@@ -1,0 +1,98 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-物流信息</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 物流信息 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Service/secondhandcardoedit')}" novalidate="novalidate">  
+    
+     <if condition="$info.state eq 0">
+      <div class="form-group ">
+        <label for="QQ" class="control-label col-lg-2">快递单当前的状态</label> 
+        <div class="col-lg-10" style="margin-top:0.5%;"> 
+          {$info.message}
+        </div> 
+       </div> 
+     </if>
+
+     <if condition="$info.state eq 1">
+      <div class="form-group ">
+        <label for="QQ" class="control-label col-lg-2">快递单当前的状态</label> 
+        <div class="col-lg-10" style="margin-top:0.5%;"> 
+          货物已由快递公司揽收并且产生了第一条跟踪信息
+        </div> 
+       </div> 
+     </if>
+
+     <if condition="$info.state eq 2">
+      <div class="form-group ">
+        <label for="QQ" class="control-label col-lg-2">快递单当前的状态</label> 
+        <div class="col-lg-10" style="margin-top:0.5%;"> 
+          货物寄送过程出了问题
+        </div> 
+       </div> 
+     </if>
+
+     <if condition="$info.state eq 3">
+      <div class="form-group ">
+        <label for="QQ" class="control-label col-lg-2">快递单当前的状态</label> 
+        <div class="col-lg-10" style="margin-top:0.5%;"> 
+          收件人已签收
+        </div> 
+       </div> 
+     </if>
+
+     <if condition="$info.state eq 4">
+      <div class="form-group ">
+        <label for="QQ" class="control-label col-lg-2">快递单当前的状态</label> 
+        <div class="col-lg-10" style="margin-top:0.5%;"> 
+          货物由于用户拒签、超区等原因退回，而且发件人已经签收
+        </div> 
+       </div> 
+     </if>
+
+     <if condition="$info.state eq 5">
+      <div class="form-group ">
+        <label for="QQ" class="control-label col-lg-2">快递单当前的状态</label> 
+        <div class="col-lg-10" style="margin-top:0.5%;"> 
+          快递正在进行同城派件
+        </div> 
+       </div> 
+     </if>
+
+     <if condition="$info.state eq 6">
+      <div class="form-group ">
+        <label for="QQ" class="control-label col-lg-2">快递单当前的状态</label> 
+        <div class="col-lg-10" style="margin-top:0.5%;"> 
+          货物正处于退回发件人的途中
+        </div> 
+       </div> 
+     </if>
+
+
+      <foreach name="info.data" item="val" > 
+        <div class="form-group "> 
+          <label for="QQ" class="control-label col-lg-2">{$val.time}</label> 
+          <div class="col-lg-10" style="margin-top:0.5%;">{$val.context}</div> 
+         </div> 
+      </foreach>     
+
+    </form> 
+   </div> 
+  </div>
+
+  </block>  &gt;
+ </body>
+</html>

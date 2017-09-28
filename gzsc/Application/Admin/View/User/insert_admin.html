@@ -1,0 +1,56 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-添加管理员</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 添加管理员 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('User/doinsert_admin')}" novalidate="novalidate"> 
+     
+     <div class="form-group "> 
+      <label for="loginname" class="control-label col-lg-2">管理员名</label> 
+      <div class="col-lg-10"> 
+       <input class=" form-control" id="user_name" name="user_name" type="text" /> 
+      </div> 
+     </div> 
+     
+     <div class="form-group "> 
+      <label for="loginname" class="control-label col-lg-2">密码</label> 
+      <div class="col-lg-10"> 
+       <span class="form-control" >默认密码为123456</span>
+      </div> 
+     </div> 
+     
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">管理员头像</label> 
+      <div class="col-lg-10"> 
+       <input id="user_pic" name="user_pic" type="file" onChange="document.getElementsByName('xgpic')[0].value=this.value" />
+       <input type="hidden" name="xgpic"> 
+      </div> 
+     </div> 
+
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="添加">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+    </form> 
+   </div> 
+  </div>
+
+
+  </block>  &gt;
+ </body>
+</html>

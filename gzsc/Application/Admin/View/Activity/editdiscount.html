@@ -1,0 +1,53 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台 折扣活动修改</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 折扣活动修改 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Activity/doeditdiscount')}" novalidate="novalidate"> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">打折商品名称</label> 
+      <div class="col-lg-10" style="margin-top:0.5%;"> 
+        {$info.good_name}
+        <input type="hidden" value="{$info.id}" name="id">
+      </div> 
+     </div> 
+
+      <div class="form-group">
+          <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">折扣</label>
+          <div class="col-lg-10"> 
+              <select class="form-control m-bot15" name="discount" id="discount">  
+                <foreach name="info1" item="val" >
+                  <option value="{$val.des}" <if condition="$info['good_attr_discount'] eq $val['des']">selected</if> >{$val.des}</option>
+                </foreach>
+              </select>
+          </div>
+      </div>
+
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="修改">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+    </form> 
+   </div> 
+  </div>
+
+
+  </block>  &gt;
+ </body>
+</html>

@@ -1,0 +1,1033 @@
+[ 2017-08-10T08:24:42+08:00 ] 192.168.31.125 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-10T08:25:19+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Dianshang/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.002000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+
+[ 2017-08-10T08:35:16+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Servedetail/weixiuserviceinfo?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixiu_service` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `weixiu_servicefile` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `weixiu_service` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file` FROM `weixiu_servicefile` WHERE `weixiu_service_id` = null  [ RunTime:0.001000s ]
+
+[ 2017-08-10T08:35:46+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Servedetail/weixiuserviceinfo?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixiu_service` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `weixiu_servicefile` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `weixiu_service` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file` FROM `weixiu_servicefile` WHERE `weixiu_service_id` = 4  [ RunTime:0.001000s ]
+
+[ 2017-08-10T08:39:46+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Servedetail/medialserviceinfo?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `medial_service` [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `medial_servicefile` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `medial_service` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file` FROM `medial_servicefile` WHERE `medial_service_id` = 3  [ RunTime:0.000000s ]
+
+[ 2017-08-10T08:43:40+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Servedetail/inforserviceinfo?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `information` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file` FROM `informationfile` WHERE `information_id` = 6  [ RunTime:0.001000s ]
+
+[ 2017-08-10T09:00:22+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%22%E2%80%98%22%2C%22car_num%22%3A%22%E2%80%984%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23290766.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.022000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.019000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'�\�','�\�4','1',1,'1','1','13409362482','2017-08-10 09:00:22','2017-08-17 09:00:22') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (11,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:00:22') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (11,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:00:22') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (11,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:00:22') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (11,'/storage/emulated/0/Pictures/Screenshots/S70807-23290766.jpg','2017-08-10 09:00:22') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (11,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:00:22') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:00:53+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%22%E2%80%98%22%2C%22car_num%22%3A%22%E2%80%984%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23290766.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23290766.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23290766.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23290766.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'�\�','�\�4','1',1,'1','1','13409362482','2017-08-10 09:00:53','2017-08-17 09:00:53') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:00:53') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:00:53') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:00:53') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70807-23290766.jpg','2017-08-10 09:00:53') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:00:53') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:00:53') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:00:53') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:00:53') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70807-23290766.jpg','2017-08-10 09:00:53') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70807-23290766.jpg','2017-08-10 09:00:53') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (12,'/storage/emulated/0/Pictures/Screenshots/S70807-23290766.jpg','2017-08-10 09:00:53') [ RunTime:0.001000s ]
+
+[ 2017-08-10T09:03:22+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.021000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:03:22','2017-08-17 09:03:22') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (13,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:03:22') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (13,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:03:22') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:03:45+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.012000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:03:45','2017-08-17 09:03:45') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (14,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:03:45') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (14,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:03:45') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (14,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:03:45') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (14,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:03:45') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (14,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:03:45') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (14,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:03:45') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (14,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:03:45') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (14,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:03:45') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:04:41+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:04:41','2017-08-17 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:04:41') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:04:41') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:04:41') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:04:41') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (15,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:04:41') [ RunTime:0.001000s ]
+
+[ 2017-08-10T09:18:30+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.021000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:18:30','2017-08-17 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:18:30') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (16,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:18:30') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:18:51+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:18:51','2017-08-17 09:18:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:18:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:18:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (17,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:18:51') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:20:43+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.021000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.016000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:20:43','2017-08-17 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:43') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:43') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (18,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:43') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:20:46+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:20:46','2017-08-17 09:20:46') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:46') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:46') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (19,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:46') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:20:47+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.019000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:20:47','2017-08-17 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:47') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (20,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:47') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:20:48+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:20:48','2017-08-17 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (21,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:20:48') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:21:03+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:21:03','2017-08-17 09:21:03') [ RunTime:0.002000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (22,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:03') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:21:11+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:21:11','2017-08-17 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (23,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:21:11') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:25:51+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:25:51','2017-08-17 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:25:51') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (24,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:25:51') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:26:01+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%221%22%2C%22car_num%22%3A%221%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%221%22%2C%22des%22%3A%221%22%2C%22name%22%3A%221%22%2C%22price%22%3A%221%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70807-23325655.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07510747.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'1','1','1',1,'1','1','13409362482','2017-08-10 09:26:01','2017-08-17 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70807-23325655.jpg','2017-08-10 09:26:01') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07510747.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (25,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:26:01') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:51:17+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%2212%22%2C%22car_num%22%3A%2212%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%2215%22%2C%22des%22%3A%2215%22%2C%22name%22%3A%2212%22%2C%22price%22%3A%2215%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-18385456.jpg%22%7D%2C%7B%22url%22%3A%22%2Fstorage%2Femulated%2F0%2FPictures%2FScreenshots%2FS70808-07515741.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502329876271619.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502329876212429.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.027000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.011000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'12','12','15',15,'15','12','13409362482','2017-08-10 09:51:17','2017-08-17 09:51:17') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (26,'/storage/emulated/0/Pictures/Screenshots/S70808-18385456.jpg','2017-08-10 09:51:17') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (26,'/storage/emulated/0/Pictures/Screenshots/S70808-07515741.jpg','2017-08-10 09:51:17') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (26,'2017-08-10/1502329876271619.jpg','2017-08-10 09:51:17') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (26,'2017-08-10/1502329876212429.jpg','2017-08-10 09:51:17') [ RunTime:0.000000s ]
+
+[ 2017-08-10T09:54:50+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%22123%22%2C%22car_num%22%3A%22123%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%22123%22%2C%22des%22%3A%2212%22%2C%22name%22%3A%22123%22%2C%22price%22%3A%22123%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502330089760904.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502330089836914.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'123','123','123',123,'12','123','13409362482','2017-08-10 09:54:50','2017-08-17 09:54:50') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (27,'2017-08-10/1502330089760904.jpg','2017-08-10 09:54:50') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (27,'2017-08-10/1502330089836914.jpg','2017-08-10 09:54:50') [ RunTime:0.001000s ]
+
+[ 2017-08-10T09:54:58+08:00 ] 192.168.31.73 /gzsc/index.php/Home/Serve/truckrend?json=%7B%22brand%22%3A%22123%22%2C%22car_num%22%3A%22123%22%2C%22cate_id%22%3A%223%22%2C%22date_for_production%22%3A%22123%22%2C%22des%22%3A%2212%22%2C%22name%22%3A%22123%22%2C%22price%22%3A%22123%22%2C%22tel%22%3A%2213409362482%22%2C%22url%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502330089760904.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502330089836914.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502330097836290.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502330097134629.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `truck_rend` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `truck_rendfile` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 119 行.
+SQL: INSERT INTO `truck_rend` (`user_id`,`cate_id`,`brand`,`car_num`,`date_for_production`,`price`,`des`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,3,'123','123','123',123,'12','123','13409362482','2017-08-10 09:54:58','2017-08-17 09:54:58') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (28,'2017-08-10/1502330089760904.jpg','2017-08-10 09:54:58') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (28,'2017-08-10/1502330089836914.jpg','2017-08-10 09:54:58') [ RunTime:0.000000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (28,'2017-08-10/1502330097836290.jpg','2017-08-10 09:54:58') [ RunTime:0.001000s ]
+SQL: INSERT INTO `truck_rendfile` (`truck_rend_id`,`file`,`add_time`) VALUES (28,'2017-08-10/1502330097134629.jpg','2017-08-10 09:54:58') [ RunTime:0.000000s ]
+
+[ 2017-08-10T10:31:39+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Serve/selectserve?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.015000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '服务' LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 1  [ RunTime:0.001000s ]
+
+[ 2017-08-10T10:34:25+08:00 ] 192.168.31.125 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-10T14:36:01+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Servedetail/medialserviceinfo?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `medial_service` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `medial_servicefile` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `medial_service` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file` FROM `medial_servicefile` WHERE `medial_service_id` = 1  [ RunTime:0.000000s ]
+
+[ 2017-08-10T14:36:55+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Servedetail/medialserviceinfo?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `medial_service` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `medial_servicefile` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `medial_service` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `file` FROM `medial_servicefile` WHERE `medial_service_id` = 3  [ RunTime:0.000000s ]
+
+[ 2017-08-10T17:39:53+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Serve/inforservice?json=%7B%22brank%22%3A%2212321%22%2C%22cate_id%22%3A%228%22%2C%22color%22%3A%2221321%22%2C%22des%22%3A%2221312%22%2C%22first_time%22%3A%2221321%22%2C%22name%22%3A%2212312%22%2C%22price%22%3A%2221321%22%2C%22tel%22%3A%2213409362482%22%2C%22url1%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502357991339111.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502357991506890.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502357991915039.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502357992398247.jpg%22%7D%5D%2C%22url2%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502357991547498.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502357991339789.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 325 行.
+NOTIC: [8] Undefined index: company_name C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 326 行.
+NOTIC: [8] Undefined index: company_des C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 327 行.
+NOTIC: [8] Undefined index: address C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 328 行.
+NOTIC: [8] Undefined index: seat C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 329 行.
+NOTIC: [8] Undefined index: job_req C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 330 行.
+NOTIC: [8] Undefined index: payment C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 331 行.
+SQL: INSERT INTO `information` (`user_id`,`company_name`,`company_des`,`address`,`seat`,`job_req`,`payment`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,null,null,null,null,null,null,'12312','13409362482','2017-08-10 17:39:53','2017-08-17 17:39:53') [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: url C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 339 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 341 行.
+NOTIC: [8] Undefined variable: info2 C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 348 行.
+
+[ 2017-08-10T17:40:22+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Serve/inforservice?json=%7B%22brank%22%3A%2212321%22%2C%22cate_id%22%3A%228%22%2C%22color%22%3A%2221321%22%2C%22des%22%3A%2221312%22%2C%22first_time%22%3A%2221321%22%2C%22name%22%3A%2212312%22%2C%22price%22%3A%2221321%22%2C%22tel%22%3A%2213409362482%22%2C%22url1%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502357991339111.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502357991506890.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502357991915039.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502357992398247.jpg%22%7D%5D%2C%22url2%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502357991547498.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502357991339789.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `informationfile` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 325 行.
+NOTIC: [8] Undefined index: company_name C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 326 行.
+NOTIC: [8] Undefined index: company_des C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 327 行.
+NOTIC: [8] Undefined index: address C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 328 行.
+NOTIC: [8] Undefined index: seat C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 329 行.
+NOTIC: [8] Undefined index: job_req C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 330 行.
+NOTIC: [8] Undefined index: payment C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 331 行.
+SQL: INSERT INTO `information` (`user_id`,`company_name`,`company_des`,`address`,`seat`,`job_req`,`payment`,`name`,`tel`,`add_time`,`valid_time`) VALUES (null,null,null,null,null,null,null,'12312','13409362482','2017-08-10 17:40:22','2017-08-17 17:40:22') [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: url C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 339 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 341 行.
+NOTIC: [8] Undefined variable: info2 C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 348 行.
+
+[ 2017-08-10T17:43:16+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Serve/houseforrent?json=%7B%22brank%22%3A%22SDA%22%2C%22cate_id%22%3A%228%22%2C%22color%22%3A%22ASDAS%22%2C%22des%22%3A%22DASDSADAS%22%2C%22first_time%22%3A%22ASDSAASDSA%22%2C%22name%22%3A%22SADAS%22%2C%22price%22%3A%22ASDDSA%22%2C%22tel%22%3A%2213409362482%22%2C%22url1%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502358195228569.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358195510823.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358195841091.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358195332763.jpg%22%7D%5D%2C%22url2%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502358195463026.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `house_for_rent` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `house_for_rentfile` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 76 行.
+NOTIC: [8] Undefined index: area C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 78 行.
+NOTIC: [8] Undefined index: house_type C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 79 行.
+NOTIC: [8] Undefined index: cash C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 80 行.
+NOTIC: [8] Undefined index: pay_method C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 81 行.
+NOTIC: [8] Undefined index: state C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 85 行.
+SQL: INSERT INTO `house_for_rent` (`user_id`,`cate_id`,`area`,`house_type`,`cash`,`pay_method`,`des`,`name`,`tel`,`state`,`add_time`,`valid_time`) VALUES (null,8,null,null,null,null,'DASDSADAS','SADAS','13409362482',null,'2017-08-10 17:43:16','2017-08-17 17:43:16') [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: url C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 92 行.
+NOTIC: [8] Undefined variable: info2 C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 99 行.
+
+[ 2017-08-10T17:43:25+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Serve/houseforrent?json=%7B%22brank%22%3A%22SDA%22%2C%22cate_id%22%3A%228%22%2C%22color%22%3A%22ASDAS%22%2C%22des%22%3A%22DASDSADAS%22%2C%22first_time%22%3A%22ASDSAASDSA%22%2C%22name%22%3A%22SADAS%22%2C%22price%22%3A%22ASDDSA%22%2C%22tel%22%3A%2213409362482%22%2C%22url1%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502358195228569.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358195510823.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358195841091.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358195332763.jpg%22%7D%5D%2C%22url2%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502358195463026.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `house_for_rent` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `house_for_rentfile` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 76 行.
+NOTIC: [8] Undefined index: area C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 78 行.
+NOTIC: [8] Undefined index: house_type C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 79 行.
+NOTIC: [8] Undefined index: cash C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 80 行.
+NOTIC: [8] Undefined index: pay_method C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 81 行.
+NOTIC: [8] Undefined index: state C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 85 行.
+SQL: INSERT INTO `house_for_rent` (`user_id`,`cate_id`,`area`,`house_type`,`cash`,`pay_method`,`des`,`name`,`tel`,`state`,`add_time`,`valid_time`) VALUES (null,8,null,null,null,null,'DASDSADAS','SADAS','13409362482',null,'2017-08-10 17:43:25','2017-08-17 17:43:25') [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: url C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 90 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 92 行.
+NOTIC: [8] Undefined variable: info2 C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 99 行.
+
+[ 2017-08-10T17:45:34+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Serve/addhandcar?json=%7B%22brank%22%3A%22ASDAS%22%2C%22cate_id%22%3A%228%22%2C%22color%22%3A%22ASDAS%22%2C%22des%22%3A%22SADSA%22%2C%22first_time%22%3A%22ASDSA%22%2C%22name%22%3A%22ASDAS%22%2C%22price%22%3A%22ASDAS%22%2C%22tel%22%3A%2213409362482%22%2C%22url1%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502358332584092.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358332957519.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358332193603.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358333724799.jpg%22%7D%5D%2C%22url2%22%3A%5B%7B%22url%22%3A%222017-08-10%2F1502358332786675.jpg%22%7D%2C%7B%22url%22%3A%222017-08-10%2F1502358332263861.jpg%22%7D%5D%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: user_id C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 27 行.
+NOTIC: [8] Undefined index: area C:\aaa\WWW\gzsc\Application\Home\Controller\ServeController.class.php 第 36 行.
+SQL: INSERT INTO `second_hand_car` (`user_id`,`cate_id`,`brank`,`color`,`first_time`,`price`,`des`,`name`,`tel`,`area`,`add_time`,`valid_time`,`driving_lience_pic`,`lience_num_pic`,`register_pic`,`bill_pic`) VALUES (null,8,'ASDAS','ASDAS','ASDSA',0,'SADSA','ASDAS','13409362482',null,'2017-08-10 17:45:34','2017-08-17 17:45:34','2017-08-10/1502358332584092.jpg','2017-08-10/1502358332957519.jpg','2017-08-10/1502358332193603.jpg','2017-08-10/1502358333724799.jpg') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (33,'2017-08-10/1502358332786675.jpg','2017-08-10 17:45:34') [ RunTime:0.000000s ]
+SQL: INSERT INTO `second_hand_carfile` (`second_hand_card_id`,`file`,`add_time`) VALUES (33,'2017-08-10/1502358332263861.jpg','2017-08-10 17:45:34') [ RunTime:0.000000s ]
+
+[ 2017-08-10T17:57:38+08:00 ] 192.168.31.125 /gzsc/index.php/Home/Servedetail/medialserviceinfo?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `medial_service` [ RunTime:0.016000s ]
+SQL: SHOW COLUMNS FROM `medial_servicefile` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `medial_service` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file` FROM `medial_servicefile` WHERE `medial_service_id` = 3  [ RunTime:0.001000s ]
+
+[ 2017-08-10T17:58:27+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Serveclass/secondhandcarinfo?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `second_hand_car` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `second_hand_carfile` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `second_hand_car` WHERE `states` = 2  [ RunTime:0.001000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_grade` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file` FROM `second_hand_carfile` WHERE ( second_hand_card_id=29 )  [ RunTime:0.000000s ]
+SQL: SELECT `file` FROM `second_hand_carfile` WHERE ( second_hand_card_id=31 )  [ RunTime:0.001000s ]
+SQL: SELECT `file` FROM `second_hand_carfile` WHERE ( second_hand_card_id=30 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\ServeclassController.class.php 第 40 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\ServeclassController.class.php 第 49 行.
+

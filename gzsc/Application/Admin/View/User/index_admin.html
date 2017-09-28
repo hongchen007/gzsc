@@ -1,0 +1,98 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-浏览管理员</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+   <div class="panel-body"> 
+    <div class="adv-table editable-table "> 
+
+     <div class="clearfix"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 浏览管理员 </button> 
+      </div> 
+      <div class="btn-group pull-right"> 
+       <a href="{:U('User/insert_admin')}"><button id="editable-sample_new" class="btn btn-primary"> Add New <i class="fa fa-plus"></i> </button></a> 
+       <ul class="dropdown-menu pull-right"> 
+        <li><a href="#">Print</a></li> 
+        <li><a href="#">Save as PDF</a></li> 
+        <li><a href="#">Export to Excel</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="space15"></div> 
+     <div id="editable-sample_wrapper" class="dataTables_wrapper form-inline" role="grid">
+      
+     <div class="panel-body">
+        <form class="form-inline" role="form" action="{:U('User/index_admin')}" method="get" />
+            
+            <div class="form-group">
+                <input class="form-control" id="exampleInputEmail2" value="{$Think.get.user_name}" name="user_name" placeholder="搜索管理员名" type="text">
+            </div>
+
+            <div class="form-group">状态：
+              <select class="form-control m-bot15" name="user_grade" >
+                  <option value="">--请选择--</option>
+                  <option value="1">正常管理员</option>
+                  <option value="11">禁用管理员</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">搜索</button>
+        </form>
+    </div>
+     
+     <table class="table table-striped table-hover table-bordered dataTable" id="editable-sample" aria-describedby="editable-sample_info"> 
+       <thead>
+        <tr role="row">
+         <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 5%;" aria-label="First Name">管理员名</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 5%;" aria-label="Last Name: activate to sort column ascending">状态</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 5%;" aria-label="Last Name: activate to sort column ascending">头像</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 5%;" aria-label="Edit: activate to sort column ascending">操作</th>
+        </tr> 
+       </thead> 
+       <tbody role="alert" aria-live="polite" aria-relevant="all"> 
+       <foreach name="UserInfo" item="val" > 
+        <tr class="odd"> 
+         <td class="  sorting_1">{$val.user_name}</td> 
+         <td class="  sorting_1">
+            <if condition="$val.user_grade eq 0"><span style="color:blue;"> 超级管理员</span>
+            <elseif condition="$val.user_grade eq 1" /> <span style="color:green;">管理员正常</span>
+            <elseif condition="$val.user_grade eq 11" /> <span style="color:red;">管理员禁用</span>
+            </if>
+         </td> 
+         <td class=" ">
+           <if condition="empty($val['user_pic']) eq true">没有头像
+           <else />
+            <img src="__PUBLIC__/Uploads/{$val['user_pic']}" style="width:100px;">
+           </if>
+         </td>  
+         <td class=" ">
+          <if condition="$val.user_grade eq 1">
+            <a href="__MODULE__/User/edit_admin/id/{$val.id}">修改</a> <br>
+            <a href="__MODULE__/User/del_admin/id/{$val.id}">删除</a><br>
+            <a href="__MODULE__/User/stop_admin/id/{$val.id}">禁用</a>
+          </if>
+          <if condition="$val.user_grade eq 11">
+            <a href="__MODULE__/User/edit_admin/id/{$val.id}">修改</a><br>
+            <a href="__MODULE__/User/del_admin/id/{$val.id}">删除</a> <br> 
+            <a href="__MODULE__/User/start_admin/id/{$val.id}">启用</a>
+          </if>
+         </td> 
+        </tr> 
+        </foreach>
+              <tr class="content">
+                <td colspan="3" bgcolor="#FFFFFF"><div class="pages">
+                  {$page}
+                </div></td>  
+            </tr>
+       </tbody>
+      </table>
+     </div> 
+    </div> 
+   </div> 
+  </block>  &gt;
+ </body>
+</html>

@@ -1,0 +1,1353 @@
+[ 2017-09-15T09:50:35+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-15T09:51:07+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 09:50:06' AND `tel` = '' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T09:54:26+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 09:53:26' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:03:12+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:02:12' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:03:37+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:02:36' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:03:50+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:02:50' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:04:35+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:03:35' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:05:06+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:04:06' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 194 行.
+
+[ 2017-09-15T10:05:24+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-15T10:06:03+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:05:03' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T10:07:05+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:06:05' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2017-09-15T10:07:22+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:06:22' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T10:07:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:06:38' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:08:14+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:07:14' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T10:13:04+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:12:04' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T10:13:22+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:12:22' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:13:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:12:38' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T10:15:54+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:14:54' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:16:55+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:15:54' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T10:28:58+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:27:58' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T10:36:49+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:35:49' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2017-09-15T10:53:33+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 10:52:32' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T11:42:53+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 11:41:52' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T13:56:06+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-15T13:56:55+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 13:55:55' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T13:57:26+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 13:56:25' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tel_code` (`code`,`addtime`) VALUES (862751,'2017-09-15 13:57:25') [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:17:06+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 14:16:05' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.002000s ]
+SQL: INSERT INTO `tel_code` (`code`,`addtime`,`tel`) VALUES (755853,'2017-09-15 14:17:05','18538166175') [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:26:01+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=123456789987654321&user_pwd=123456&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.002000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 303 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:26:33+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=123456&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.008000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 303 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:26:59+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=123456&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.004000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 303 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:27:25+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234569&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.011000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.012000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 303 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:27:33+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=poiuytr&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.006000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 303 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:29:02+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=poiuytr&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.024000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 303 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:29:41+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=poiuytr&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:30:47+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=poiuytr&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 303 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:31:05+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 303 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:31:28+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+
+[ 2017-09-15T14:31:48+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+
+[ 2017-09-15T14:31:56+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.005000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 304 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:32:10+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: starttime C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 304 行.
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > null  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: suc C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 308 行.
+
+[ 2017-09-15T14:33:40+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.009000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '1970-01-01 08:05:00' LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:34:39+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.004000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '1970-01-01 08:05:00' ORDER BY addtime desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:35:03+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.011000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '1970-01-01 08:05:00' ORDER BY addtime desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:37:35+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '1970-01-01 08:05:00' AND `tel` = '18538166175' ORDER BY addtime desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:39:06+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.018000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '1970-01-01 08:01:00' AND `tel` = '18538166175' ORDER BY addtime desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:39:29+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '1970-01-01 08:01:00' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:40:00+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.007000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 14:41:00' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:40:10+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 14:45:10' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:40:18+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.004000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 15:30:18' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:40:42+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.008000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 23:00:42' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:41:02+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.002000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 14:36:02' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2017-09-15T14:41:12+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.005000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 13:51:12' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T14:49:54+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.006000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 13:59:54' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:50:36+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.003000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 14:00:36' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:50:39+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.004000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 14:00:39' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:50:57+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.004000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 14:00:57' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:51:11+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=123456&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.002000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 06:31:11' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:51:47+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=862751&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.006000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 06:31:47' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T14:52:04+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=862751&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `weixin_user` [ RunTime:0.010000s ]
+ERR: 1146:Table 'dsc.weixin_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_user`
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 06:32:04' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:04:37+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 15:03:37' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tel_code` (`code`,`addtime`,`tel`) VALUES (898657,'2017-09-15 15:04:37','18538166175') [ RunTime:0.000000s ]
+
+[ 2017-09-15T15:25:24+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=862751&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 07:05:24' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:25:45+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=lyl&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 07:05:45' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'lyl' LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2017-09-15T15:26:00+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 07:06:00' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 328 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:26:28+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=111111111111111111&user_pwd=1234568&code=898657&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 07:06:28' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '111111111111111111' LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T15:26:55+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 07:06:55' AND `tel` = '15538165120' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:27:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:07:13' AND `tel` = '15538165120' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:27:39+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:07:39' AND `tel` = '15538165120' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:30:39+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+NOTIC: [8] Array to string conversion C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Model.class.php 第 596 行.
+ERR: 错误的查询条件:[addtime=>Array]
+
+[ 2017-09-15T15:31:28+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+NOTIC: [8] Array to string conversion C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Model.class.php 第 596 行.
+ERR: 错误的查询条件:[addtime=>Array]
+
+[ 2017-09-15T15:31:53+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+ERR: 错误的查询条件:[tel=>18538166175]
+
+[ 2017-09-15T15:32:37+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013000s ]
+SQL: SELECT `id` FROM `user` WHERE `user_phone` = '18538166175' LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2017-09-15T15:37:16+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `user` WHERE `user_phone` = '15538165120' LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T15:37:29+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `user` WHERE `user_phone` = '15538165120' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 15:36:29' AND `tel` = '15538165120' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:38:30+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT `id` FROM `user` WHERE `user_phone` = '18538166175' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 15:37:29' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tel_code` (`code`,`addtime`,`tel`) VALUES (566945,'2017-09-15 15:38:29','18538166175') [ RunTime:0.000000s ]
+
+[ 2017-09-15T15:42:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:22:13' AND `tel` = '15538165120' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:42:32+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-15T15:42:43+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:22:43' AND `tel` = '15538165120' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T15:42:55+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=15538165120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:22:55' AND `tel` = '15538165120' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T15:43:24+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:23:24' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:43:58+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:23:58' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:44:27+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:24:27' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:44:49+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=898657&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:24:49' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T15:45:04+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:25:04' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 316 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:45:18+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:25:18' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 316 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:45:32+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=1472369852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:25:32' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '1472369852369741' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 316 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:45:42+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=14723852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:25:42' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '14723852369741' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 316 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:45:54+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=14723852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:25:54' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '14723852369741' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 316 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:46:22+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=111&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:26:22' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '111' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 316 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:48:36+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=111&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:28:36' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '111' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 316 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:50:10+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=111&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+
+[ 2017-09-15T15:51:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=111&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+
+[ 2017-09-15T15:51:53+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:31:53' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 323 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-15T15:52:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:32:13' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 323 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-15T16:04:42+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:44:42' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 324 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.003000s ]
+SQL: INSERT INTO `user` (`user_name`,`user_id`,`user_pwd`,`user_phone`) VALUES ('hxc','147852369852369741','fe743d8d97aa7dfc6c93ccdc2e749513','18538166175') [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: suc C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 346 行.
+
+[ 2017-09-15T16:06:03+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:46:03' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 328 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `user` (`user_name`,`user_id`,`user_pwd`,`user_phone`) VALUES ('hxc','147852369852369741','fe743d8d97aa7dfc6c93ccdc2e749513','18538166175') [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: suc C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 341 行.
+
+[ 2017-09-15T16:08:11+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:48:11' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 328 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `user` (`user_name`,`user_id`,`user_pwd`,`user_phone`) VALUES ('hxc','147852369852369741','fe743d8d97aa7dfc6c93ccdc2e749513','18538166175') [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: suc C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 341 行.
+
+[ 2017-09-15T16:15:17+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175&grade=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:55:17' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 330 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.001000s ]
+ERR: 非法数据对象！:[grade=>4]
+
+[ 2017-09-15T16:16:29+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175&user_grade=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:56:29' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = '147852369852369741' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user_phone C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 330 行.
+SQL: SELECT * FROM `user` WHERE `user_phone` = null LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `user` (`user_name`,`user_id`,`user_grade`,`user_pwd`,`user_phone`) VALUES ('hxc','147852369852369741',4,'fe743d8d97aa7dfc6c93ccdc2e749513','18538166175') [ RunTime:0.001000s ]
+
+[ 2017-09-15T16:16:34+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/register?user_name=hxc&user_id=147852369852369741&user_pwd=1234568&code=566945&tel=18538166175&user_grade=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.018000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-12 04:56:34' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'hxc' LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2017-09-15T17:15:18+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=15737319944
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `user` WHERE `user_phone` = '15737319944' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 17:14:17' AND `tel` = '15737319944' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tel_code` (`code`,`addtime`,`tel`) VALUES (609754,'2017-09-15 17:15:17','15737319944') [ RunTime:0.001000s ]
+
+[ 2017-09-15T17:15:31+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=15737319944
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `user` WHERE `user_phone` = '15737319944' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 17:14:31' AND `tel` = '15737319944' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tel_code` (`code`,`addtime`,`tel`) VALUES (328367,'2017-09-15 17:15:31','15737319944') [ RunTime:0.001000s ]
+
+[ 2017-09-15T17:17:09+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=15737319944
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016000s ]
+SQL: SELECT `id` FROM `user` WHERE `user_phone` = '15737319944' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-15 17:16:08' AND `tel` = '15737319944' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `tel_code` (`code`,`addtime`,`tel`) VALUES (108910,'2017-09-15 17:17:08','15737319944') [ RunTime:0.000000s ]
+

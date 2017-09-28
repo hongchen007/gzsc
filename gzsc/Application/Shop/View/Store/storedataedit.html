@@ -1,0 +1,78 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-修改商铺信息</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 修改商铺信息 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Store/dostoredataedit')}" novalidate="novalidate"> 
+
+    
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">添加修改用户名</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="user_name" name="user_name" type="text" value="{$info.user_name}" />
+       <input class="form-control " id="id" name="id" type="hidden" value="{$info.id}" />
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">添加修改商铺名称</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="user_store_name" name="user_store_name" type="text" value="{$info.user_store_name}" />
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">添加修改身份证号</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="user_id" name="user_id" type="text" value="{$info.user_id}" />
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">添加修改商户营业执照号</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="user_store_lience" name="user_store_lience" type="text" value="{$info.user_store_lience}" />
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">添加修改商户注册资金</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="user_store_registered" name="user_store_registered" type="text" value="{$info.user_store_registered}" />
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">添加修改商户保证金</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="user_store_cash" name="user_store_cash" type="text" value="{$info.user_store_cash}" />
+      </div> 
+     </div> 
+
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="修改">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+    </form> 
+   </div> 
+  </div>
+
+
+  </block>  &gt;
+ </body>
+</html>

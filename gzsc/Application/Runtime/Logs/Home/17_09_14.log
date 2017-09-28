@@ -1,0 +1,1232 @@
+[ 2017-09-14T14:10:05+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/indexaa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: lng C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 47 行.
+NOTIC: [8] Undefined index: lat C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 47 行.
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 133 行.
+
+[ 2017-09-14T14:10:54+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/indexaa?lat=0&lng=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 133 行.
+
+[ 2017-09-14T14:10:58+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/detail?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_phone`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 15 ORDER BY add_time desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `evaluate` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 143 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE ( good_id=15 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.000000s ]
+
+[ 2017-09-14T14:11:04+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/detail?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_phone`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 15 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `evaluate` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 143 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE ( good_id=15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.000000s ]
+
+[ 2017-09-14T14:22:19+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/indexaa?lat=0&lng=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 133 行.
+
+[ 2017-09-14T14:22:21+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.000000s ]
+
+[ 2017-09-14T14:22:25+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/detail?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_phone`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 15 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `evaluate` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 143 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE ( good_id=15 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.001000s ]
+
+[ 2017-09-14T14:56:05+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/indexaa?lat=0&lng=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 133 行.
+
+[ 2017-09-14T14:56:15+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/detail?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15  [ RunTime:0.001000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_phone`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 15 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `evaluate` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 143 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE ( good_id=15 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.001000s ]
+
+[ 2017-09-14T14:59:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/indexaa?lat=0&lng=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 133 行.
+
+[ 2017-09-14T14:59:44+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/detail?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_phone`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 15 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `evaluate` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 143 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE ( good_id=15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.000000s ]
+
+[ 2017-09-14T15:11:28+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/indexaa?lat=0&lng=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 133 行.
+
+[ 2017-09-14T15:11:32+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/detail?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_phone`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 15 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `evaluate` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_attr_id C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 142 行.
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 143 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE ( good_id=15 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'white'  [ RunTime:0.001000s ]
+
+[ 2017-09-14T15:11:35+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Goods/detail?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `evaluate` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`user_id`,`good_name` FROM `good` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `good_attr_id`,`file_id` FROM `rele` WHERE `good_id` = 14  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_pic`,`user_store_phone`,`user_store_evaluate`,`user_store_address` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `evaluate` WHERE `good_id` = 14 ORDER BY add_time desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `evaluate` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `user_pic`,`user_name` FROM `user` WHERE `id` = 9 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hwere7 C:\aaa\WWW\gzsc\Application\Home\Controller\GoodsController.class.php 第 143 行.
+SQL: SELECT `good_attr_color`,`good_attr_size` FROM `good_attr` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE ( good_id=14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'red'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'red'  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'blue'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'red'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = ''  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = 'HS'  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_attr_color` = ''  [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:10:15+08:00 ] 127.0.0.1 /gzsc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T16:10:51+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+
+[ 2017-09-14T16:10:58+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+
+[ 2017-09-14T16:11:08+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+
+[ 2017-09-14T16:11:16+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+
+[ 2017-09-14T16:11:47+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+
+[ 2017-09-14T16:14:10+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T16:14:21+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:13:21' AND `tel` = '' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cade C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 143 行.
+
+[ 2017-09-14T16:22:01+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:21:01' AND `tel` = '' ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cade C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 143 行.
+
+[ 2017-09-14T16:22:25+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:21:25' AND `tel` = '' ORDER BY id desc  [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:22:35+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:12:35' AND `tel` = '' ORDER BY id desc  [ RunTime:0.001000s ]
+
+[ 2017-09-14T16:22:38+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:12:38' AND `tel` = '' ORDER BY id desc  [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:23:57+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:13:57' AND `tel` = '' ORDER BY id desc  [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:24:37+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:14:37' AND `tel` = '' ORDER BY id desc  [ RunTime:0.001000s ]
+
+[ 2017-09-14T16:24:59+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:14:59' AND `tel` = '' ORDER BY id desc  [ RunTime:0.001000s ]
+
+[ 2017-09-14T16:25:24+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:15:24' AND `tel` = '18538166175' ORDER BY id desc  [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:26:04+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:16:04' AND `tel` = '18538166175' ORDER BY id desc  [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:26:17+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:25:17' AND `tel` = '18538166175' ORDER BY id desc  [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:26:37+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:16:37' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:29:42+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:28:42' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:29:54+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:28:54' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:30:43+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:29:43' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:30:49+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:29:49' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-14T16:30:57+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:29:57' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:31:19+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:21:19' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:41:17+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:31:17' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:42:49+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:32:49' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T16:43:16+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 16:33:16' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:43:27+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 15:03:27' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:43:33+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:43:48+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 15:03:48' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T16:44:20+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 15:04:20' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 147 行.
+
+[ 2017-09-14T16:46:50+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 15:06:50' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T17:15:01+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 17:14:01' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T17:32:40+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 17:31:39' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T17:34:11+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 17:33:11' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T17:48:46+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 17:47:46' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T17:52:43+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 17:51:42' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] curl_error(): 33 is not a valid cURL handle resource C:\aaa\WWW\gzsc\Application\Home\Controller\LoginController.class.php 第 152 行.
+
+[ 2017-09-14T18:02:27+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:01:26' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T18:03:43+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:02:42' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-14T18:04:28+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:03:27' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-14T18:04:48+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:03:47' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T18:05:23+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:04:23' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T18:08:10+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:07:10' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-14T18:08:44+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:07:43' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-14T18:09:00+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:07:59' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T18:52:09+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Login/code?tel=18538166175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tel_code` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tel_code` WHERE `addtime` > '2017-09-14 18:51:09' AND `tel` = '18538166175' ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T19:00:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/indexaa?p=1&lat=0.0&lng=0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+
+[ 2017-09-14T19:00:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.001000s ]
+
+[ 2017-09-14T19:00:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.001000s ]
+
+[ 2017-09-14T19:00:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.000000s ]
+
+[ 2017-09-14T19:00:13+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.000000s ]
+
+[ 2017-09-14T19:00:14+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.000000s ]
+
+[ 2017-09-14T19:00:14+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.000000s ]
+
+[ 2017-09-14T19:00:14+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.000000s ]
+
+[ 2017-09-14T19:00:14+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.004000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.000000s ]
+
+[ 2017-09-14T19:00:15+08:00 ] 127.0.0.1 /gzsc/index.php/Home/Dianshang/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cate` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.003000s ]
+SQL: SELECT `id` FROM `cate` WHERE `cate_name` = '电商' LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `id`,`cate_name` FROM `cate` WHERE `cate_pid` = 10  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 11  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 18  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 23  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 28  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 35  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 40  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 49  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 53  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`cate_name`,`cate_pic` FROM `cate` WHERE `cate_pid` = 60  [ RunTime:0.001000s ]
+

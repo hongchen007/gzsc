@@ -1,0 +1,111 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-维修服务服务</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+   <div class="panel-body"> 
+    <div class="adv-table editable-table "> 
+
+     <div class="clearfix"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 维修服务服务 </button> 
+      </div> 
+<!--       <div class="btn-group pull-right"> 
+       <a href=""><button id="editable-sample_new" class="btn btn-primary"> Add New <i class="fa fa-plus"></i> </button></a> 
+       <ul class="dropdown-menu pull-right"> 
+        <li><a href="#">Print</a></li> 
+        <li><a href="#">Save as PDF</a></li> 
+        <li><a href="#">Export to Excel</a></li> 
+       </ul> 
+      </div>  -->
+     </div> 
+     
+     <div class="space15"></div> 
+     <div id="editable-sample_wrapper" class="dataTables_wrapper form-inline" role="grid">
+     
+     <div class="panel-body">
+        <form class="form-inline" role="form" action="{:U('Service/weixiuservice')}" method="get" />
+            <div class="form-group">
+                <input class="form-control" id="exampleInputEmail2" value="{$Think.get.name}" name="name" placeholder="搜索联系人" type="text">
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="exampleInputEmail2" value="{$Think.get.tel}" name="tel" placeholder="搜索手机号" type="text">
+            </div>
+            <div class="form-group">状态：
+              <select class="form-control m-bot15" name="states" >
+                 <option value="">--请选择--</option>
+                 <option value="1">待审核</option> 
+                 <option value="2">通过审核</option> 
+                 <option value="3">已禁用</option> 
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">搜索</button>
+        </form>
+    </div>
+     
+      <table class="table table-striped table-hover table-bordered dataTable" id="editable-sample" aria-describedby="editable-sample_info"> 
+       <thead>
+        <tr role="row">
+         <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 7%;" aria-label="First Name">ID</th>
+         <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 7%;" aria-label="First Name">发布人</th>
+         <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 7%;" aria-label="First Name">详细地址</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 7%;" aria-label="Last Name: activate to sort column ascending">付款方式</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 7%;" aria-label="Points: activate to sort column ascending">联系人</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 7%;" aria-label="Points: activate to sort column ascending">手机号码</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 7%;" aria-label="Points: activate to sort column ascending">发布时间</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 7%;" aria-label="Points: activate to sort column ascending">截止时间</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 7%;" aria-label="Points: activate to sort column ascending">是否失效</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 7%;" aria-label="Points: activate to sort column ascending">状态</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 7%;" aria-label="Points: activate to sort column ascending">操作</th>
+        </tr> 
+       </thead> 
+       <tbody role="alert" aria-live="polite" aria-relevant="all"> 
+       <foreach name="info" item="val" > 
+        <tr class="odd">
+        <td class=" ">{$val.id}</td>    
+         <td class=" ">
+            <if condition="$val.user_grade eq 2 || $val.user_grade eq 3 || $val.user_grade eq 4"><span style="color:green;">商户：{$val.user_store_name}</span>
+            <elseif condition="$val.user_grade eq 5 || user_grade eq 6" /> <span style="color:blue;">用户：{$val.user_name}</span>
+            </if>
+         </td>  
+         <td class=" ">{$val.address}</td> 
+         <td class=" ">{$val.pay_method}</td> 
+         <td class=" ">{$val.name}</td>
+         <td class=" ">{$val.tel}</td>
+         <td class=" ">{$val.add_time}</td>
+         <td class=" ">{$val.valid_time}</td>
+         <td class=" ">
+            <if condition="$val.time eq '正常'"><span style="color:blue;">正常</span>
+            <elseif condition="$val.time eq '失效'" /> <span style="color:red;">失效</span>
+            </if>
+         </td>
+         <td class=" ">
+            <if condition="$val.states eq 1"><span style="color:green;"> 待审核</span><a href="__MODULE__/Service/weixiuservicepass/id/{$val.id}">(点击通过审核)</a>
+            <elseif condition="$val.states eq 2" /> <span style="color:blue;">通过审核，正常</span><a href="__MODULE__/Service/weixiuservicestop/id/{$val.id}">(点击禁用)</a>
+            <elseif condition="$val.states eq 3" /> <span style="color:red;">已禁用</span><a href="__MODULE__/Service/weixiuservicepass/id/{$val.id}">(点击通过审核)</a>
+            </if>
+         </td>
+         <td class=" ">
+            <a href="__MODULE__/Service/weixiuserviceedit/id/{$val.id}">详情</a> <br>
+            <a href="__MODULE__/Service/weixiuservicedel/id/{$val.id}">删除</a> <br> 
+            <a href="__MODULE__/Service/weixiuservicefile/id/{$val.id}">图片</a> <br> 
+         </td> 
+        </tr> 
+        </foreach>
+            <tr class="content">
+                <td colspan="3" bgcolor="#FFFFFF"><div class="pages">
+                  {$page}
+                </div></td>  
+            </tr>
+       </tbody>
+      </table>
+     </div> 
+    </div> 
+   </div> 
+  </block>  &gt;
+ </body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-商品图片</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 商品图片 </button> 
+      </div>  
+
+      <div class="btn-group pull-right"> 
+       <a href="__MODULE__/Store/addpic/id/{$good_attr_info.id}"><button id="editable-sample_new" class="btn btn-primary"><i class="fa fa-plus"></i>添加图片 </button></a> 
+      </div> 
+
+      <div class="btn-group pull-right"> 
+       <a href="__MODULE__/Store/detail/id/{$good_attr_info['good_id']}"><button id="editable-sample_new" class="btn btn-primary"><i class="fa fa-reply"></i> fa-reply</button></a> 
+      </div>
+
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="" novalidate="novalidate"> 
+   
+    <foreach name="info" item="val" >
+      <div class="panel-body ">
+          <div class="media blog-cmnt">
+              <a href="" class="pull-left">
+                  <img alt="" src="__PUBLIC__/Uploads/{$val['file_pic']}" class="media-object">
+              </a>
+              <div class="media-body">
+                  <h4 class="media-heading">
+                      <a href="#">{$good_attr_info['good_name']}</a>
+                  </h4>
+                  <p class="mp-less">
+                    {$good_attr_info['good_attr_des']};
+                    <if condition="empty($good_attr_info['good_attr_color']) eq true"><else />颜色：{$good_attr_info['good_attr_color']};</if>
+                    <if condition="empty($good_attr_info['good_attr_size']) eq true"><else />大小为：{$good_attr_info['good_attr_size']};</if>
+                    价格：{$good_attr_info['good_attr_price']};库存量：{$good_attr_info['good_attr_num']};
+                  </p>
+                  <p style="margin-top:10px;">
+                    <a href="__MODULE__/Store/editpic/id/{$val.id}">修改</a> | 
+                    <a href="__MODULE__/Store/delpic/id/{$val.id}">删除</a>  
+                  </p>
+              </div>
+          </div>
+      </div>
+    </foreach>
+
+    </form> 
+   </div> 
+  </div>
+
+
+  </block>  &gt;
+ </body>
+</html>

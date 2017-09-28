@@ -1,0 +1,1630 @@
+//==============================================前台展示时图片的路径拼接===========================================
+
+	"http://192.168.31.125/gzsc/Public/Uploads/"."2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg"
+
+//==============================================服务部分========================================================
+
+	服务首页：(图片轮播)
+		请求的地址：http://127.0.0.1/gzsc/index.php/Home/Serve/indexaa?lng=['精度']&lat=['纬度']&p=['页数']&len=['每页几条数据']
+		请求的参数:
+					如果定位失败：lng=0.0;lat=0.0
+					p:	第几页，可以为空，默认为第一页
+					len:	每页的长度，可以为空，默认为每页10条数据
+		返回数据：
+				{
+				  "headerpicss": [																	//头部的图片轮播
+				    {
+				      "adsserve_pic": "2017-08-10/598c663e84d00.jpg",								//图片
+				      "adsserve_http": "/gzsc/index.php/Home/Servedetail/secondhandcar?id=30",		//链接地址
+				      "adsserve_descr": "洞若观火"													//描述
+				    },
+				    {
+				      "adsserve_pic": "2017-08-10/598c66cda8750.jpg",
+				      "adsserve_http": "/gzsc/index.php/Home/Servedetail/truckrendinfo?id=4",
+				      "adsserve_descr": "ASF "
+				    }
+				  ],
+				  "middlepicss": [																	//中部的图片轮播
+				    {
+				      "adsserve_pic": "2017-08-11/598d0c0a0aa50.jpg",								//图片
+				      "adsserve_http": "/gzsc/index.php/Home/Servedetail/secondhandcar?id=30",		//链接地址
+				      "adsserve_descr": "aergfjhg"													//描述
+				    },
+				    {
+				      "adsserve_pic": "2017-08-10/598c669b32c80.jpg",
+				      "adsserve_http": "/gzsc/index.php/Home/Servedetail/weixiuserviceinfo?id=4",
+				      "adsserve_descr": "奇特"
+				    },
+				    {
+				      "adsserve_pic": "2017-08-10/598c66fe0a410.jpg",
+				      "adsserve_http": "/gzsc/index.php/Home/Servedetail/inforserviceinfo?id=6",
+				      "adsserve_descr": "阿斯蒂芬"
+				    },
+				    {
+				      "adsserve_pic": "2017-08-11/598d7382401c8.jpg",
+				      "adsserve_http": "/gzsc/index.php/Home/Servedetail/homedecorationinfo?id=8",
+				      "adsserve_descr": "vaet"
+				    },
+				    {
+				      "adsserve_pic": "2017-08-11/598d73b36cca0.jpg",
+				      "adsserve_http": "/gzsc/index.php/Home/Servedetail/medialserviceinfo?id=3",
+				      "adsserve_descr": "发送到"
+				    }
+				  ],
+				  "shop": [										//猜你喜欢
+				    {
+				      "id": "30",								//服务id
+				      "des": "aaaaaaaaaaa",						//描述
+				      "cate_id": "8",							//服务所属类型id
+				      "file": "2017-08-02/5980b386c11d8.jpg"	//图片
+				    },
+				    {
+				      "id": "3",
+				      "des": "你好1",
+				      "cate_id": "3",
+				      "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				    }
+				  ]
+				}
+
+
+//==============================================发布类目选择========================================================
+
+	选择发布类目：
+		请求的地址：http://127.0.0.1/gzsc/index.php/Home/Serve/selectserve
+		请求的方式：get
+		返回的参数：
+				{
+				  "date": [
+				    {
+				      "id": "2",									//分类id
+				      "cate_name": "房屋出租",						//分类名
+				      "cate_pic": "2017-07-29/597c354330570.jpg"	//分类图片	
+				    },
+				    {
+				      "id": "3",
+				      "cate_name": "货车出租",
+				      "cate_pic": null
+				    },
+				    {
+				      "id": "4",
+				      "cate_name": "招聘信息",
+				      "cate_pic": null
+				    },
+				    {
+				      "id": "5",
+				      "cate_name": "维修服务",
+				      "cate_pic": null
+				    },
+				    {
+				      "id": "6",
+				      "cate_name": "家政服务",
+				      "cate_pic": null
+				    },
+				    {
+				      "id": "7",
+				      "cate_name": "家具装修",
+				      "cate_pic": null
+				    },
+				    {
+				      "id": "8",
+				      "cate_name": "二手车",
+				      "cate_pic": null
+				    },
+				    {
+				      "id": "9",
+				      "cate_name": "医疗",
+				      "cate_pic": null
+				    },
+				    {
+				      "id": "65",
+				      "cate_name": "公司工厂",
+				      "cate_pic": "2017-09-11/59b6363eaa118.jpg"
+				    }
+				  ]
+				}
+
+//==============================================我的发布============================================================
+	二手车：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serve/addhandcar?json=['json']
+		请求的方式：get
+		注意：首次上牌时间写成 "2012-12-12" 这种格式;
+		请求的参数：json格式形式如下
+				{
+				    "user_id": "6",					//用户id
+				    "cate_id": "8",					//分类id
+				    "brank": "奥迪",				//品牌
+				    "color":"white",		   		//颜色
+				    "first_time":"2012-12-12",		//首次上牌时间
+				    "price": "12",					//价格
+				    "des": "你好",					//描述
+				    "name": "亚龙",					//姓名
+				    "tel": "156388514569",			//联系电话
+				    "area": "河南",					//区域
+				    "url1": [						
+				        {
+				            "url": "2017-07-31/0e711dee3387b091717b05f62989f6e7.jpg"	//行驶证照片
+				        },
+				        {
+				            "url": "2017-07-31/1c3a39be4b38c2ab4ddae8283b684fb7.jpg"	//车牌照照片
+				        },
+				        {
+				            "url": "2017-07-31/1ee6b92981598517e6061358cb158a33.jpg"	//登记照照片
+				        },
+				        {
+				            "url": "2017-07-31/2af19d20e041871fc573762d9657f5d7.jpg" 	//购买发票照片
+				        }
+				    ],
+				    "url2": [															//二手车照片
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/7f024f638735f1b7b601fd9c148efdbd.jpg"
+				        }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败",
+				  "code": 0
+				}		
+
+	房屋出租：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Serve/houseforrent?json=['json']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{
+				    "user_id": "6",				//发布者id
+				    "cate_id": "2",			    //分类id
+				    "area": "河南",				//区域
+				    "house_type":"两室一厅",	//户型
+				    "cash":"1000",				//押金
+				    "pay_method": "0",	        //付款方式
+				    "des": "你好",				//标题描述
+				    "name": "亚龙",				//联系人
+				    "tel": "156388514569",		//手机号码
+				    "state": "1",				//电话隐私保护（1：保护		2：不保护）
+				    "url": [					//商户上传的房屋出租图片
+				        {
+				            "url": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败"
+				  "code": 0
+				}		
+			 
+	货车出租：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Serve/truckrend?json=['json']
+		请求的方式：get
+		请求的参数：json格式形式如下
+			{
+			    "user_id": "6",							
+			    "cate_id": "3",			   				
+			    "brand": "大众",				
+			    "car_num":"豫S1234A",				
+			    "date_for_production":"2012年12月13日",	
+			    "price": "12",						
+			    "des": "你好",						
+			    "name": "亚龙",							
+			    "tel": "156388514569",				
+			    "url": [								
+				        {
+				            "url": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        }
+			    ]
+			}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败"
+				  "code": 0
+				}					 
+
+	家居装修：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Serve/homedecoration?json=['json']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{
+				    "user_id": "6",					//发布者id
+				    "cate_id": "7",			   		//分类id
+				    "address":"豫S1234A",			//详细地址
+				    "pay_method":"0",           	//付款方式
+				    "des": "你好",					//标题描述
+				    "name": "亚龙",					//联系人
+				    "tel": "156388514569",			//手机号码
+				    "url": [						//家居装修图片
+				        {
+				            "url": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败"
+				  "code": 0
+				}		
+			 
+	家政服务：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Serve/housekeeping?json=['json']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{
+				    "user_id": "6",					//发布者id
+				    "cate_id": "6",			   		//分类id
+				    "address":"豫S1234A",			//详细地址
+				    "pay_method":"完工付款",      	//付款方式
+				    "des": "你好",					//标题描述
+				    "name": "亚龙",					//联系人
+				    "tel": "156388514569",			//手机号码
+				    "url": [						//家政服务图片
+				        {
+				            "url": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败"
+				  "code": 0
+				}		
+
+	维修服务：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Serve/weixiuservice?json=['json']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{
+				    "user_id": "6",					//发布者id
+				    "cate_id": "6",			   		//分类id
+				    "address":"豫S1234A",			//详细地址
+				    "pay_method":"完工付款",      	//付款方式
+				    "des": "你好",					//标题描述
+				    "name": "亚龙",					//联系人
+				    "tel": "156388514569",			//手机号码
+				    "url": [						//维修服务图片
+				        {
+				            "url": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败"
+				  "code": 0
+				}		
+
+	医疗服务：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Serve/medialservice?json=['json']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{
+				    "user_id": "6",					//发布者id
+				    "cate_id": "9",			   		//分类id
+				    "address":"河南",	    		//详细地址
+				    "pay_method":"0",           	//付款方式
+				    "des": "你好",					//标题描述
+				    "name": "亚龙",					//联系人
+				    "tel": "156388514569",			//手机号码
+				    "url": [						//医疗服务图片
+				        {
+				            "url": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败"
+				  "code": 0
+				}		
+
+	招聘信息：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Serve/inforservice?json=['json']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{
+				    "user_id": "6",					//发布者id
+				    "cate_id": "4",			   		//分类id
+				    "company_name": "Alibab",		//公司名称
+				    "company_des": "待遇好",		//公司简介
+				    "address":"河南",	    		//详细地址
+				    "seat":"程序员",                //招聘职位
+				    "job_req": "技术好",			//职位要求 
+				    "payment": "4000",				//薪酬
+				    "name": "小明",			        //联系人
+				    "tel": "156388514569",			//手机号码
+				    "url": [						//招聘信息图片
+				        {
+				            "url": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败"
+				  "code": 0
+				}		
+
+	公司工厂：
+		请求的地址：http://127.0.0.4/gzsc/index.php/Home/Serve/company?json=['json']
+		请求的方式：get
+		请求的参数：json格式形式如下
+				{
+				    "user_id": "6",					//发布者id
+				    "cate_id": "65",			   	//分类id
+				    "company_name": "Alibab",		//公司名称
+				    "company_des": "待遇好",		//公司简介
+				    "address":"河南",	    		//详细地址
+				    "register_time":"河南",	    	//公司工厂注册时间（Y-m-d H:i:s）类型
+				    "contents":"生产手机",          //主要经营
+				    "legal_person": "红尘",      	//公司法人 
+				    "tel": "156388514569",			//手机号码
+				    "url": [						//公司工厂图片
+				        {
+				            "url": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				        },
+				        {
+				            "url": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				        }
+				    ]
+				}
+		返回的参数：
+			成功：
+				{
+				  "sucmsg": "发布成功",
+				  "code": 1
+				}
+			失败：
+				{
+				  "errmsg": "发布失败"
+				  "code": 0
+				}
+
+
+//==============================================服务分类============================================================
+
+	二手车出租（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/secondhandcarinfo?condition['品牌']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "31",								//二手车出租id
+				    "user_id": "6",							//发布者id
+				    "cate_id": "8",							//分类id
+				    "brank": "奥迪",						//品牌
+				    "color": "white",						//颜色
+				    "first_time": "2012-12-12 00:00:00",	//首次注册时间
+				    "price": "12.00",						//价格
+				    "des": "aaaaaaaaaaa",					//描述
+				    "name": "亚龙1",						//联系人
+				    "tel": "156388514569",					//联系电话
+				    "area": "河南",							//看车区域
+				    "driving_lience_pic": "2017-08-02/5980b282aae60.jpg",	//行驶证照片
+				    "lience_num_pic": "2017-08-02/5980b282ac5d0.jpg",		//车牌照照片
+				    "register_pic": "2017-08-02/5980b282ad958.jpg",			//等级照照片
+				    "bill_pic": "2017-08-02/5980b282aece0.jpg",				//购买发票照片
+				    "add_time": "2017-08-02 00:47:53",						//发布时间
+				    "states": "2",											//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",										//点击量
+				    "file": [									
+				      {		
+				        "file": "2017-08-02/5980b386c11d8.jpg"				//照片
+				      },
+				      {
+				        "file": "2017-08-02/SGAERSGASDGA.jpg"
+				      }
+				    ]
+				  },
+				  {
+				    "id": "30",
+				    "user_id": "6",
+				    "cate_id": "8",
+				    "brank": "玛莎拉蒂",
+				    "color": "white",
+				    "first_time": "2012-12-12 00:00:00",
+				    "price": "12.00",
+				    "des": "aaaaaaaaaaa",
+				    "name": "亚龙2",
+				    "tel": "156388514569",
+				    "area": "河南",
+				    "driving_lience_pic": "2017-08-02/5980b282aae60.jpg",
+				    "lience_num_pic": "2017-08-02/5980b282ac5d0.jpg",
+				    "register_pic": "2017-08-02/5980b282ad958.jpg",
+				    "bill_pic": "2017-08-02/5980b282aece0.jpg",
+				    "add_time": "2017-08-02 00:47:53",
+				    "states": "2",
+				    "clicknum": "1",
+				    "file": [
+				      {
+				        "file": "2017-08-02/5980b386c11d8.jpg"
+				      },
+				      {
+				        "file": "2017-08-02/SGAERSGASDGA.jpg"
+				      }
+				    ]
+				  }
+				]	
+	
+	二手车出租（热门）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/secondhandcarghot?condition=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "31",								//二手车出租id
+				    "user_id": "6",							//发布者id
+				    "cate_id": "8",							//分类id
+				    "brank": "奥迪",						//品牌
+				    "color": "white",						//颜色
+				    "first_time": "2012-12-12 00:00:00",	//首次注册时间
+				    "price": "12.00",						//价格
+				    "des": "aaaaaaaaaaa",					//描述
+				    "name": "亚龙1",						//联系人
+				    "tel": "156388514569",					//联系电话
+				    "area": "河南",							//看车区域
+				    "driving_lience_pic": "2017-08-02/5980b282aae60.jpg",	//行驶证照片
+				    "lience_num_pic": "2017-08-02/5980b282ac5d0.jpg",		//车牌照照片
+				    "register_pic": "2017-08-02/5980b282ad958.jpg",			//等级照照片
+				    "bill_pic": "2017-08-02/5980b282aece0.jpg",				//购买发票照片
+				    "add_time": "2017-08-02 00:47:53",						//发布时间
+				    "states": "2",											//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",										//点击量
+				    "file": [									
+				      {		
+				        "file": "2017-08-02/5980b386c11d8.jpg"				//照片
+				      },
+				      {
+				        "file": "2017-08-02/SGAERSGASDGA.jpg"
+				      }
+				    ]
+				  },
+				  {
+				    "id": "30",
+				    "user_id": "6",
+				    "cate_id": "8",
+				    "brank": "玛莎拉蒂",
+				    "color": "white",
+				    "first_time": "2012-12-12 00:00:00",
+				    "price": "12.00",
+				    "des": "aaaaaaaaaaa",
+				    "name": "亚龙2",
+				    "tel": "156388514569",
+				    "area": "河南",
+				    "driving_lience_pic": "2017-08-02/5980b282aae60.jpg",
+				    "lience_num_pic": "2017-08-02/5980b282ac5d0.jpg",
+				    "register_pic": "2017-08-02/5980b282ad958.jpg",
+				    "bill_pic": "2017-08-02/5980b282aece0.jpg",
+				    "add_time": "2017-08-02 00:47:53",
+				    "states": "2",
+				    "file": [
+				      {
+				        "file": "2017-08-02/5980b386c11d8.jpg"
+				      },
+				      {
+				        "file": "2017-08-02/SGAERSGASDGA.jpg"
+				      }
+				    ]
+				  }
+				]	
+
+	二手车出租（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/secondhandcarstore??user_store_name=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",											//商店的id
+				      "user_store_name": "shangdianyi",						//商店的名称
+				      "user_store_evaluate": "5",							//商店的评价星级
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",		//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",	//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",	//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",	//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",	//小图（右下）
+				      "user_store_phone": "15643351287"						//商店的电话
+				    }
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+	房屋出租（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/houseforrentinfo?condition['户型']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",					//房屋出租id
+				    "user_id": "9",				//用户id
+				    "cate_id": "2",				//分类id
+				    "area": "河南",				//区域
+				    "house_type": "三室一厅",	//户型
+				    "cash": "1000.00",			//押金
+				    "pay_method": "0",			//付款方式
+				    "des": "你好",				//标题描述
+				    "name": "亚龙1",			//联系人
+				    "tel": "156388514569",		//手机号码
+				    "state": "1",				//电话隐私保护（1 保护 2不保护）
+				    "add_time": "2017-08-02 08:50:29", //添加时间
+				    "states": "2",					   //状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "3",				//点击量
+				    "file": [
+				      {
+				        "file": "2017-08-02/5981458d99840.jpg"	//图片
+				      },
+				      {
+				        "file": "2017-08-02/598145a0b1710.jpg"
+				      }
+				    ]
+				  }
+				]
+
+	房屋出租（热门）；
+			请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/houseforrentghot?condition['户型']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+			请求的方式：get
+			请求的参数：condition 可以为空
+			返回的数据：
+					[
+					  {
+					    "id": "8",					//房屋出租id
+					    "user_id": "9",				//用户id
+					    "cate_id": "2",				//分类id
+					    "area": "河南",				//区域
+					    "house_type": "三室一厅",	//户型
+					    "cash": "1000.00",			//押金
+					    "pay_method": "0",			//付款方式
+					    "des": "你好",				//标题描述
+					    "name": "亚龙1",			//联系人
+					    "tel": "156388514569",		//手机号码
+					    "state": "1",				//电话隐私保护（1 保护 2不保护）
+					    "add_time": "2017-08-02 08:50:29", //添加时间
+					    "states": "2",					   //状态（1 未审核   2：审核通过   3：被禁用）
+					    "clicknum": "3",					//点击量
+					    "file": [
+					      {
+					        "file": "2017-08-02/5981458d99840.jpg"	//图片
+					      },
+					      {
+					        "file": "2017-08-02/598145a0b1710.jpg"
+					      }
+					    ]
+					  }
+					]
+
+	房屋出租（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/secondhandcarstore??user_store_name=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",												//商店的id
+				      "user_store_name": "shangdianyi",							//商店的名称
+				      "user_store_evaluate": "5",								//商店的评价星级
+				      "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",			//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",		//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",		//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",		//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",		//小图（右下）
+				      "user_store_phone": "15643351287"							//商店的电话
+				    }	
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+	货车出租（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/truckrendinfo?condition['品牌']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "4",									//货车出租id
+				    "user_id": "6",								//用户id
+				    "cate_id": "3",								//分类id
+				    "brand": "大众",							//品牌
+				    "car_num": "豫S1234A",						//车牌
+				    "date_for_production": "2012年12月13日",	//出厂年限
+				    "price": "12.00",							//价格
+				    "des": "你好",								//描述
+				    "tel": "156368514569",						//手机号码
+				    "name": "亚龙2",							//联系人
+				    "add_time": "2017-08-02 14:07:06",			//添加时间
+				    "states": "2",								//状态（1 未审核   2：审核通过   3：被禁用）							
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	货车出租（热门）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/truckrendghot?condition['品牌']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "4",									//货车出租id
+				    "user_id": "6",								//用户id
+				    "cate_id": "3",								//分类id
+				    "brand": "大众",							//品牌
+				    "car_num": "豫S1234A",						//车牌
+				    "date_for_production": "2012年12月13日",	//出厂年限
+				    "price": "12.00",							//价格
+				    "des": "你好",								//描述
+				    "tel": "156368514569",						//手机号码
+				    "name": "亚龙2",							//联系人
+				    "add_time": "2017-08-02 14:07:06",			//添加时间
+				    "states": "2",								//状态（1 未审核   2：审核通过   3：被禁用）							
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	货车出租（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/truckrendstore??user_store_name=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",												//商店的id
+				      "user_store_name": "shangdianyi",							//商店的名称
+				      "user_store_evaluate": "5",								//商店的评价星级
+				      "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",			//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",		//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",		//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",		//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",		//小图（右下）
+				      "user_store_phone": "15643351287"							//商店的电话
+				    }	
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+	家居装修（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/homedecorationinfo?condition['标题描述']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",							//家居装修id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	家居装修（热门）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/homedecorationghot?condition['标题描述']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",							//家居装修id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	家居装修（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/homedecorationstore??user_store_name=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",												//商店的id
+				      "user_store_name": "shangdianyi",							//商店的名称
+				      "user_store_evaluate": "5",								//商店的评价星级
+				      "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",			//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",		//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",		//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",		//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",		//小图（右下）
+				      "user_store_phone": "15643351287"							//商店的电话
+				    }	
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+	家政服务（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/housekeepinginfo?condition['标题描述']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",							//家政服务id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	家居装修（热门）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/housekeepingghot?condition['标题描述']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",							//家政服务id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	家居装修（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/housekeepingstore??user_store_name=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",												//商店的id
+				      "user_store_name": "shangdianyi",							//商店的名称
+				      "user_store_evaluate": "5",								//商店的评价星级
+				      "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",			//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",		//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",		//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",		//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",		//小图（右下）
+				      "user_store_phone": "15643351287"							//商店的电话
+				    }	
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+	维修服务（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/weixiuserviceinfo?condition['标题描述']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",							//维修服务id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	维修装修（热门）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/weixiuserviceghot?condition['标题描述']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",							//维修服务id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	维修装修（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/weixiuservicestore??user_store_name=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",												//商店的id
+				      "user_store_name": "shangdianyi",							//商店的名称
+				      "user_store_evaluate": "5",								//商店的评价星级
+				      "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",			//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",		//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",		//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",		//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",		//小图（右下）
+				      "user_store_phone": "15643351287"							//商店的电话
+				    }	
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+	医疗（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/medialserviceinfo?condition['标题描述']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",							//医疗id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	医疗（热门）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/medialserviceghot?condition['标题描述']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "8",							//医疗id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+				]
+
+	医疗（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/medialservicestore??condition=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：user_store_name 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",												//商店的id
+				      "user_store_name": "shangdianyi",							//商店的名称
+				      "user_store_evaluate": "5",								//商店的评价星级
+				      "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",			//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",		//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",		//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",		//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",		//小图（右下）
+				      "user_store_phone": "15643351287"							//商店的电话
+				    }	
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+	招聘信息（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/inforserviceinfo?condition['职位']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "6",							//招聘信息id
+				    "user_id": "6",						//用户id
+				    "cate_id": "4",						//分类id
+				    "company_name": "Alibab",			//公司名称
+				    "company_des": "待遇好",			//公司简介
+				    "address": "河南",					//公司地址
+				    "seat": "程序员4",					//招聘职位
+				    "job_req": "技术好",				//职位要求
+				    "payment": "4000",					//薪资
+				    "name": "小明3",					//联系人
+				    "tel": "156388514569",				//联系电话
+				    "add_time": "2017-08-02 17:46:55",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "3",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"	//图片
+				      },
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				      }
+				    ]
+				  }
+				]
+
+	招聘信息（热门）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/inforserviceghot?condition['职位']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "6",							//招聘信息id
+				    "user_id": "6",						//用户id
+				    "company_name": "Alibab",			//公司名称
+				    "company_des": "待遇好",			//公司简介
+				    "address": "河南",					//公司地址
+				    "seat": "程序员4",					//招聘职位
+				    "job_req": "技术好",				//职位要求
+				    "payment": "4000",					//薪资
+				    "name": "小明3",					//联系人
+				    "tel": "156388514569",				//联系电话
+				    "add_time": "2017-08-02 17:46:55",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "3",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"	//图片
+				      },
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				      }
+				    ]
+				  }
+				]
+
+	招聘信息（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/medialservicestore?condition=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",												//商店的id
+				      "user_store_name": "shangdianyi",							//商店的名称
+				      "user_store_evaluate": "5",								//商店的评价星级
+				      "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",			//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",		//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",		//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",		//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",		//小图（右下）
+				      "user_store_phone": "15643351287"							//商店的电话
+				    }	
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+	公司工厂（综合）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/inforcompanyinfo?condition['公司名称']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "1",        						//公司工厂id
+				    "user_id": "6", 						//用户id
+				    "cate_id": "65", 						//分类id
+				    "company_name": "Alibab",				//公司工厂名称
+				    "company_des": "待遇好", 				//公司工厂简介
+				    "address": "河南",						//公司工厂地址
+				    "add_time": "2017-09-11 17:12:55",		//添加时间
+				    "register_time": "2017-09-11 17:12:55",	//公司工厂注册时间
+				    "contents": null, 						//主要经营
+				    "legal_person": "红尘",					//法人
+				    "tel": "156388514569",					//电话
+				    "states": "2",							//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": null, 						//点击量
+				    "valid_time": "2017-09-18 17:12:55",
+				    "file": [
+				      {
+				        "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg" //图片
+				      },
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				      }
+				    ]
+				  },
+				  {
+				    "id": "5",
+				    "user_id": "6",
+				    "cate_id": "65",
+				    "company_name": "Alibab",
+				    "company_des": "待遇好",
+				    "address": "河南",
+				    "add_time": "2017-09-11 17:41:33",
+				    "contents": "生产手机",
+				    "legal_person": "红尘",
+				    "tel": "156388514569",
+				    "states": "2",
+				    "clicknum": null,
+				    "valid_time": "2017-09-18 17:41:33",
+				    "file": [
+				      {
+				        "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				      },
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				      }
+				    ]
+				  }
+				]
+
+	公司工厂（热门）；
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/inforcompanyghot?condition['公司工厂名称']=&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回的数据：
+				[
+				  {
+				    "id": "1",        						//公司工厂id
+				    "user_id": "6", 						//用户id
+				    "cate_id": "65", 						//分类id
+				    "company_name": "Alibab",				//公司工厂名称
+				    "company_des": "待遇好", 				//公司工厂简介
+				    "address": "河南",						//公司工厂地址
+				    "add_time": "2017-09-11 17:12:55",		//添加时间
+				    "register_time": "2017-09-11 17:12:55",	//公司工厂注册时间
+				    "contents": null, 						//主要经营
+				    "legal_person": "红尘",					//法人
+				    "tel": "156388514569",					//电话
+				    "states": "2",							//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": null, 						//点击量
+				    "valid_time": "2017-09-18 17:12:55",
+				    "file": [
+				      {
+				        "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg" //图片
+				      },
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				      }
+				    ]
+				  },
+				  {
+				    "id": "5",
+				    "user_id": "6",
+				    "cate_id": "65",
+				    "company_name": "Alibab",
+				    "company_des": "待遇好",
+				    "address": "河南",
+				    "add_time": "2017-09-11 17:41:33",
+				    "register_time": "2017-09-11 17:12:55",
+				    "contents": "生产手机",
+				    "legal_person": "红尘",
+				    "tel": "156388514569",
+				    "states": "2",
+				    "clicknum": null,
+				    "valid_time": "2017-09-18 17:41:33",
+				    "file": [
+				      {
+				        "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"
+				      },
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				      }
+				    ]
+				  }
+				]
+
+	公司工厂（店铺）：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Serveclass/inforcompanystore?condition=['商店名称']&p=['第几页，默认为1']&len=['每页的长度，默认10条']
+		请求的方式：get
+		请求的参数：condition 可以为空
+		返回数据:
+		有数据：
+				{
+				  "code": "200",
+				  "shop": [
+				    {
+				      "user_grade": "2",
+				      "id": "6",												//商店的id
+				      "user_store_name": "shangdianyi",							//商店的名称
+				      "user_store_evaluate": "5",								//商店的评价星级
+				      "user_store_headerpic": "2017-07-11/5964e4813b538.jpg",	//商铺图片
+				      "user_store_pic": "2017-06-13/593fab69a9c79.jpg",			//大图
+				      "user_store_pic1": "2017-06-13/593fab69ad329.jpg",		//小图（左上）
+				      "user_store_pic2": "2017-06-13/593fab69aea99.jpg",		//小图（右上）
+				      "user_store_pic3": "2017-06-13/593fab69afe21.jpg",		//小图（左下）
+				      "user_store_pic4": "2017-06-13/593fab69b1591.jpg",		//小图（右下）
+				      "user_store_phone": "15643351287"							//商店的电话
+				    }	
+				  ]
+				}
+		数据为空：
+				{
+				  "code": "200",
+				  "shop": [
+				    null
+				  ]
+				}
+
+
+//==============================================服务详情===========================================================
+	
+	二手车出租详情：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['二手车出租id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+			  {
+			    "id": "31",								//二手车出租id
+			    "user_id": "6",							//发布者id
+			    "cate_id": "8",							//分类id
+			    "brank": "奥迪",						//品牌
+			    "color": "white",						//颜色
+			    "first_time": "2012-12-12 00:00:00",	//首次注册时间
+			    "price": "12.00",						//价格
+			    "des": "aaaaaaaaaaa",					//描述
+			    "name": "亚龙1",						//联系人
+			    "tel": "156388514569",					//联系电话
+			    "area": "河南",							//看车区域
+			    "driving_lience_pic": "2017-08-02/5980b282aae60.jpg",	//行驶证照片
+			    "lience_num_pic": "2017-08-02/5980b282ac5d0.jpg",		//车牌照照片
+			    "register_pic": "2017-08-02/5980b282ad958.jpg",			//等级照照片
+			    "bill_pic": "2017-08-02/5980b282aece0.jpg",				//购买发票照片
+			    "add_time": "2017-08-02 00:47:53",						//发布时间
+			    "states": "2",											//状态（1 未审核   2：审核通过   3：被禁用）
+			    "clicknum": "2",										//点击量
+			    "file": [									
+			      {		
+			        "file": "2017-08-02/5980b386c11d8.jpg"				//照片
+			      },
+			      {
+			        "file": "2017-08-02/SGAERSGASDGA.jpg"
+			      }
+			    ]
+			  }
+
+	房屋出租详情：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['房屋出租id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+				  {
+				    "id": "8",					//房屋出租id
+				    "user_id": "9",				//用户id
+				    "cate_id": "2",				//分类id
+				    "area": "河南",				//区域
+				    "house_type": "三室一厅",	//户型
+				    "cash": "1000.00",			//押金
+				    "pay_method": "0",			//付款方式
+				    "des": "你好",				//标题描述
+				    "name": "亚龙1",			//联系人
+				    "tel": "156388514569",		//手机号码
+				    "state": "1",				//电话隐私保护（1 保护 2不保护）
+				    "add_time": "2017-08-02 08:50:29", //添加时间
+				    "states": "2",					   //状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "3",				//点击量
+				    "file": [
+				      {
+				        "file": "2017-08-02/5981458d99840.jpg"	//图片
+				      },
+				      {
+				        "file": "2017-08-02/598145a0b1710.jpg"
+				      }
+				    ]
+				  }
+
+	货车出租详情：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['货车出租id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+				  {
+				    "id": "4",									//货车出租id
+				    "user_id": "6",								//用户id
+				    "cate_id": "3",								//分类id
+				    "brand": "大众",							//品牌
+				    "car_num": "豫S1234A",						//车牌
+				    "date_for_production": "2012年12月13日",	//出厂年限
+				    "price": "12.00",							//价格
+				    "des": "你好",								//描述
+				    "tel": "156368514569",						//手机号码
+				    "name": "亚龙2",							//联系人
+				    "add_time": "2017-08-02 14:07:06",			//添加时间
+				    "states": "2",								//状态（1 未审核   2：审核通过   3：被禁用）							
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+
+	家居装修详情：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['家居装修id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+				  {
+				    "id": "8",							//家居装修id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+
+	家政服务详情：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['家政服务id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+				  {
+				    "id": "8",							//家政服务id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+
+	维修服务详情：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['维修服务id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+				  {
+				    "id": "8",							//维修服务id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+
+	医疗详情：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['医疗id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+				  {
+				    "id": "8",							//医疗id
+				    "user_id": "6",						//用户id
+				    "cate_id": "7",						//分类id
+				    "serve_cate": "大众",				//服务类别
+				    "address": "豫S1234A",				//详细地址
+				    "pay_method": "0",					//付款方式
+				    "des": "你好4",						//标题描述
+				    "name": "亚龙3",					//联系人
+				    "tel": "156388514569",				//手机号
+				    "add_time": "2017-08-02 15:21:34",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "2",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"	//图片
+				      }
+				    ]
+				  }
+
+	招聘信息详情：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['招聘信息id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+				  {
+				    "id": "6",							//招聘信息id
+				    "user_id": "6",						//用户id
+				    "company_name": "Alibab",			//公司名称
+				    "company_des": "待遇好",			//公司简介
+				    "address": "河南",					//公司地址
+				    "seat": "程序员4",					//招聘职位
+				    "job_req": "技术好",				//职位要求
+				    "payment": "4000",					//薪资
+				    "name": "小明3",					//联系人
+				    "tel": "156388514569",				//联系电话
+				    "add_time": "2017-08-02 17:46:55",	//添加时间
+				    "states": "2",						//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": "3",					//点击量
+				    "file": [
+				      {
+				        "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg"	//图片
+				      },
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				      }
+				    ]
+				  }
+
+	公司工厂：
+		请求的地址：http://192.168.31.125/gzsc/index.php/Home/Servedetail/select?id=['公司工厂id']&cate_id=['分类id']
+		请求的方式：get
+		返回数据:
+				  {
+				    "id": "1",        						//公司工厂id
+				    "user_id": "6", 						//用户id
+				    "cate_id": "65", 						//分类id
+				    "company_name": "Alibab",				//公司工厂名称
+				    "company_des": "待遇好", 				//公司工厂简介
+				    "address": "河南",						//公司工厂地址
+				    "add_time": "2017-09-11 17:12:55",		//添加时间
+				    "register_time": "2017-09-11 17:12:55",	//公司工厂注册时间
+				    "contents": null, 						//主要经营
+				    "legal_person": "红尘",					//法人
+				    "tel": "156388514569",					//电话
+				    "states": "2",							//状态（1 未审核   2：审核通过   3：被禁用）
+				    "clicknum": null, 						//点击量
+				    "valid_time": "2017-09-18 17:12:55",
+				    "file": [
+				      {
+				        "file": "2017-07-31/3f54a3aed1d7c2ed9a3b41da3c3d5735.jpg" //图片
+				      },
+				      {
+				        "file": "2017-07-31/4ed0bfd806ba867d22f05c218d6e08d9.jpg"
+				      }
+				    ]
+				  }
+
+
+//==============================================收藏服务===========================================================
+	

@@ -1,0 +1,562 @@
+[ 2017-08-22T14:15:24+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/indexaa?p=2&lat=0.0&lng=0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.031200s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.015600s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.015600s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+
+[ 2017-08-22T14:15:25+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/indexaa?p=1&lat=0.0&lng=0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.000000s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.015600s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+
+[ 2017-08-22T14:15:28+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store1?store_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015600s ]
+SQL: SELECT `user_store_name`,`user_store_headerpic`,`user_store_address`,`user_store_phone`,`user_store_evaluate` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T14:15:29+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 77 行.
+
+[ 2017-08-22T14:15:32+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+
+[ 2017-08-22T14:15:34+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/newgoods?store_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 14 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 55 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 18 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 23 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 426 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 435 行.
+
+[ 2017-08-22T14:15:40+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/newgoods?store_id=6&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 14 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 55 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 18 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 23 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+
+[ 2017-08-22T14:15:43+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/newgoods?store_id=6&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 14 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 42 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 39 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_attr_id` = 55 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 15 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 18 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+SQL: SELECT * FROM `good_attr` WHERE `good_id` = 23 AND `good_attr_state` = 2  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 410 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 420 行.
+
+[ 2017-08-22T14:15:44+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 77 行.
+
+[ 2017-08-22T14:15:46+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 77 行.
+
+[ 2017-08-22T14:15:48+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.015600s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 77 行.
+
+[ 2017-08-22T14:24:37+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+
+[ 2017-08-22T14:24:39+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.015600s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+
+[ 2017-08-22T14:24:43+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+
+[ 2017-08-22T14:29:42+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store1?store_id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT `user_store_name`,`user_store_headerpic`,`user_store_address`,`user_store_phone`,`user_store_evaluate` FROM `user` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T14:29:43+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 34 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 56 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 62 行.
+
+[ 2017-08-22T14:29:46+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/newgoods?store_id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `good_attr` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rele` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 407 行.
+NOTIC: [8] Undefined variable: info C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 419 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 419 行.
+
+[ 2017-08-22T14:29:49+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 34 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 45 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 56 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 62 行.
+
+[ 2017-08-22T14:29:57+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/indexaa?p=1&lat=0.0&lng=0.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.015600s ]
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.015600s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+
+[ 2017-08-22T14:30:01+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store1?store_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015600s ]
+SQL: SELECT `user_store_name`,`user_store_headerpic`,`user_store_address`,`user_store_phone`,`user_store_evaluate` FROM `user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-08-22T14:30:02+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Store/store?store_id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `good` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `good` WHERE `user_id` = 6  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 14  [ RunTime:0.000000s ]
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 15 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 15  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 18  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+SQL: SELECT `file_pic` FROM `file` WHERE `good_id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `orderdetail` WHERE `good_id` = 23  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\StoreController.class.php 第 77 行.
+
+[ 2017-08-22T14:30:05+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/indexaa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\gzsc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `pics` [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lng C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 47 行.
+NOTIC: [8] Undefined index: lat C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 47 行.
+SQL: SELECT `id`,`user_store_x`,`user_store_y`,`user_store_name`,`user_store_evaluate`,`user_store_pic`,`user_store_pic1`,`user_store_pic2`,`user_store_pic3`,`user_store_pic4`,`user_store_phone` FROM `user` WHERE `user_grade` = 2  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 1 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 98 行.
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 6 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 16 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 17 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 18 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 20 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 23 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.015600s ]
+SQL: SELECT `pic`,`pic_http`,`pic_descr` FROM `pics` WHERE `store_id` = 21 AND `pic_address` = 2 AND `pic_state` = 1  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 110 行.
+NOTIC: [8] Undefined index: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 124 行.
+NOTIC: [8] Undefined variable: p C:\aaa\WWW\gzsc\Application\Home\Controller\DianshangController.class.php 第 133 行.
+
+[ 2017-08-22T14:30:05+08:00 ] 192.168.31.216 /gzsc/index.php/Home/Dianshang/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:index
+

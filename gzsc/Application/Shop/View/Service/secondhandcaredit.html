@@ -1,0 +1,160 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-修改二手车</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group">  
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 修改二手车 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Service/secondhandcardoedit')}" novalidate="novalidate"> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >行驶证照片</label> 
+      <div class="col-lg-10"> 
+        <img src="__PUBLIC__/Uploads/{$info.driving_lience_pic}" style="height:100px;">
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >行驶证照片</label> 
+      <div class="col-lg-10"> 
+        <img src="__PUBLIC__/Uploads/{$info.lience_num_pic}" style="height:100px;">
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >登记照照片</label> 
+      <div class="col-lg-10"> 
+        <img src="__PUBLIC__/Uploads/{$info.register_pic}" style="height:100px;">
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2" >购买发票照片</label> 
+      <div class="col-lg-10"> 
+        <img src="__PUBLIC__/Uploads/{$info.bill_pic}" style="height:100px;">
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">修改图片</label> 
+      <div class="col-lg-10"> 
+       <input id="pic" name="pic[]" type="file" multiple="multiple" onChange="document.getElementsByName('xgpic')[0].value=this.value" />
+       (请一次上传4张图片，第一张为行驶证照片，第二张为行驶证照片，第三张为登记照照片，第四张为购买发票照片)
+       <input type="hidden" name="xgpic">
+      </div> 
+     </div>    
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">品牌</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="brank" name="brank" type="text" value="{$info.brank}" /> 
+       <input class="form-control " id="id" name="id" type="hidden" value="{$info.id}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">颜色</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="color" name="color" type="text" value="{$info.color}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">首次上牌时间</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="first_time" name="first_time" type="text" value="{$info.first_time}" /> 
+      </div> 
+     </div>
+     
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">截止日期</label> 
+      <div class="col-lg-10"> 
+        {$info.valid_time}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">价格</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="price" name="price" type="text" value="{$info.price}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+            <textarea rows="6" class="form-control" name="des" >{$info.des}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">联系人</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="name" name="name" type="text" value="{$info.name}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">手机号码</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="tel" name="tel" type="text" value="{$info.tel}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">原看车区域</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="area" name="area" type="text" value="{$info.area}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">看车区域</label>
+        <div class="col-sm-10">
+          <div class="info">
+            <div>
+            <select id="s_province" name="s_province"></select>  
+              <select id="s_city" name="s_city" ></select>  
+              <select id="s_county" name="s_county"></select>
+              <script class="resources library" src="__PUBLIC__/Admin/js/area.js" type="text/javascript"></script>
+              <script type="text/javascript">_init_area();</script>
+              </div>
+              <div id="show"></div>
+          </div>
+
+          <script type="text/javascript">
+            var Gid  = document.getElementById ;
+            var showArea = function(){
+              Gid('show').innerHTML = "<h3> 省" + Gid('s_province').value + " - 市" +
+              Gid('s_city').value + " - 县/区" + 
+              Gid('s_county').value + "</h3>"
+                          }
+            Gid('s_county').setAttribute('onchange','showArea()');
+          </script>
+        </div>
+    </div>
+
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="修改">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+    </form> 
+   </div> 
+  </div>
+
+  </block>  &gt;
+ </body>
+</html>

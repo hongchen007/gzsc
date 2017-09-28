@@ -1,0 +1,82 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-添加商品详细信息</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 添加{$good_name}详细信息 </button> 
+      </div> 
+      <div class="btn-group pull-right"> 
+       <a onclick="history.go(-1)"><button id="editable-sample_new" class="btn btn-primary"><i class="fa fa-reply"></i> fa-reply</button></a> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Store/doaddattr')}" novalidate="novalidate"> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">商品描述</label> 
+      <div class="col-lg-10"> 
+       <textarea class="form-control" name="good_des"  cols="20" rows="5"></textarea> 
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">商品价格</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="good_price" name="good_price" type="text" /> 
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">商品颜色</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="good_cololr" name="good_color" type="text" /> 
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">商品大小</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="good_size" name="good_size" type="text" /> 
+      </div> 
+     </div> 
+
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">库存量</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="good_num" name="good_num" type="text" /> 
+       <input class="form-control" id="id" name="id" type="hidden" value="{$id}" /> 
+      </div> 
+     </div> 
+    
+     <div class="form-group "> 
+      <label for="state" class="control-label col-lg-2">商铺图片</label> 
+      <div class="col-lg-10"> 
+       <input id="pic" name="pic[]" type="file" multiple="multiple" /> 
+      </div> 
+     </div> 
+
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="添加">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+
+
+    </form> 
+   </div> 
+  </div>
+
+
+  </block>  &gt;
+ </body>
+</html>

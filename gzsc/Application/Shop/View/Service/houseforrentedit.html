@@ -1,0 +1,126 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-修改房屋出租</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+
+     <div class="clearfix" style="margin-left:10px;"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 修改房屋出租 </button> 
+      </div>  
+     </div> 
+
+  <div class="panel-body"> 
+   <div class="form"> 
+    <form class="cmxform form-horizontal adminex-form" id="signupForm" method="post" enctype="multipart/form-data" action="{:U('Service/houseforrentdoedit')}" novalidate="novalidate">   
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">原区域</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="area" name="area" type="text" value="{$info.area}" /> 
+       <input class="form-control " id="id" name="id" type="hidden" value="{$info.id}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">修改区域</label>
+        <div class="col-sm-10">
+          <div class="info">
+            <div>
+            <select id="s_province" name="s_province"></select>  
+              <select id="s_city" name="s_city" ></select>  
+              <select id="s_county" name="s_county"></select>
+              <script class="resources library" src="__PUBLIC__/Admin/js/area.js" type="text/javascript"></script>
+              <script type="text/javascript">_init_area();</script>
+              </div>
+              <div id="show"></div>
+          </div>
+
+          <script type="text/javascript">
+            var Gid  = document.getElementById ;
+            var showArea = function(){
+              Gid('show').innerHTML = "<h3> 省" + Gid('s_province').value + " - 市" +
+              Gid('s_city').value + " - 县/区" + 
+              Gid('s_county').value + "</h3>"
+                          }
+            Gid('s_county').setAttribute('onchange','showArea()');
+          </script>
+        </div>
+    </div>
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">户型</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="house_type" name="house_type" type="text" value="{$info.house_type}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">押金</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="cash" name="cash" type="text" value="{$info.cash}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">付款方式</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control" id="pay_method" name="pay_method" type="text" value="{$info.pay_method}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">标题描述</label>
+        <div class="col-sm-10">
+            <textarea rows="6" class="form-control" name="des" >{$info.des}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">截止日期</label> 
+      <div class="col-lg-10"> 
+        {$info.valid_time}
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">联系人</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="name" name="name" type="text" value="{$info.name}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">手机号码</label> 
+      <div class="col-lg-10"> 
+       <input class="form-control " id="tel" name="tel" type="text" value="{$info.tel}" /> 
+      </div> 
+     </div> 
+
+    <div class="form-group "> 
+      <label for="QQ" class="control-label col-lg-2">电话隐私保护</label> 
+      <div class="col-lg-10"> 
+        <select class="form-control m-bot15" name="state" >
+           <option value="1" <if condition="$info['state'] eq 1 ">selected</if>>保护</option> 
+           <option value="2" <if condition="$info['state'] eq 2 ">selected</if>>不保护</option> 
+        </select>
+      </div> 
+     </div>
+
+     <div class="form-group"> 
+      <div class="col-lg-offset-2 col-lg-10"> 
+        <input class="btn btn-primary" type="submit" value="修改">
+        <input class="btn btn-primary" type="reset" value="重置">
+      </div> 
+     </div> 
+    </form> 
+   </div> 
+  </div>
+
+  </block>  &gt;
+ </body>
+</html>

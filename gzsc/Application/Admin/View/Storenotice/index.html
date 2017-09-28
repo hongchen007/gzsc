@@ -1,0 +1,96 @@
+<html>
+ <head> 
+ </head>
+ <body>
+  <block name="title">
+   <title>后台-商城公告</title>
+  </block>   
+  <extend name="Public:base" /> 
+  <block name="user_show"> 
+   <div class="panel-body"> 
+    <div class="adv-table editable-table "> 
+
+     <div class="clearfix"> 
+      <div class="btn-group"> 
+       <button id="editable-sample_new" class="btn btn-primary"> 后台 &gt; 商城公告 </button> 
+      </div> 
+      <div class="btn-group pull-right"> 
+       <a href="{:U('Storenotice/add')}"><button id="editable-sample_new" class="btn btn-primary"> Add New <i class="fa fa-plus"></i> </button></a> 
+       <ul class="dropdown-menu pull-right"> 
+        <li><a href="#">Print</a></li> 
+        <li><a href="#">Save as PDF</a></li> 
+        <li><a href="#">Export to Excel</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     
+     <div class="space15"></div> 
+     <div id="editable-sample_wrapper" class="dataTables_wrapper form-inline" role="grid">
+     
+     <div class="panel-body">
+        <form class="form-inline" role="form" action="{:U('Storenotice/index')}" method="get" />
+            
+            <div class="form-group">
+                <input class="form-control" id="exampleInputEmail2" value="{$Think.get.store_notice_http}" name="store_notice_http" placeholder="搜索商城公告链接地址" type="text">
+            </div>
+
+            <div class="form-group">状态：
+              <select class="form-control m-bot15" name="store_notice_state">
+                  <option value="">--请选择--</option>
+                  <option value="1">正常</option>
+                  <option value="2">禁用</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">搜索</button>
+        </form>
+    </div>
+     
+      <table class="table table-striped table-hover table-bordered dataTable" id="editable-sample" aria-describedby="editable-sample_info"> 
+       <thead>
+        <tr role="row">
+         <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 17%;" aria-label="First Name">商城公告标题</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 17%;" aria-label="Last Name: activate to sort column ascending">商城公告内容</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 17%;" aria-label="Last Name: activate to sort column ascending">商城公告链接</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 17%;" aria-label="Last Name: activate to sort column ascending">状态</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 17%;" aria-label="Points: activate to sort column ascending">添加时间</th>
+         <th class="sorting" role="columnheader" tabindex="0" aria-controls="editable-sample" rowspan="1" colspan="1" style="width: 17%;" aria-label="Points: activate to sort column ascending">操作</th>
+        </tr> 
+       </thead> 
+       <tbody role="alert" aria-live="polite" aria-relevant="all"> 
+       <foreach name="UserInfo" item="val" > 
+        <tr class="odd">   
+         <td class=" ">{$val.title}</td> 
+         <td class=" ">{$val.content}</td> 
+         <td class=" ">{$val.store_notice_http}</td>  
+         <td class="  sorting_1">
+            <if condition="$val.store_notice_state eq 1"><span style="color:blue;"> 正常</span>
+            <elseif condition="$val.store_notice_state eq 2" /> <span style="color:red;">禁用</span>
+            </if>
+         </td> 
+         <td class=" ">{$val.store_notice_addtime}</td>
+         <td class=" ">
+          <if condition="$val.store_notice_state eq 1">
+            <a href="__MODULE__/Storenotice/edit/id/{$val.id}">修改</a>  | 
+            <a href="__MODULE__/Storenotice/del/id/{$val.id}">删除</a> | 
+            <a href="__MODULE__/Storenotice/stop/id/{$val.id}">禁用</a>
+          <else />
+            <a href="__MODULE__/Storenotice/edit/id/{$val.id}">修改</a> | 
+            <a href="__MODULE__/Storenotice/del/id/{$val.id}">删除</a>  |  
+            <a href="__MODULE__/Storenotice/start/id/{$val.id}">启用</a>
+          </if>
+         </td> 
+        </tr> 
+        </foreach>
+            <tr class="content">
+                <td colspan="3" bgcolor="#FFFFFF"><div class="pages">
+                  {$page}
+                </div></td>  
+            </tr>
+       </tbody>
+      </table>
+     </div> 
+    </div> 
+   </div> 
+  </block>  &gt;
+ </body>
+</html>

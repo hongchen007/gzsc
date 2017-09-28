@@ -1,0 +1,271 @@
+[ 2017-07-08T00:00:09+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123&newpwd1=456&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:01:25+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123&newpwd1=456&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-08T00:08:34+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123&newpwd1=456&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-08T00:08:51+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123&newpwd1=456&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:09:28+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123&newpwd1=456&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:09:46+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123&newpwd1=456&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:10:53+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123&newpwd1=456&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:11:01+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=456&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:11:14+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=&newpwd2=789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-08T00:11:24+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=jnt&newpwd2=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:11:38+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=123456&newpwd2=654321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:12:02+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=654321&newpwd2=654321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `user` SET `user_pwd`='654321' WHERE ( id=7 ) [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:26:51+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/forgetpwd?user_name=admin&user_id=123456789123456781&user_pwd=123&user_pwd1=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 59 行.
+
+[ 2017-07-08T00:26:55+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/forgetpwd?user_name=admin&user_id=123456789123456781&user_pwd=123&user_pwd1=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 59 行.
+
+[ 2017-07-08T00:27:06+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/forgetpwd?user_name=admin&user_id=123456789123456781&user_pwd=123&user_pwd1=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `user` WHERE ( user_name='admin' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 59 行.
+
+[ 2017-07-08T00:30:00+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=12&newpwd2=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:30:10+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=654321&newpwd1=12&newpwd2=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:31:12+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=654321&newpwd1=12&newpwd2=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-07-08T00:31:19+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=12&newpwd2=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 112 行.
+
+[ 2017-07-08T00:31:33+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=654321&newpwd2=654321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 112 行.
+
+[ 2017-07-08T00:31:38+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=654321&newpwd2=654321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.011000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 112 行.
+
+[ 2017-07-08T00:32:24+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=987654321&newpwd2=987654321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.012000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 112 行.
+
+[ 2017-07-08T00:35:48+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=987654321&newpwd2=987654321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 112 行.
+
+[ 2017-07-08T00:35:50+08:00 ] 192.168.31.125 /guangzhoushangcheng/index.php/Home/Login/resetpwd?id=7&user_pwd=123456&newpwd1=987654321&newpwd2=987654321
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\aaa\WWW\guangzhoushangcheng\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SELECT `user_pwd` FROM `user` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash C:\aaa\WWW\guangzhoushangcheng\Application\Home\Controller\LoginController.class.php 第 112 行.
+
